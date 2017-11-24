@@ -13,4 +13,7 @@ export default {
 
 <style lang="css">
     @import '../node_modules/bulma/css/bulma.css';
+    body {
+      font-family: oxygen; 
+    }
 </style>
