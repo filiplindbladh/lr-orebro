@@ -11,6 +11,6 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="css">
+    @import '../node_modules/bulma/css/bulma.css';
 </style>
