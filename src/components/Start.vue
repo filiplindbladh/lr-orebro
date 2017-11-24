@@ -23,6 +23,11 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss">
+@import '../style/_variables.scss'; 
+
+  .message-header {
+    color:$lr-blue; 
+  }
 
 </style>
