@@ -27,7 +27,9 @@ export default {
 @import '../style/_variables.scss'; 
 
   .message-header {
-    color:$lr-blue; 
+    background-color:$lr-green; 
+    color:black; 
   }
+
 
 </style>

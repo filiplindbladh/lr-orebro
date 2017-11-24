@@ -48,12 +48,12 @@ module.exports = {
         test: /\.scss$/,
         loaders: ["style", "css", "sass"]
       },
-      {
-        loader: 'sass-resources-loader',
-        options: {
-          resources: path.resolve(__dirname, '../src/style/_variables.scss')
-        }
-      },
+      // {
+      //   loaders: ["style", "css", "sass"],
+      //   options: {
+      //     resources: path.resolve(__dirname, '../src/style/_variables.scss')
+      //   }
+      // },
       {
         test: /\.js$/,
         loader: 'babel-loader',
