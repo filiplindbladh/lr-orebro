@@ -50,10 +50,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
-@import '../style/_variables.scss';
+@import '../style/_variables.scss';               
 
   .message-header {
-    background-color:$lr-green; 
+    background-color:$green; 
     color:black;  
     align-items:start; 
     padding-left: 20px;
@@ -62,7 +62,7 @@ export default {
     }
   }
   .header-container {
-    background-color: $lr-green; 
+    background-color: $green; 
     color:black; 
     padding: 20px 20px;
   }

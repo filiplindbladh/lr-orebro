@@ -9,8 +9,8 @@
                 <a href="#">TJÄNSTER</a>
                 <a href="#">OM OSS</a>
                 <a href="#">KONTAKT</a>
-                <a class="button is-link is-outlined has-text-weight-bold">LR-ONLINE</a>
-                <a class="button is-link is-outlined"><img src="../img/lt-fortnox.png"></a>
+                <a class="button is-primary is-outlined has-text-weight-bold">LR-ONLINE</a>
+                <a class="button is-primary is-outlined"><img src="../img/lt-fortnox.png"></a>
             </div>
         </div>
     </div>
@@ -47,20 +47,19 @@ export default {
         width: 100%; 
         align-items: center;
         a {
-            color: $lr-black;
+            color: $black;
             &:hover {
-                color: $lr-blue;
+                color: $blue;
             }
         }
         img {
             height: 17px;
             width: 91px;
+            &:hover {
+                color:white; 
+            }
         }
-        .button.is-link.is-outlined {
-            background-color: transparent;
-            border-color: red;
-            color: red;
-        }
+      
     }
     
 </style>
