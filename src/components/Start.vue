@@ -1,16 +1,21 @@
 <template>
   <div>
-    <Contact></Contact>
+
+  <!-- meny -->
+  <lrMenu></lrMenu>
+
   </div>
 </template>
 
 <script>
 import 'font-awesome/css/font-awesome.css'
-import Contact from '@/components/Contact.vue'
+import contact from '@/components/contact.vue'
+import lrMenu from '@/components/lrMenu.vue'
 export default {
   name: 'Start',
   components: {
-    Contact
+    contact,
+    lrMenu
   }
 }
 </script>
