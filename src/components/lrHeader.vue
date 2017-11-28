@@ -1,10 +1,11 @@
 <template>
-    <div class="section">
+    <div class="section overlay">
         <div class="lrHeader">
             <p>
                 VÄLKOMMEN TILL <br /> DIN FRAMTIDSBYRÅ
             </p>
             <hr class="lrHeaderLine">
+            <a class="button is-danger is-outlined lr-button-more">LÄS MER</a>
         </div>
     </div>
 </template>
@@ -18,8 +19,24 @@
 <style lang="scss">
     @import '../style/_variables.scss';
 
+    .overlay:before {
+        content: "";
+        display: block;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        background-color: rgba(0, 81, 146, .75);
+    }
     .section {
-        background-color: lightblue;
+        background-image: url("../img/redovisning_ed.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
         padding: 80px 0;
         display: flex;
         justify-content: center;
@@ -31,16 +48,17 @@
         display: flex;
         flex-direction: column;
         p {
-            font-size: 35px;
+            font-size: 33px;
             font-weight: bold;
             text-align: center;
             color: $white;
+            z-index: 100;
         }
     }
     .lrHeaderLine {
         height: 6px;
         width: 55%;
         background-color: $white;
+        z-index: 100;
     }
-
 </style>
