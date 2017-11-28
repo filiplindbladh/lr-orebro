@@ -36,6 +36,7 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+        background-color: $blue;
         position: relative;
         padding: 80px 0;
         display: flex;
@@ -56,9 +57,20 @@
         }
     }
     .lrHeaderLine {
-        height: 6px;
+        height: 5px;
         width: 55%;
         background-color: $white;
         z-index: 100;
     }
+    .lr-button-more {
+        border: 5px solid $green;
+        font-size: 23px;
+    }
+
+    @media screen and (max-width: $tablet - 1px) {
+        .overlay:before {
+            background-color: red;
+        }
+    }
+
 </style>
