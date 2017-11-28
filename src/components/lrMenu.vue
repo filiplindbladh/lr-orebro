@@ -10,7 +10,7 @@
                 <a class="menuItem" href="#">OM OSS</a>
                 <a class="menuItem" href="#">KONTAKT</a>
                 <a class="button is-primary is-outlined lr-button-online">LR-ONLINE</a>
-                <a class="button is-primary is-outlined lr-button-fortnox"><img src="../img/lt-fortnox.png"></a>
+                <a class="button is-primary is-outlined lr-button-fortnox"><img src="../img/fortnox.png"><img class="hoverFortnox" src="../img/fortnoxHover.png"></a></a>
             </div>
         </div>
     </div>
@@ -28,7 +28,8 @@ export default {
         flex-direction: row; 
         height: 75px;
         width: 100%;
-        background-color: #f5f5f5;
+        background-color: $white;
+        border-bottom: 1px solid $blue;
     }
     // Company logo
     .lrLogoContainer {
@@ -58,10 +59,19 @@ export default {
                 color: $blue;
             }
         }
+        .hoverFortnox {
+            display: none;
+        }
         .lr-button-fortnox {
             margin-left:20px;
             width: 100.43px;
             height: 30.59px;
+        }
+        a:hover img:last-child {
+            display: block;  
+        }
+        a:hover img:first-child {
+            display: none;  
         }
         .lr-button-online {
             font-size: 0.85rem;
@@ -71,10 +81,6 @@ export default {
         }
         img {
             height: 15px;
-            // &:hover {
-            // -webkit-filter: invert(1);
-            // filter: invert(1);
-            // }
         }  
     }    
 </style>
