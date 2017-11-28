@@ -4,13 +4,16 @@
             <div class="lrLogoContainer">
                 <img class="lrLogo" src="../img/logo.png">
             </div>
-            <div class="menuItems">
+            <div class="menuItems is-hidden-touch">
                 <a class="menuItem" href="#">START</a>
                 <a class="menuItem" href="#">TJÄNSTER</a>
                 <a class="menuItem" href="#">OM OSS</a>
                 <a class="menuItem" href="#">KONTAKT</a>
                 <a class="button is-primary is-outlined lr-button-online">LR-ONLINE</a>
                 <a class="button is-primary is-outlined lr-button-fortnox"><img src="../img/fortnox.png"><img class="hoverFortnox" src="../img/fortnoxHover.png"></a></a>
+            </div>
+            <div class="smallScreenMenuContainer is-hidden-desktop">
+                X
             </div>
         </div>
     </div>
@@ -82,5 +85,7 @@ export default {
         img {
             height: 15px;
         }  
-    }    
+    }   
+    /* styling for hamburger menu */
+
 </style>

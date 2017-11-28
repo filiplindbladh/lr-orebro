@@ -3,6 +3,10 @@
 
   <!-- meny -->
   <lrMenu></lrMenu>
+  <lrHeader></lrHeader>
+
+  <!-- content on the page -->
+  <!-- <firstSection></firstSection> -->
 
   </div>
 </template>
@@ -11,11 +15,13 @@
 import 'font-awesome/css/font-awesome.css'
 import contact from '@/components/contact.vue'
 import lrMenu from '@/components/lrMenu.vue'
+import lrHeader from '@/components/lrHeader.vue'
 export default {
   name: 'Start',
   components: {
     contact,
-    lrMenu
+    lrMenu,
+    lrHeader
   }
 }
 </script>
