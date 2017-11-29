@@ -29,8 +29,9 @@
                     <li><a href='#'>TJÄNSTER</a></li>
                     <li><a href='#'>OM OSS</a></li>
                     <li><a href='#'>KONTAKT</a></li>
+                    <li><a href='#'>LR-ONLINE</a></li>
                     <!-- <li><a class="button is-primary is-outlined lr-button-online">LR-ONLINE</a></li> -->
-                    <!-- <li><a class="button is-primary is-outlined lr-button-fortnox"><img src="../img/fortnox.png"><img class="hoverFortnox" src="../img/fortnoxHover.png"></a></li> -->
+                    <li><a href="#"><img class="hoverFortnox" src="../img/fortnoxHover.png"></a></li>
                 </ul> 
             </nav>
         </div>
@@ -105,13 +106,13 @@ export default {
             height: 15px;
         }  
     }   
+    /*####################
+    Menu on small screens
+    ####################*/
     .smallScreenMenuContainer {
         align-items: center;
         display: flex;
     }
-    /*####################
-            Menu
-    ####################*/
     #open-menu div {
         width: 35px;
         height: 5px;
@@ -130,7 +131,7 @@ export default {
         width: 0%;
         z-index: 200;
         a {
-            color: $green;
+            color: $white;
             display: block;
             font-size: 26px;
             padding: 10px;
@@ -138,10 +139,11 @@ export default {
             white-space: nowrap;
         }
         a:hover {
-            color: $green;
+            border-bottom: 1px solid #ccff99;
+            color: $white;
         }
         .closeBtn {
-            color: $green;
+            color: $white;
             cursor: pointer;
             font-family: arial;
             font-size: 39px;
@@ -161,6 +163,9 @@ export default {
         text-align: center;
         top: 22%;
         width: 100%;
+    }
+    .overlay-content .hoverFortnox {
+        max-width: 25%;
     }
     /* ****************** MEDIAQUERIES ****************** */
     @media screen and (max-width: $tablet - 1px) {
