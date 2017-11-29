@@ -5,8 +5,8 @@
   <lrMenu></lrMenu>
   <lrHeader></lrHeader>
 
-  <!-- content on the page -->
-  <!-- <firstSection></firstSection> -->
+  <!-- services -->
+  <lrServices></lrServices>
 
   <lrContactBanner></lrContactBanner>
 
@@ -19,13 +19,17 @@ import contact from '@/components/contact.vue'
 import lrMenu from '@/components/lrMenu.vue'
 import lrHeader from '@/components/lrHeader.vue'
 import lrContactBanner from '@/components/lrContactBanner.vue'
+import lrServices from '@/components/lrServices.vue'
+
 export default {
   name: 'Start',
   components: {
     contact,
     lrMenu,
     lrHeader,
+    lrServices,
     lrContactBanner
+
   }
 }
 </script>
