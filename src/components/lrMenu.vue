@@ -165,7 +165,7 @@ export default {
         width: 100%;
     }
     .overlay-content .hoverFortnox {
-        max-width: 25%;
+        max-width: 170px;
     }
     /* ****************** MEDIAQUERIES ****************** */
     @media screen and (max-width: $tablet - 1px) {
