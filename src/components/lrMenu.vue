@@ -4,17 +4,35 @@
             <div class="lrLogoContainer">
                 <img class="lrLogo" src="../img/logo.png">
             </div>
-            <div class="menuItems is-hidden-touch">
+            <div class="menuItems">
                 <a class="menuItem" href="#">START</a>
                 <a class="menuItem" href="#">TJÄNSTER</a>
                 <a class="menuItem" href="#">OM OSS</a>
                 <a class="menuItem" href="#">KONTAKT</a>
                 <a class="button is-primary is-outlined lr-button-online">LR-ONLINE</a>
-                <a class="button is-primary is-outlined lr-button-fortnox"><img src="../img/fortnox.png"><img class="hoverFortnox" src="../img/fortnoxHover.png"></a></a>
+                <a class="button is-primary is-outlined lr-button-fortnox"><img src="../img/fortnox.png"><img class="hoverFortnox" src="../img/fortnoxHover.png"></a>
             </div>
             <div class="smallScreenMenuContainer is-hidden-desktop">
-                X
+                <!-- Menu open button -->
+                <div id='open-menu' class='openBtn'>
+                    <!-- Hamburger menu -->
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
             </div>
+            <!-- Menu overlay that covers the whole screen -->
+            <nav id='nav' class='menuOverlay'>
+                <div id='close-menu' class='closeBtn'>X</div>
+                <ul class='overlay-content' id='overlay-content'>
+                    <li><a href='#'>START</a></li>
+                    <li><a href='#'>TJÄNSTER</a></li>
+                    <li><a href='#'>OM OSS</a></li>
+                    <li><a href='#'>KONTAKT</a></li>
+                    <!-- <li><a class="button is-primary is-outlined lr-button-online">LR-ONLINE</a></li> -->
+                    <!-- <li><a class="button is-primary is-outlined lr-button-fortnox"><img src="../img/fortnox.png"><img class="hoverFortnox" src="../img/fortnoxHover.png"></a></li> -->
+                </ul> 
+            </nav>
         </div>
     </div>
 </template>
@@ -24,6 +42,7 @@ export default {
   name: 'lrMenu'
 }
 </script>
+
 <style lang="scss">
 @import '../style/_variables.scss';
     #lrMenu {
@@ -34,7 +53,7 @@ export default {
         background-color: $white;
         border-bottom: 1px solid $blue;
     }
-    // Company logo
+    /* Company logo */
     .lrLogoContainer {
         display: flex;
         align-items: center; 
@@ -86,6 +105,76 @@ export default {
             height: 15px;
         }  
     }   
-    /* styling for hamburger menu */
-
+    .smallScreenMenuContainer {
+        align-items: center;
+        display: flex;
+    }
+    /*####################
+            Menu
+    ####################*/
+    #open-menu div {
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+        cursor: pointer;
+    }
+    .menuOverlay {
+        background: rgba(0,0,0,0.9);
+        height: 100%;
+        overflow-x: hidden;
+        position: fixed;
+        right: 0;
+        top: 0;
+        transition: all 0.5s;
+        width: 0%;
+        z-index: 200;
+        a {
+            color: $green;
+            display: block;
+            font-size: 26px;
+            padding: 10px;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+        a:hover {
+            color: $green;
+        }
+        .closeBtn {
+            color: $green;
+            cursor: pointer;
+            font-family: arial;
+            font-size: 39px;
+            font-weight: bold;
+            padding: 10px;
+            position: absolute;
+            right: 33px;
+            top: -3px;
+            z-index: 10;
+            &:hover {
+                color: $green;
+            }
+        }
+    }
+    .overlay-content {
+        position: relative;
+        text-align: center;
+        top: 22%;
+        width: 100%;
+    }
+    /* ****************** MEDIAQUERIES ****************** */
+    @media screen and (max-width: $tablet - 1px) {
+        .menuItems {
+            display: none;
+        }
+        .lrMenuContainer {
+            width: 90%;
+            justify-content: space-between;
+        }
+    }
+    @media screen and (min-width: $tablet) {
+        .smallScreenMenuContainer {
+            display: none;
+        }
+    }
 </style>

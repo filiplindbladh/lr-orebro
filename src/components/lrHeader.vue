@@ -1,6 +1,6 @@
 <template>
     <div class="section overlay">
-        <div class="lrHeader">
+        <div class="lrHeader container">
             <p>
                 VÄLKOMMEN TILL <br /> DIN FRAMTIDSBYRÅ
             </p>
@@ -58,7 +58,7 @@
     }
     .lrHeaderLine {
         height: 5px;
-        width: 55%;
+        width: 165px;
         background-color: $white;
         z-index: 100;
     }
@@ -66,11 +66,11 @@
         border: 5px solid $green;
         font-size: 23px;
     }
-
+    /* ****************** MEDIAQUERIES ****************** */
     @media screen and (max-width: $tablet - 1px) {
-        .overlay:before {
+        /* .overlay:before {
             background-color: red;
-        }
+        } */
     }
 
 </style>
