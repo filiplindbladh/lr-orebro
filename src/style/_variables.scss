@@ -6,7 +6,8 @@
 // Update blue
 $green:#ccff99; 
 $blue: #005192;
-$red: #E35250; 
+$red: #E35250;
+$grey: #cccccc;  
 // Add pink and its invert
 $black: #222222;
 $black-invert: #fff;
@@ -21,17 +22,22 @@ $danger: $green;
 // Use the new serif family
 $family-primary: $family-serif;
 
+// 6. Import the rest of Bulma
+@import "../../node_modules/bulma/bulma.sass";
+
+
+// LR LINE
 .lrHeaderLine {
   height: 5px;
   width: 165px;
   z-index: 100;
 }
 
-
-// 6. Import the rest of Bulma
-@import "../../node_modules/bulma/bulma.sass";
-
-// $lr-blue: #005192;
-// $lr-green: #ccff99; 
-// $lr-red: #E35250;
-// $lr-black: #222222; 
+//TYPOGRAPHY 
+h2 {
+  font-size: 36px; 
+  font-weight:700; 
+}
+h3 {
+  font-size:26px; 
+}
