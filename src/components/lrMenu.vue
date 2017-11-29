@@ -49,10 +49,13 @@ export default {
     #lrMenu {
         display: flex; 
         flex-direction: row; 
-        height: 75px;
+        height: 67px;
         width: 100%;
         background-color: $white;
         border-bottom: 1px solid $blue;
+        position: fixed;
+        top: 0;
+        z-index: 500;
     }
     /* Company logo */
     .lrLogoContainer {

@@ -40,7 +40,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: calc(100vh - 74px);
+        height: calc(100vh - 67px);
+        margin-top: 67px;
     }
     .lrHeader {
         align-items: center;

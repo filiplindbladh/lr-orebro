@@ -1,15 +1,15 @@
 <template>
     <div class="lrSection">
-        <div class="banner parallax overlayYes">
-                <div class="container section">
-                    <div class="columns">
-                        <div class="column">
-                            <h3>Långsiktiga lösningar för traditionella eller digitala företag</h3>
-                        </div>
+        <div class="banner parallax overlay">
+            <div class="container section">
+                <div class="columns">
+                    <div class="column">
+                        <h3>Långsiktiga lösningar för traditionella eller digitala företag</h3>
                     </div>
+                </div>  
                 <div class="columns contactInfo">
                     <div class="column">
-                        <a href="tel:0700000000">070 000 00 00</a>
+                        <a href="tel:0700000000">070-000 00 00</a>
                     </div>
                     <div class="column">
                         <a id="lr-button-more" class="button is-danger is-outlined">KONTAKT</a>
@@ -20,14 +20,6 @@
                 </div>
             </div>
         </div>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nobis, aut quae vel cum provident eius nulla veniam sunt magnam natus quod modi sit illum quam repellendus voluptatibus sed repudiandae.</p>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nobis, aut quae vel cum provident eius nulla veniam sunt magnam natus quod modi sit illum quam repellendus voluptatibus sed repudiandae.</p>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nobis, aut quae vel cum provident eius nulla veniam sunt magnam natus quod modi sit illum quam repellendus voluptatibus sed repudiandae.</p>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nobis, aut quae vel cum provident eius nulla veniam sunt magnam natus quod modi sit illum quam repellendus voluptatibus sed repudiandae.</p>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nobis, aut quae vel cum provident eius nulla veniam sunt magnam natus quod modi sit illum quam repellendus voluptatibus sed repudiandae.</p>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nobis, aut quae vel cum provident eius nulla veniam sunt magnam natus quod modi sit illum quam repellendus voluptatibus sed repudiandae.</p>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nobis, aut quae vel cum provident eius nulla veniam sunt magnam natus quod modi sit illum quam repellendus voluptatibus sed repudiandae.</p>                       
-        
     </div>  
 </template>
     
@@ -39,7 +31,7 @@
 
 <style scoped lang="scss">
     @import '../style/_variables.scss';
-    .overlayYes:before {
+    .overlay:before {
         content: "";
         display: block;
         height: 100%;
@@ -104,5 +96,20 @@
         right: 0;
         width: 100%;
         background-color: rgba(0, 81, 146, .75);
+    }
+    /* ****************** MEDIAQUERIES ****************** */
+    @media screen and (max-width: $tablet - 1px) {
+        .parallax {
+            background-attachment: scroll;
+        }
+        .banner {
+            h3 {
+                font-size: 3vw;
+            }
+            #lr-button-more {
+                font-size: 3vw;
+                border: 2px solid $green;
+            }
+        }
     }
 </style>
