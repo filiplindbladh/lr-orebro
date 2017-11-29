@@ -1,9 +1,7 @@
 <template>
-    <div class="section overlay">
+    <div class="section header overlay">
         <div class="lrHeader container">
-            <p>
-                VÄLKOMMEN TILL <br /> DIN FRAMTIDSBYRÅ
-            </p>
+            <h1> VÄLKOMMEN TILL <br /> DIN FRAMTIDSBYRÅ </h1>
             <hr class="lrHeaderLine">
             <a class="button is-danger is-outlined lr-button-more">LÄS MER</a>
         </div>
@@ -31,7 +29,7 @@
         width: 100%;
         background-color: rgba(0, 81, 146, .75);
     }
-    .section {
+    .header {
         background-image: url("../img/redovisning_ed.png");
         background-repeat: no-repeat;
         background-position: center;
@@ -48,7 +46,7 @@
         align-items: center;
         display: flex;
         flex-direction: column;
-        p {
+        h1 {
             font-size: 33px;
             font-weight: bold;
             text-align: center;
@@ -57,10 +55,7 @@
         }
     }
     .lrHeaderLine {
-        height: 5px;
-        width: 165px;
         background-color: $white;
-        z-index: 100;
     }
     .lr-button-more {
         border: 5px solid $green;
