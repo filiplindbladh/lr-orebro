@@ -3,7 +3,7 @@
         <div class="lrHeader container">
             <h1> VÄLKOMMEN TILL <br /> DIN FRAMTIDSBYRÅ </h1>
             <hr class="lrHeaderLine">
-            <a class="button is-danger is-outlined lr-button-more">LÄS MER</a>
+            <a id="lr-button-more" class="button is-danger is-outlined">LÄS MER</a>
         </div>
     </div>
 </template>
@@ -57,7 +57,7 @@
     .lrHeaderLine {
         background-color: $white;
     }
-    .lr-button-more {
+    #lr-button-more {
         border: 5px solid $green;
         font-size: 23px;
     }
