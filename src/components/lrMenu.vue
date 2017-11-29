@@ -137,9 +137,11 @@ export default {
             padding: 10px;
             text-decoration: none;
             white-space: nowrap;
+            border-bottom: 1px solid transparent;
+            transition: all 0.4s ease-in-out;
         }
         a:hover {
-            border-bottom: 1px solid #ccff99;
+            border-bottom: 2px solid $green;
             color: $white;
         }
         .closeBtn {
