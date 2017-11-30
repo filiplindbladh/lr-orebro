@@ -50,7 +50,7 @@
     }
     .parallax { 
         background-image: url("../img/lrImage.jpg");
-        height: 180px; 
+        height: 250px; 
         /* Create the parallax scrolling effect */
         background-attachment: fixed;
         background-position: center;
