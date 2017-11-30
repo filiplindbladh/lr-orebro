@@ -8,7 +8,20 @@
   <!-- services -->
   <lrServices></lrServices>
 
+  <!-- first contact banner -->
   <lrContactBanner></lrContactBanner>
+
+  <!-- the staff on LR-orebro -->
+  <lrStaff></lrStaff>
+
+  <!-- review carousell -->
+  <lrReviews></lrReviews>
+
+  <!-- How to get there -->
+  <lrMaps></lrMaps>
+
+  <!-- footer of the page -->
+  <lrFooter></lrFooter>
 
   </div>
 </template>
@@ -20,6 +33,10 @@ import lrMenu from '@/components/lrMenu.vue'
 import lrHeader from '@/components/lrHeader.vue'
 import lrContactBanner from '@/components/lrContactBanner.vue'
 import lrServices from '@/components/lrServices.vue'
+import lrStaff from '@/components/lrStaff.vue'
+import lrReviews from '@/components/lrReviews.vue'
+import lrMaps from '@/components/lrMaps.vue'
+import lrFooter from '@/components/lrFooter.vue'
 
 export default {
   name: 'Start',
@@ -28,8 +45,11 @@ export default {
     lrMenu,
     lrHeader,
     lrServices,
-    lrContactBanner
-
+    lrContactBanner,
+    lrStaff,
+    lrReviews,
+    lrMaps,
+    lrFooter
   }
 }
 </script>
