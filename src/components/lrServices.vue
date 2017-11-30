@@ -6,21 +6,21 @@
         <div class="services">
             <a href="#"> 
                 <div class="box redovisning">
-                    <img src="../img/redovisning_icon.png" alt="redovisning.png">
+                    <img id="image" src="../img/accounting_icon.svg" alt="redovisning.png">
                     <h3>redovisning</h3>
                     <div class="triangle-bottomright"></div>
                 </div>
             </a>
             <a href="#"> 
                 <div class="box consulting">
-                    <img src="../img/consultation_icon.png" alt="consultation.png">
+                    <img src="../img/consulting_icon.svg" alt="consultation.png">
                     <h3>rådgivning</h3>
                     <div class="triangle-bottomright"></div>
                 </div>
             </a>
             <a href="#"> 
                 <div class="box revision"> 
-                    <img src="../img/revision_icon.png" alt="revision.png">
+                    <img src="../img/revision_icon.svg" alt="revision.png">
                     <h3>revision</h3>
                     <div class="triangle-bottomright"></div>
                 </div>
@@ -75,30 +75,31 @@
         align-items:center; 
         flex-direction:column; 
         &:hover {
-            border: 5px solid black; 
-        }
+            border: 5px solid $black;
+            background-color:rgba(227, 82, 80, 0.5); 
+        } 
         h3 {
-            color:white; 
+            color:$white; 
             z-index:2; 
         }
+    }
+    .box:hover > .triangle-bottomright {
+        transition:5ms; 
+        opacity:0;  
+    }
+    .box:hover > h3 {
+        color:$black; 
     }
     .consulting img {
          width: 80%;
     }
-    .box img:hover {
-        background-color:$grey; 
-    }
     .triangle-bottomright {
         width: 0;
         height: 0;
-        border-bottom: 300px solid black;
+        border-bottom: 300px solid $black;
         border-left: 300px solid transparent;
         z-index: 1; 
         position:absolute; 
-        &:hover {
-        transition:3ms; 
-        opacity:0; 
-    }
     }
 
     p {
