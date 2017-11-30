@@ -48,8 +48,6 @@
         display: flex;
         flex-direction: column;
         h1 {
-            font-size: 33px;
-            font-weight: bold;
             text-align: center;
             color: $white;
             z-index: 100;

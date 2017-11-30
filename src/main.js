@@ -5,7 +5,7 @@ import App from './App'
 import router from './router'
 
 // Require the main Sass manifest file
-require('./style/main.scss');
+require('./style/main.scss')
 
 Vue.config.productionTip = false
 
