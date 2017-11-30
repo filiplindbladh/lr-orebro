@@ -122,4 +122,10 @@
           margin-bottom:40px; 
       }
     }
+    @media screen and (min-width: $tablet) and (max-width: $desktop - 1px) {
+        .box {
+            margin:25px; 
+        }
+    }
+
 </style>
