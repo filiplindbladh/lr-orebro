@@ -25,14 +25,6 @@ $family-primary: $family-serif;
 // 6. Import the rest of Bulma
 @import "../../node_modules/bulma/bulma.sass";
 
-
-// LR LINE
-.lrHeaderLine {
-  height: 5px;
-  width: 165px;
-  z-index: 100;
-}
-
 //TYPOGRAPHY 
 h2 {
   font-size: 36px; 
@@ -40,4 +32,24 @@ h2 {
 }
 h3 {
   font-size:26px; 
+}
+// STYLES 
+// LR LINE
+.lrHeaderLine {
+  height: 5px;
+  width: 165px;
+  z-index: 100;
+}
+// TRANSPARENT OVERLAY 
+.overlay:before {
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background-color: rgba(0, 81, 146, .75);
 }

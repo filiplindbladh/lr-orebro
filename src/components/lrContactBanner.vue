@@ -31,18 +31,6 @@
 
 <style scoped lang="scss">
     @import '../style/_variables.scss';
-    .overlay:before {
-        content: "";
-        display: block;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        width: 100%;
-        background-color: rgba(0, 81, 146, .75);
-    }
     .banner {
         display: flex;
         justify-content: center;
