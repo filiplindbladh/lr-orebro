@@ -57,6 +57,7 @@
 
     .lrHeaderLine {
         background-color: $red;
+        height:5px; 
     }
 
     .services {

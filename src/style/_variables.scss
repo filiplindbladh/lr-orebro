@@ -25,22 +25,21 @@ $family-primary: $family-serif;
 // 6. Import the rest of Bulma
 @import "../../node_modules/bulma/bulma.sass";
 
-//TYPOGRAPHY 
+body {
+  font-family: Oxygen; 
+} 
 h2 {
-  font-size: 36px; 
+  font-size: 48px; 
   font-weight:700; 
 }
 h3 {
   font-size:26px; 
 }
-// STYLES 
-// LR LINE
 .lrHeaderLine {
   height: 5px;
-  width: 165px;
+  width: 295px;
   z-index: 100;
 }
-// TRANSPARENT OVERLAY 
 .overlay:before {
   content: "";
   display: block;
@@ -53,3 +52,4 @@ h3 {
   width: 100%;
   background-color: rgba(0, 81, 146, .75);
 }
+
