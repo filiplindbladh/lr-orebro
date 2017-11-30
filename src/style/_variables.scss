@@ -25,6 +25,18 @@ $family-primary: $family-serif;
 // 6. Import the rest of Bulma
 @import "../../node_modules/bulma/bulma.sass";
 
+.overlay:before {
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background-color: rgba(0, 81, 146, .75);
+}
 body {
   font-family: Oxygen; 
 } 
@@ -40,16 +52,3 @@ h3 {
   width: 295px;
   z-index: 100;
 }
-.overlay:before {
-  content: "";
-  display: block;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  background-color: rgba(0, 81, 146, .75);
-}
-

@@ -9,7 +9,7 @@
                 </div>  
                 <div class="columns contactInfo">
                     <div class="column">
-                        <a href="tel:0700000000">070-000 00 00</a>
+                        <a href="tel:019183850">019 18 38 50</a>
                     </div>
                     <div class="column">
                         <a id="lr-button-more" class="button is-danger is-outlined">KONTAKT</a>
