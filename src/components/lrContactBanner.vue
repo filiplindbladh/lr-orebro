@@ -37,7 +37,6 @@
         align-items: center;
         z-index: 300;
         h3 {
-            font-size: 22px;
             color: $white;
             z-index: 300;
         }
