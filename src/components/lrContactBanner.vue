@@ -49,7 +49,7 @@
         }
     }
     .parallax { 
-        background-image: url("../img/lrImage.jpg");
+        background-image: url("../img/lrImage.png");
         height: 180px; 
         /* Create the parallax scrolling effect */
         background-attachment: fixed;
