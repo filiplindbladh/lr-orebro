@@ -48,7 +48,9 @@
 
 <style scoped lang="scss">
     @import '../style/_variables.scss';
-
+    h2 {
+        text-align:center; 
+    }
     .section {
     display: flex;
     align-items: center; 
@@ -65,6 +67,7 @@
         display: flex; 
         flex-direction: row; 
         justify-content: space-around; 
+        flex-wrap:wrap; 
         margin-bottom:40px; 
     }
     .box {
@@ -81,7 +84,7 @@
         } 
         h3 {
             color:$white; 
-            z-index:2; 
+            z-index:2;
         }
     }
     .box:hover > .triangle-bottomright {
@@ -109,6 +112,14 @@
         font-weight:600; 
         width:70%; 
     }
-
-
+    /* ****************** MEDIAQUERIES ****************** */
+    @media screen and (max-width: $tablet - 1px) {
+      .services {
+          flex-direction:column; 
+          align-items:center;  
+      }
+      .box {
+          margin-bottom:40px; 
+      }
+    }
 </style>
