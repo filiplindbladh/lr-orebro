@@ -62,6 +62,7 @@ export default {
 }
 .footer-item {
   margin:20px; 
+  z-index:300; 
 }
 .footer-icon-container {
   position:absolute; 
