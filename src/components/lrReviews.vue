@@ -75,9 +75,6 @@ export default {
   width:70%; 
   background-color:white;  
 }
-.slider-indicator-activeder-indicator-active {
-  color:red; 
-}
 .indicators > .slider-indicator-icon {
   margin-right:30px;  
 }
@@ -85,14 +82,14 @@ export default {
   border:1px solid black;
 }
 .indicators > .slider-indicator-active {
-  background-color: $green !important;
+  background-color: $red !important;
 }
 
 .slider-icon {
   display:flex; 
   justify-content:flex-start;
   margin:25px 0 0 80px; 
-  color: $green;
+  color: $blue;
 }
 .slider-text {
   display:flex; 
