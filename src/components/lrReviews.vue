@@ -47,7 +47,7 @@ export default {
   data () {
     return {
       list: [
-        { backgroundColor: '#3f51b5', width: '100%', height: '100%', },
+        { backgroundColor: '#3f51b5', width: '100%', height: '100%' },
         { backgroundColor: '#eee', width: '100%', height: '100%', auto: 'false' },
         { backgroundColor: '#f44336', width: '100%', height: '100%', auto: 'false' }
       ]
@@ -78,15 +78,21 @@ export default {
 .slider-indicator-activeder-indicator-active {
   color:red; 
 }
+.indicators > .slider-indicator-icon {
+  margin-right:30px;  
+}
 .slider-indicator-icon {
   border:1px solid black;
-  margin-right:30px;  
+}
+.indicators > .slider-indicator-active {
+  background-color: $green !important;
 }
 
 .slider-icon {
   display:flex; 
   justify-content:flex-start;
   margin:25px 0 0 80px; 
+  color: $green;
 }
 .slider-text {
   display:flex; 
@@ -105,7 +111,4 @@ export default {
     font-weight:900; 
   }
 }
-
-
-
 </style>

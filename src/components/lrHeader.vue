@@ -54,7 +54,7 @@
         }
     }
     .lrHeaderLine {
-        background-color: $white;
+        background-color: $white !important;
     }
     #lr-button-more {
         border: 5px solid $green;
