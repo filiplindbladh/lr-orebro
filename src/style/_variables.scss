@@ -65,3 +65,12 @@ h4 {
   z-index: 100;
   margin-bottom: 30px;
 }
+
+@media screen and (max-width: $tablet - 1px) {
+  h2 {
+    font-size: 5vw;
+  }
+  h3 {
+    font-size: 5vw;
+  }
+}
