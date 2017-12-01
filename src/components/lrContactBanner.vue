@@ -4,7 +4,7 @@
             <div class="container section">
                 <div class="columns">
                     <div class="column">
-                        <h3>Långsiktiga lösningar för traditionella eller digitala företag</h3>
+                        <h3> {{ bannerText }} </h3>
                     </div>
                 </div>  
                 <div class="columns contactInfo">
@@ -25,7 +25,8 @@
     
 <script>
     export default {
-      name: 'lrContactBanner'
+      name: 'lrContactBanner',
+      props: ['bannerText']
     }
 </script>
 

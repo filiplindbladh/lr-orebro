@@ -9,13 +9,16 @@
   <lrServices></lrServices>
 
   <!-- first contact banner -->
-  <lrContactBanner></lrContactBanner>
+  <lrContactBanner bannerText="Långsiktiga lösningar för traditionella eller digitala företag"></lrContactBanner>
 
   <!-- the staff on LR-orebro -->
   <lrStaff></lrStaff>
 
   <!-- review carousell -->
   <lrReviews></lrReviews>
+
+ <!-- second contact banner -->
+ <lrContactBanner bannerText="Behöver ni hjälp att utveckla ert företag?"></lrContactBanner>
 
   <!-- How to get there -->
   <lrMaps></lrMaps>

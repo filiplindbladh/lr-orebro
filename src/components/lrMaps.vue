@@ -11,11 +11,11 @@
   <!-- the social media icons for lr-orebro -->
     <div class="lrSocialMedia">
       <div class="lrMediaItem">
-        LR sverige
+        <img src="../img/sverige.png" alt="Logo LR Sverige">
       </div>
       <div class="lrMediaItem">
-        <i class="fa fa-facebook-square" aria-hidden="true"></i>
-        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+        <a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook-square" aria-hidden="true"></i> </a>
+        <a href="https://www.linkedin.com/" target="_blank"> </a><i class="fa fa-linkedin-square" aria-hidden="true"></i> </a>
       </div>
     </div>
 </div> <!-- / section container -->
@@ -51,6 +51,10 @@ export default {
   }
   .fa-linkedin-square {
     color: $black;
+  }
+  img {
+    width: 216px;
+    height: auto;
   }
 }
 /* styles for the map */
