@@ -11,7 +11,7 @@
   <!-- the social media icons for lr-orebro -->
     <div class="lrSocialMedia">
       <div class="lrMediaItem">
-        <img src="../img/sverige.png" alt="Logo LR Sverige">
+        <img src="../img/lr-sverige.svg" alt="Logo LR Sverige">
       </div>
       <div class="lrMediaItem">
         <a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook-square" aria-hidden="true"></i> </a>
