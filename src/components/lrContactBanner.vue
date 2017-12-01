@@ -9,13 +9,13 @@
                 </div>  
                 <div class="columns contactInfo">
                     <div class="column">
-                        <a href="tel:019183850">019 18 38 50</a>
+                        <i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:019183850">019 18 38 50</a>
                     </div>
                     <div class="column">
                         <a id="lr-button-more" class="button is-danger is-outlined">KONTAKT</a>
                     </div>
                     <div class="column">
-                        <a href="mailto:hej@lr-orebro.se">hej@lr-orebro.se</a>
+                        <i class="fa fa-paper-plane" aria-hidden="true"></i> <a href="mailto:hej@lr-orebro.se">hej@lr-orebro.se</a>
                     </div>
                 </div>
             </div>
@@ -69,6 +69,10 @@
         display: flex;
         align-items: center;
         width: 100%;
+        .fa {
+            font-size: 20px;
+            margin-right: 5px;
+        }
     }
     #lr-button-more {
         border: 5px solid $green;
