@@ -1,7 +1,7 @@
 <template>
   <div class="slider-container">
     <div class="slider">
-      <slider animation="fade" :speed="100" :auto="false" :indicators="center" :control-btn="false">
+      <slider animation="fade" :speed="100" :auto="false" :indicators="center" :control-btn="false" :height="300">
         <slider-item>
           <div class="slider-icon">
             <i class="fa fa-quote-left fa-5x" aria-hidden="true"></i>
@@ -68,12 +68,13 @@ export default {
   align-items:center; 
   background-color:$grey;
   width:100%; 
-  height: 500px;  
 }
 .slider {
-  height:300px; 
+  height:350px; 
   width:70%; 
-  background-color:white;  
+  background-color:white;
+  margin-top:40px; 
+  margin-bottom:80px;   
 }
 .indicators > .slider-indicator-icon {
   margin-right:30px;  
@@ -83,6 +84,9 @@ export default {
 }
 .indicators > .slider-indicator-active {
   background-color: $red !important;
+}
+.indicators {
+  bottom:0; 
 }
 
 .slider-icon {
@@ -108,4 +112,30 @@ export default {
     font-weight:900; 
   }
 }
+
+/* ****************** MEDIAQUERIES ****************** */
+    @media screen and (max-width: $tablet - 1px) {
+     .slider-text p {
+       width:90%; 
+     }
+     .slider-icon, .slider-company {
+       justify-content:center; 
+       margin:20px; 
+     }
+     .slider {
+       width:100%; 
+       height:370px; 
+
+     }
+    }
+    @media screen and (min-width: $tablet) and (max-width: $desktop - 1px) {
+        .slider-icon, .slider-company {
+            justify-content:center; 
+            margin:20px; 
+        }
+        .slider {
+          height:370px; 
+        }
+    }
+
 </style>
