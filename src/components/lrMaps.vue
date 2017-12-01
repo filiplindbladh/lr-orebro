@@ -39,9 +39,10 @@ export default {
   margin-bottom: 150px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .lrMediaItem {
-  padding: 15px;
+  padding: 0 25px;
   .fa {
     font-size: 50px;
     margin-right: 10px;
@@ -60,7 +61,8 @@ export default {
 /* styles for the map */
 #map-responsive{
   overflow:hidden;
-  padding-bottom:36.25%;
+  /* padding-bottom:36.25%; */
+  padding-bottom: 350px;
   position:relative;
   height:0;
   width: 100%;
@@ -73,4 +75,12 @@ export default {
   position:absolute; 
 }
 
+@media screen and (max-width: 550px) {
+  .lrSocialMedia {
+    flex-direction: column;
+  }
+  /* #map-responsive {
+    padding-bottom: 71.25%;
+  } */
+}
 </style>
