@@ -2,7 +2,7 @@
     <div id="lrMenu">
         <div class="container lrMenuContainer">
             <div class="lrLogoContainer">
-                <img class="lrLogo" src="../img/logo.png">
+                <img class="lrLogo" src="../img/logo.svg">
             </div>
             <div class="menuItems">
                 <a class="menuItem" href="#">START</a>
