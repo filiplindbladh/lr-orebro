@@ -2,7 +2,7 @@
     <div class="section header overlay">
         <div class="lrHeader container">
             <h1> VÄLKOMMEN TILL <br /> DIN FRAMTIDSBYRÅ </h1>
-            <hr class="lrHeaderLine">
+            <hr class="lrHeaderLineHeader">
             <a id="lr-button-more" class="button is-danger is-outlined">LÄS MER</a>
         </div>
     </div>
@@ -53,8 +53,12 @@
             z-index: 100;
         }
     }
-    .lrHeaderLine {
-        background-color: $white !important;
+    .lrHeaderLineHeader {
+        background-color: $white;
+        height: 5px;
+        width: 295px;
+        z-index: 100;
+        margin-bottom: 30px;
     }
     #lr-button-more {
         border: 5px solid $green;

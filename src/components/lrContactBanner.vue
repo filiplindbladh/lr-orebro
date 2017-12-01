@@ -67,6 +67,7 @@
     .contactInfo {
         display: flex;
         align-items: center;
+        width: 100%;
     }
     #lr-button-more {
         border: 5px solid $green;
