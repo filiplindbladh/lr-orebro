@@ -7,43 +7,161 @@
 
     <!-- pictures of staff -->
     <div class="columns is-mobile is-multiline lrPictures">
-      <div class="column is-half-mobile  is-one-quarter-tablet"> 
-        <a href="#">
-            <img src="http://via.placeholder.com/250x250" alt="">
-        </a> 
+      <div class="column is-half-mobile is-one-quarter-tablet"> 
+        <div class="staffContainer">
+            <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
+            <div class="staffInfo">
+              <span>Peter Lindbladh</span>
+              <br>
+              <span>Revisor</span>
+              <br>
+              <a href="tel:019183850"><i class="fa fa-phone" aria-hidden="true"></i></a>
+              <a href="mailto:hej@lr-orebro.se"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+            </div>
+          </div>
       </div>
-      <div class="column is-half-mobile  is-one-quarter-tablet">
-          <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="">
+      <div class="column is-half-mobile is-one-quarter-tablet">
+        <div class="staffContainer">
+            <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
+            <div class="staffInfo">
+              <span>Peter Lindbladh</span>
+              <br>
+              <span>Revisor</span>
+              <br>
+              <a href="tel:019183850"><i class="fa fa-phone" aria-hidden="true"></i></a>
+              <a href="mailto:hej@lr-orebro.se"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+            </div>
+          </div>
       </div>
-      <div class="column is-half-mobile  is-one-quarter-tablet">
-          <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="">
+      <div class="column is-half-mobile is-one-quarter-tablet">
+        <div class="staffContainer">
+            <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
+            <div class="staffInfo">
+              <span>Peter Lindbladh</span>
+              <br>
+              <span>Revisor</span>
+              <br>
+              <a href="tel:019183850"><i class="fa fa-phone" aria-hidden="true"></i></a>
+              <a href="mailto:hej@lr-orebro.se"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+            </div>
+          </div>
       </div>
-      <div class="column is-half-mobile  is-one-quarter-tablet">
-          <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="">
+      <div class="column is-half-mobile is-one-quarter-tablet">
+        <div class="staffContainer">
+            <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
+            <div class="staffInfo">
+              <span>Peter Lindbladh</span>
+              <br>
+              <span>Revisor</span>
+              <br>
+              <a href="tel:019183850"><i class="fa fa-phone" aria-hidden="true"></i></a>
+              <a href="mailto:hej@lr-orebro.se"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+            </div>
+          </div>
       </div>
-      <div class="column is-half-mobile  is-one-quarter-tablet">
-          <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="">
+      <div class="column is-half-mobile is-one-quarter-tablet">
+        <div class="staffContainer">
+            <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
+            <div class="staffInfo">
+              <span>Peter Lindbladh</span>
+              <br>
+              <span>Revisor</span>
+              <br>
+              <a href="tel:019183850"><i class="fa fa-phone" aria-hidden="true"></i></a>
+              <a href="mailto:hej@lr-orebro.se"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+            </div>
+          </div>
       </div>
-      <div class="column is-half-mobile  is-one-quarter-tablet">
-          <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="">
+      <div class="column is-half-mobile is-one-quarter-tablet">
+        <div class="staffContainer">
+            <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
+            <div class="staffInfo">
+              <span>Peter Lindbladh</span>
+              <br>
+              <span>Revisor</span>
+              <br>
+              <a href="tel:019183850"><i class="fa fa-phone" aria-hidden="true"></i></a>
+              <a href="mailto:hej@lr-orebro.se"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+            </div>
+          </div>
       </div>
-      <div class="column is-half-mobile  is-one-quarter-tablet">
-          <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="">
+      <div class="column is-half-mobile is-one-quarter-tablet">
+        <div class="staffContainer">
+            <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
+            <div class="staffInfo">
+              <span>Peter Lindbladh</span>
+              <br>
+              <span>Revisor</span>
+              <br>
+              <a href="tel:019183850"><i class="fa fa-phone" aria-hidden="true"></i></a>
+              <a href="mailto:hej@lr-orebro.se"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+            </div>
+          </div>
       </div>
-      <div class="column is-half-mobile  is-one-quarter-tablet">
-          <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="">
+      <div class="column is-half-mobile is-one-quarter-tablet">
+          <div class="staffContainer">
+            <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
+            <div class="staffInfo">
+              <span>Peter Lindbladh</span>
+              <br>
+              <span>Revisor</span>
+              <br>
+              <a href="tel:019183850"><i class="fa fa-phone" aria-hidden="true"></i></a>
+              <a href="mailto:hej@lr-orebro.se"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+            </div>
+          </div>
       </div>
-      <div class="column is-half-mobile  is-one-quarter-tablet">
-          <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="">
+      <div class="column is-half-mobile is-one-quarter-tablet">
+          <div class="staffContainer">
+            <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
+            <div class="staffInfo">
+              <span>Peter Lindbladh</span>
+              <br>
+              <span>Revisor</span>
+              <br>
+              <a href="tel:019183850"><i class="fa fa-phone" aria-hidden="true"></i></a>
+              <a href="mailto:hej@lr-orebro.se"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+            </div>
+          </div>
       </div>
-      <div class="column is-half-mobile  is-one-quarter-tablet">
-          <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="">
+      <div class="column is-half-mobile is-one-quarter-tablet">
+          <div class="staffContainer">
+            <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
+            <div class="staffInfo">
+              <span>Peter Lindbladh</span>
+              <br>
+              <span>Revisor</span>
+              <br>
+              <a href="tel:019183850"><i class="fa fa-phone" aria-hidden="true"></i></a>
+              <a href="mailto:hej@lr-orebro.se"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+            </div>
+          </div>
       </div>
-      <div class="column is-half-mobile  is-one-quarter-tablet">
-          <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="">
+      <div class="column is-half-mobile is-one-quarter-tablet">
+        <div class="staffContainer">
+          <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
+          <div class="staffInfo">
+            <span>Peter Lindbladh</span>
+            <br>
+            <span>Revisor</span>
+            <br>
+            <a href="tel:019183850"><i class="fa fa-phone" aria-hidden="true"></i></a>
+            <a href="mailto:hej@lr-orebro.se"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+          </div>
+        </div>
       </div>
-      <div class="column is-half-mobile  is-one-quarter-tablet">
-        <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="">
+      <div class="column is-half-mobile is-one-quarter-tablet">
+          <div class="staffContainer">
+              <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
+              <div class="staffInfo">
+                <span>Peter Lindbladh</span>
+                <br>
+                <span>Revisor</span>
+                <br>
+                    <a href="tel:019183850"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                    <a href="mailto:hej@lr-orebro.se"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+              </div>
+            </div>
       </div>
     </div>
   </div>
@@ -66,6 +184,35 @@ export default {
     align-items: center; 
     flex-direction: column; 
   }
+  .staffContainer {
+    position: relative;
+  }
+  .staffInfo {
+    display: none;
+    margin: auto;
+    position: absolute;
+    left: 0; right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    .fa {
+      margin: 15px 12px 0 12px;
+      color: $white;
+      font-size: 25px;
+    }
+    .fa-phone {
+      font-size: 30px;
+    }
+    .fa-paper-plane {
+      margin-bottom: 5px;
+    }
+    span {
+      color: $black;
+      font-weight: bold;
+    }
+    /* a {
+      border: 1px solid red;
+    } */
+  }
   .lrStaff p {
     text-align: center;
     width: 70%;
@@ -77,8 +224,11 @@ export default {
   .lrStaffMember {
     width: 250px;
     height: auto;
-    &:hover {
+  }
+  .staffContainer:hover .lrStaffMember {
       filter: blur(2px) grayscale(100%);
     }
-  }
+  .staffContainer:hover .staffInfo {
+    display: block;
+  } 
 </style>

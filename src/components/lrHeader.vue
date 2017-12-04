@@ -3,7 +3,7 @@
         <div class="lrHeader container">
             <h1> VÄLKOMMEN TILL <br /> DIN FRAMTIDSBYRÅ </h1>
             <hr class="lrHeaderLineHeader">
-            <a id="lr-button-more" class="button is-danger is-outlined">LÄS MER</a>
+            <a id="lr-button-more" class="button is-link is-outlined">LÄS MER</a>
         </div>
     </div>
 </template>
