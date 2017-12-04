@@ -4,7 +4,10 @@
   <!-- meny -->
   <lrMenu></lrMenu>
   <lrHeader></lrHeader>
-
+  <!-- contact -->
+  <div class="contact">
+  <Contact></Contact>
+  </div> 
   <!-- services -->
   <lrServices></lrServices>
 
@@ -31,7 +34,7 @@
 
 <script>
 import 'font-awesome/css/font-awesome.css'
-import contact from '@/components/contact.vue'
+import Contact from '@/components/Contact.vue'
 import lrMenu from '@/components/lrMenu.vue'
 import lrHeader from '@/components/lrHeader.vue'
 import lrContactBanner from '@/components/lrContactBanner.vue'
@@ -44,7 +47,7 @@ import lrFooter from '@/components/lrFooter.vue'
 export default {
   name: 'Start',
   components: {
-    contact,
+    Contact,
     lrMenu,
     lrHeader,
     lrServices,
@@ -60,5 +63,13 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
     @import '../style/_variables.scss'; 
-
+  body {
+    position:relative; 
+  }
+  .contact {
+    z-index:1000; 
+    position:fixed;
+    top:500px; 
+    right:50px;  
+  }
 </style>

@@ -1,50 +1,37 @@
 <template>
   <div>
-      <article class="message">
-          <div class="message-header">
-              <p>Kontakt</p>
-              <button class="delete" aria-label="delete"></button>
-          </div>
-          <div class="header-container">
-              <h1>Hej</h1>
-              <img src="../img/waving-hand.png">
-          </div>
-          <div class="header-container">
-              <p>Vad kan vi hjälpa dig med? Skriv ett meddelande så kontaktar vi dig</p>
-          </div>    
-          <div class="message-body">
-            <div class="field">
-              <label class="label">Email</label>
-              <div class="control has-icons-left has-icons-right">
-                <input class="input" type="email" placeholder="Email">
-                <span class="icon is-small is-left">
-                  <i class="fa fa-envelope"></i>
-                </span>
-              </div>
-            </div>
-            <div class="field">
-              <label class="label">Message</label>
-              <div class="control has-icons-left has-icons-right">
-                <textarea class="textarea" placeholder="Meddelande"></textarea>
-              </div>
-            </div>
-            <div class="field is-grouped">
-              <div class="control">
-                <button class="button is-link">Submit</button>
-              </div>
-              <div class="control">
-                <button class="button is-text">Cancel</button>
-              </div>
-            </div>
-          </div>
-      </article>
+      <button class="circle" @click='openModal()'>
+        <i class="fa fa-commenting fa-5x" aria-hidden="true"></i>
+      </button>
+      <contactModal :activate="addActive" @closeRequest='close'></contactModal>
   </div>
 </template>
 
 <script>
 import 'font-awesome/css/font-awesome.css'
+import contactModal from '@/components/contactModal'
+
 export default {
-  name: 'Contact'
+  name: 'Contact',
+  components: {contactModal},
+  data: function () {
+    return {
+      isOpen: false,
+      addActive: ''
+    }
+  },
+  methods: {
+    toggle: function () {
+      this.isOpen = !this.isOpen
+    },
+    openModal: function () {
+      this.addActive = 'is-active'
+    },
+    close () {
+      this.addActive = ''
+    }
+  }
+
 }
 </script>
 
@@ -86,6 +73,13 @@ export default {
   h1 {
     font-size:40px 
   }
-
+  .circle {
+	border-radius: 50%;
+	width: 80px;
+	height: 80px; 
+  background-color: $green; 
+  color:white; 
+  border: 3px solid white; 
+}
 
 </style>

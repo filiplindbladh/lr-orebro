@@ -4,7 +4,7 @@
 
 // 2. Set your own initial variables
 // Update blue
-$green:#ccff99; 
+$green:#b6eb88; 
 $blue: #005192;
 $red: #E35250;
 $grey: #cccccc;  
@@ -18,7 +18,8 @@ $family-serif: "Oxygen", "Arial", serif;
 // Use the new pink as the primary color
 $primary: $blue;
 $primary-invert: $black-invert;
-$danger: $green;
+$danger: $red;
+$secondary: $green; 
 // Use the new serif family
 $family-primary: $family-serif;
 
