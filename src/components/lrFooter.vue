@@ -51,7 +51,7 @@ export default {
   }
 }
 .lrHeaderLine {
-  color:$red; 
+  background-color:$red; 
 }
 .footer-container {
   display:flex; 
