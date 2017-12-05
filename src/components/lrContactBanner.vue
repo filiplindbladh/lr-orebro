@@ -12,7 +12,7 @@
                         <i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:019183850">019 18 38 50</a>
                     </div>
                     <div class="column">
-                        <a id="lr-button-more" class="button is-link is-outlined">KONTAKT</a>
+                        <a id="lr-button-more" class="button is-info is-outlined">KONTAKT</a>
                     </div>
                     <div class="column">
                         <i class="fa fa-paper-plane" aria-hidden="true"></i> <a href="mailto:hej@lr-orebro.se">hej@lr-orebro.se</a>

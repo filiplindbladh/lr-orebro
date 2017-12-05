@@ -66,7 +66,7 @@ export default {
     input:valid  {
         border: 2px solid $green; 
     }
-    input:valid > span.fa-check {
+    input:valid > .is-right.fa-check {
         color: $green; 
     }
     input:invalid {
