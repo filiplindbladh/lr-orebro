@@ -1,7 +1,7 @@
 <template>
   <div>
       <button class="circle" @click='openModal()'>
-        <i class="fa fa-commenting fa-5x" aria-hidden="true"></i>
+        <i class="fa fa-commenting fa-4x" aria-hidden="true"></i>
       </button>
       <contactModal :activate="addActive" @closeRequest='close'></contactModal>
   </div>
@@ -37,7 +37,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
-@import '../style/_variables.scss';               
+@import '../style/main.scss';               
 
   .message-header {
     background-color:$green; 
@@ -80,10 +80,6 @@ export default {
   background-color: $green; 
   color:white; 
   border: 3px solid white; 
-  -webkit-box-shadow: 49px 96px 272px 41px rgba(0,80,146,1);
-  -moz-box-shadow: 49px 96px 272px 41px rgba(0,80,146,1);
-  box-shadow: 49px 96px 272px 41px rgba(0,80,146,1);
-
 }
 
 </style>
