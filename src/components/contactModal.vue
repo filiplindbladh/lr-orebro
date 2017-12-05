@@ -10,10 +10,10 @@
                 <section class="modal-card-body">
                 <h1>Hej</h1>
                 <img src="../img/waving-hand.png">
-                <p>Vad kan vi hjälpa dig med? Skriv ett meddelande så kontaktar vi dig</p>
+                <p class="mainText">Vad kan vi hjälpa dig med? Skriv ett meddelande så kontaktar vi dig</p>
                 <form action="">
                     <div class="control has-icons-left has-icons-right">
-                    <input class="input " type="email" placeholder="Email">
+                    <input class="input" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$" type="email" placeholder="Email">
                     <span class="icon is-left">
                         <i class="fa fa-envelope"></i>
                     </span>
@@ -21,12 +21,12 @@
                         <i class="fa fa-check"></i>
                     </span>
                     </div>
-                <textarea class="textarea" placeholder="e.g. Hello world"></textarea>
+                <textarea class="textarea" placeholder="Meddelande"></textarea>
                 </form>
                 </section>
                 <footer class="modal-card-foot">
                 <a class="button is-primary is-outlined">Skicka</a>
-                <button class="button is-outlined" @click='close'>Cancel</button>
+                <button class="button is-danger is-outlined" @click='close'>Cancel</button>
                 </footer>
             </div>
         </div>
@@ -48,7 +48,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-    @import '../style/_variables.scss';
+    @import '../style/main.scss';
 
     h1 {
         display:inline; 
@@ -59,5 +59,20 @@ export default {
     }
     header.modal-card-head {
         background-color:$green; 
+    }
+    input {
+        background-color:$white; 
+    }
+    input:valid  {
+        border: 2px solid $green; 
+    }
+    input:valid > span.fa-check {
+        color: $green; 
+    }
+    input:invalid {
+        border: 2px solid $red; 
+    }
+    form {
+        margin-top:20px; 
     }
 </style>

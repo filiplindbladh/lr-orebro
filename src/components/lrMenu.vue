@@ -45,7 +45,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../style/_variables.scss';
+@import '../style/main.scss';
     #lrMenu {
         display: flex; 
         flex-direction: row; 

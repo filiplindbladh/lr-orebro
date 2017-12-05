@@ -7,7 +7,7 @@
             <i class="fa fa-quote-left fa-5x" aria-hidden="true"></i>
           </div>
           <div class="slider-text">
-            <p>Remember, a "good" review is the type of review that's useful to the people who come along behind you. If you need to take some time away from the keyboard to really organize your thoughts and think about your experience from multiple sides of the issue, take it. Don't start writing in a fit of rage.</p>
+            <p class="mainText">Remember, a "good" review is the type of review that's useful to the people who come along behind you. If you need to take some time away from the keyboard to really organize your thoughts and think about your experience from multiple sides of the issue, take it. Don't start writing in a fit of rage.</p>
           </div>
           <div class="slider-company">
             <p>– Namn Namnsson, <span>Företag AB</span></p>
@@ -18,7 +18,7 @@
             <i class="fa fa-quote-left fa-5x" aria-hidden="true"></i>
           </div>
           <div class="slider-text">
-            <p>Remember, a "good" review is the type of review that's useful to the people who come along behind you. If you need to take some time away from the keyboard to really organize your thoughts and think about your experience from multiple sides of the issue, take it. Don't start writing in a fit of rage.</p>
+            <p class="mainText">Remember, a "good" review is the type of review that's useful to the people who come along behind you. If you need to take some time away from the keyboard to really organize your thoughts and think about your experience from multiple sides of the issue, take it. Don't start writing in a fit of rage.</p>
           </div>
           <div class="slider-company">
             <p>– Namn Namnsson, <span>Företag AB</span></p>
@@ -29,10 +29,10 @@
             <i class="fa fa-quote-left fa-5x" aria-hidden="true"></i>
           </div>
           <div class="slider-text">
-            <p>Remember, a "good" review is the type of review that's useful to the people who come along behind you. If you need to take some time away from the keyboard to really organize your thoughts and think about your experience from multiple sides of the issue, take it. Don't start writing in a fit of rage.</p>
+            <p class="mainText">Remember, a "good" review is the type of review that's useful to the people who come along behind you. If you need to take some time away from the keyboard to really organize your thoughts and think about your experience from multiple sides of the issue, take it. Don't start writing in a fit of rage.</p>
           </div>
           <div class="slider-company">
-            <p>– Namn Namnsson, <span>Företag AB</span></p>
+            <p class="mainText">– Namn Namnsson, <span>Företag AB</span></p>
           </div>
         </slider-item>
       </slider>
@@ -61,7 +61,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../style/_variables.scss';
+@import '../style/main.scss';
 .slider-container {
   display:flex; 
   justify-content:center; 
@@ -120,21 +120,21 @@ export default {
      }
      .slider-icon, .slider-company {
        justify-content:center; 
-       margin:20px; 
+       margin:10px; 
      }
      .slider {
        width:100%; 
-       height:370px; 
+       height:400px; 
 
      }
     }
     @media screen and (min-width: $tablet) and (max-width: $desktop - 1px) {
         .slider-icon, .slider-company {
             justify-content:center; 
-            margin:20px; 
+            margin:10px; 
         }
         .slider {
-          height:370px; 
+          min-height:400px; 
         }
     }
 

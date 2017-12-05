@@ -3,7 +3,7 @@
     <h2>Mer än bara siffror</h2>
     <hr class="lrHeaderLine">
 
-    <p class="mainText">I samband med rådgivningen möter du ofta fler medarbetare hos oss, t.ex redovisningskonsulter, företagsrådvigare, skatteexperter. Vi analyserar inte bara det föregående året, utan kan även hjälpa di gmed att se framåt och göra analyser och antaganden.</p>
+    <p class="mainText">I samband med rådgivningen möter du ofta fler medarbetare hos oss, t.ex redovisningskonsulter, företagsrådvigare, skatteexperter. Vi analyserar inte bara det föregående året, utan kan även hjälpa dig med att se framåt och göra analyser och antaganden.</p>
 
     <!-- pictures of staff -->
     <div class="columns is-mobile is-multiline lrPictures">
@@ -174,7 +174,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../style/_variables.scss';
+@import '../style/main.scss';
   .lrHeaderLine {
         background-color: $red;
         height:5px; 

@@ -37,7 +37,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../style/_variables.scss';
+@import '../style/main.scss';
 .footer {
   background-color:$blue; 
   color:white; 

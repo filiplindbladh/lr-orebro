@@ -47,7 +47,7 @@
 </script>
 
 <style scoped lang="scss">
-    @import '../style/_variables.scss';
+    @import '../style/main.scss';
     h2 {
         text-align:center; 
     }

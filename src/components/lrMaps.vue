@@ -28,7 +28,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../style/_variables.scss';
+@import '../style/main.scss';
 .lrHeaderLine {
   background-color: $red;
   height:5px; 

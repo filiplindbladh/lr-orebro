@@ -1,15 +1,38 @@
 body {
     font-family: Oxygen; 
-} 
-h2 {
+  } 
+  h1 {
+    font-size: 5vw;
+    font-weight: bold;
+  }
+  h2 {
     font-size: 48px; 
     font-weight:700; 
-}
-h3 {
+  }
+  h3 {
+    font-size:30px;
+    font-weight: 900; 
+  }
+  h4 {
     font-size:26px; 
-}
-.lrHeaderLine {
+  }
+  .mainText {
+    font-size: 18px;
+    font-weight: normal;
+    line-height:30px; 
+  }
+  .lrHeaderLine {
     height: 5px;
     width: 295px;
     z-index: 100;
-}
+    margin-bottom: 30px;
+  }
+  
+  @media screen and (max-width: $tablet - 1px) {
+    h2 {
+      font-size: 5vw;
+    }
+    h3 {
+      font-size: 5vw;
+    }
+  }

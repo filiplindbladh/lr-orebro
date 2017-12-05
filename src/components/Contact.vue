@@ -80,6 +80,10 @@ export default {
   background-color: $green; 
   color:white; 
   border: 3px solid white; 
+  -webkit-box-shadow: 49px 96px 272px 41px rgba(0,80,146,1);
+  -moz-box-shadow: 49px 96px 272px 41px rgba(0,80,146,1);
+  box-shadow: 49px 96px 272px 41px rgba(0,80,146,1);
+
 }
 
 </style>
