@@ -5,8 +5,8 @@
                 <img class="lrLogo" src="../img/logo.svg">
             </div>
             <div class="menuItems">
-                <a class="menuItem" href="#">START</a>
-                <a class="menuItem" href="#">TJÄNSTER</a>
+                <router-link to="/">START</router-link> 
+                <router-link to="/redovisning">TJÄNSTER</router-link>
                 <a class="menuItem" href="#">OM OSS</a>
                 <a class="menuItem" href="#">KONTAKT</a>
                 <a class="button is-primary is-outlined lr-button-online">LR-ONLINE</a>
@@ -76,7 +76,7 @@ export default {
         flex-direction: row;
         width: 100%; 
         align-items: center;
-        .menuItem {
+        a {
             padding: 0 20px;
             font-weight: bold;
             font-size: 0.85rem;
