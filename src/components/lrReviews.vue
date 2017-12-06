@@ -1,7 +1,7 @@
 <template>
   <div class="slider-container">
     <div class="slider">
-      <slider animation="fade" :speed="100" :auto="false" :indicators="center" :control-btn="false" :height="300">
+      <slider animation="normal" :speed="200" :auto="false" :indicators="'center'" :control-btn="false" :height="'350px'">
         <slider-item>
           <div class="slider-icon">
             <i class="fa fa-quote-left fa-5x" aria-hidden="true"></i>
@@ -70,7 +70,7 @@ export default {
   width:100%; 
 }
 .slider {
-  height:350px; 
+  //height:350px; 
   width:70%; 
   background-color:white;
   margin-top:40px; 
@@ -81,12 +81,14 @@ export default {
 }
 .slider-indicator-icon {
   border:1px solid black;
+  width:30px; 
+  height:30px; 
 }
 .indicators > .slider-indicator-active {
   background-color: $red !important;
 }
 .indicators {
-  bottom:0; 
+  bottom:0 !important; 
 }
 
 .slider-icon {
@@ -120,7 +122,7 @@ export default {
      }
      .slider-icon, .slider-company {
        justify-content:center; 
-       margin:10px; 
+       margin:0; 
      }
      .slider {
        width:100%; 
