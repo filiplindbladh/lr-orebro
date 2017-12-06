@@ -9,7 +9,7 @@
                 <router-link to="/tjanster">TJÄNSTER</router-link>
                 <a class="menuItem" href="#">OM OSS</a>
                 <a class="menuItem" href="#">KONTAKT</a>
-                <a class="button is-primary is-outlined lr-button-online">LR-ONLINE</a>
+                <router-link to="/online">LR-ONLINE</router-link>
                 <a class="button is-primary is-outlined lr-button-fortnox"><img src="../img/fortnox.png"><img class="hoverFortnox" src="../img/fortnoxHover.png"></a>
             </div>
             <div class="smallScreenMenuContainer is-hidden-desktop">
