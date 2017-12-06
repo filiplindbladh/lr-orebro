@@ -72,7 +72,7 @@
             z-index: 1000;
         }
         .quoteText {
-            z-index: 1000;
+            z-index: 300;
             margin-top: 0;
             margin-bottom:0;
         }
@@ -147,6 +147,7 @@
         line-height:30px; 
     } 
     .accounting-content {
+        padding-bottom: 90px;
         width:70%; 
         margin:0 auto; 
         h3 {
@@ -162,6 +163,16 @@
       }
       .box {
           margin-bottom:40px; 
+      }
+      .quote {
+        font-size: 4vw;
+        .textIn {
+        margin-left: 30px;
+      }
+      .fa {
+        font-size: 20px;
+        padding-right: 5px;
+        }
       }
     }
     @media screen and (min-width: $tablet) and (max-width: $desktop - 1px) {
