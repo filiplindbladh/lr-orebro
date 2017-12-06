@@ -73,6 +73,7 @@ export default {
   h1 {
     font-size:40px 
   }
+  /* style for the contact bubble */
   .circle {
     transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
     border-radius: 50%;
@@ -82,10 +83,13 @@ export default {
     color:white; 
     border: 3px solid white; 
     &:hover {
-      background-color: rgba(132, 184, 26, .8);
+      background-color: rgba(0, 81, 146, .8);
       border-radius: 50%;
       transform: scale(1.1);
       transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+  }
+  .circle:hover > .fa-commenting {
+    color: $green;
   }
 }
 
