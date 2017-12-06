@@ -82,10 +82,12 @@ export default {
     background-color: $green; 
     color:white; 
     border: 3px solid white; 
+    cursor: pointer;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
     &:hover {
       background-color: rgba(0, 81, 146, .8);
       border-radius: 50%;
-      transform: scale(1.1);
+      transform: scale(1.08);
       transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
   }
   .circle:hover > .fa-commenting {
