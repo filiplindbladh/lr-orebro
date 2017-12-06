@@ -80,7 +80,8 @@
         flex-direction:column; 
         &:hover {
             border: 5px solid $black;
-            background-color:rgba(227, 82, 80, 0.5); 
+            /* background-color:rgba(227, 82, 80, 0.5);  */
+            background-color: white;
         } 
         h3 {
             color:$white; 
@@ -100,7 +101,7 @@
     .triangle-bottomright {
         width: 0;
         height: 0;
-        border-bottom: 300px solid $black;
+        border-bottom: 300px solid $blue;
         border-left: 300px solid transparent;
         z-index: 1; 
         position:absolute; 
