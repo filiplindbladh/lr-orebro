@@ -6,7 +6,7 @@
             </div>
             <div class="menuItems">
                 <router-link to="/">START</router-link> 
-                <router-link to="/redovisning">TJÄNSTER</router-link>
+                <router-link to="/tjanster">TJÄNSTER</router-link>
                 <a class="menuItem" href="#">OM OSS</a>
                 <a class="menuItem" href="#">KONTAKT</a>
                 <a class="button is-primary is-outlined lr-button-online">LR-ONLINE</a>

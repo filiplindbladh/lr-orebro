@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Start from '@/components/Start'
-import Accounting from '@/components/Accounting'
+import Services from '@/components/Services'
 
 Vue.use(Router)
 
@@ -16,9 +16,9 @@ export default new Router({
       component: Start
     },
     {
-      path: '/redovisning',
-      name: 'Redovisning',
-      component: Accounting
+      path: '/tjanster',
+      name: 'Services',
+      component: Services
     }
   ]
 })

@@ -40,10 +40,9 @@ export default {
 @import '../style/main.scss';
 .footer {
   background-color:$blue; 
-  color:white; 
   height:100%; 
   position:relative; 
-  a {
+  a, p, h4 {
     color:white; 
   }
   a:hover {
