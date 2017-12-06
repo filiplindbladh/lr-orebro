@@ -71,15 +71,15 @@
         margin-bottom:40px; 
     }
     .box {
+        position: relative;
         height:300px; 
         width:300px; 
-        border: 5px solid $black;  
+        border: 2px solid $black;  
         display:flex; 
         justify-content:center; 
         align-items:center; 
         flex-direction:column; 
         &:hover {
-            border: 5px solid $black;
             /* background-color:rgba(227, 82, 80, 0.5);  */
             background-color: white;
         } 
@@ -89,8 +89,9 @@
         }
     }
     .box:hover > .triangle-bottomright {
-        /* transition:5ms;  */
-        opacity:0;  
+        /* opacity:0;   */
+        border-left: 0 solid transparent;
+        right: 0;
     }
     .box:hover > h3 {
         color:$black; 
@@ -102,8 +103,9 @@
         transition: all .3s ease-in-out;
         width: 0;
         height: 0;
+        right: 0;
         border-bottom: 300px solid $blue;
-        border-left: 300px solid transparent;
+        border-left: 298px solid transparent;
         z-index: 1; 
         position:absolute; 
     }
