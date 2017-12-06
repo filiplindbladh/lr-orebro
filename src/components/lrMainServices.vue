@@ -1,7 +1,10 @@
 <template>
     <div>
         <div class="accounting-stockphoto overlay">
-
+            <div class="quote">
+                <div class="quoteText"><i class="fa fa-quote-left" aria-hidden="true"></i>Vi kan erbjuda ett stort utbud av tjänster</div>  
+                <div class="quoteText textIn">inom redovisning och administration</div>
+            </div>
         </div>
         
         <div class="section container">
@@ -50,7 +53,34 @@
 
 <style scoped lang="scss">
     @import '../style/main.scss';
- 
+    /* styling for quote inside header */
+     .quote {
+        display: flex;
+        align-items: center;
+        font-family: 'Playfair Display', serif;
+        justify-content: center;
+        flex-direction: column;
+        color: $white;
+        font-size: 28px;
+        height: 100%;
+        .textIn {
+            margin-left: 130px;
+        }
+        span {
+            font-size: 40px;
+            font-weight: bold;
+            z-index: 1000;
+        }
+        .quoteText {
+            z-index: 1000;
+            margin-top: 0;
+            margin-bottom:0;
+        }
+        .fa {
+            font-size: 40px;
+            padding-right: 20px;
+        }
+    }
     .services {
         width:100%; 
         display: flex; 
@@ -123,7 +153,6 @@
             margin-top: 40px; 
         }
     }
-
 
     /* ****************** MEDIAQUERIES ****************** */
     @media screen and (max-width: $tablet - 1px) {
