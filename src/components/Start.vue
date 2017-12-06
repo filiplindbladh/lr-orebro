@@ -12,7 +12,8 @@
   <lrServices></lrServices>
 
   <!-- first contact banner -->
-  <lrContactBanner bannerText="Långsiktiga lösningar för traditionella eller digitala företag"></lrContactBanner>
+  <lrContactBanner bannerText="Långsiktiga lösningar för traditionella eller digitala företag" ></lrContactBanner>
+  <!-- :backgroundImage=require("'../img/lrImage.jpg'")></lrContactBanner> -->
 
   <!-- the staff on LR-orebro -->
   <lrStaff></lrStaff>
@@ -21,7 +22,8 @@
   <lrReviews></lrReviews>
 
  <!-- second contact banner -->
- <lrContactBanner bannerText="Behöver ni hjälp att utveckla ert företag?"></lrContactBanner>
+ <lrContactBanner bannerText="Behöver ni hjälp att utveckla ert företag?" ></lrContactBanner>
+ <!-- :backgroundImage=require("'../img/lrImage.jpg'")></lrContactBanner> -->
 
   <!-- How to get there -->
   <lrMaps></lrMaps>
@@ -43,6 +45,7 @@ import lrStaff from '@/components/lrStaff.vue'
 import lrReviews from '@/components/lrReviews.vue'
 import lrMaps from '@/components/lrMaps.vue'
 import lrFooter from '@/components/lrFooter.vue'
+import VueImgLoader from 'vue-img-loader'
 
 export default {
   name: 'Start',
@@ -55,7 +58,8 @@ export default {
     lrStaff,
     lrReviews,
     lrMaps,
-    lrFooter
+    lrFooter,
+    'vue-img-loader': VueImgLoader
   }
 }
 </script>

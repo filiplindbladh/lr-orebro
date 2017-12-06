@@ -24,9 +24,15 @@
 </template>
     
 <script>
+    // import VueImgLoader from 'vue-img-loader'
     export default {
       name: 'lrContactBanner',
-      props: ['bannerText']
+      props: ['bannerText', 'backgroundImage'],
+      computed: {
+        style () {
+          return 'background-image: url(' + this.backgroundImage + ')'
+        }
+      }
     }
 </script>
 
