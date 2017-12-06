@@ -73,7 +73,7 @@
     .box {
         height:300px; 
         width:300px; 
-        border: 5px solid $grey;  
+        border: 5px solid $black;  
         display:flex; 
         justify-content:center; 
         align-items:center; 
@@ -89,7 +89,7 @@
         }
     }
     .box:hover > .triangle-bottomright {
-        transition:5ms; 
+        /* transition:5ms;  */
         opacity:0;  
     }
     .box:hover > h3 {
@@ -99,6 +99,7 @@
          width: 80%;
     }
     .triangle-bottomright {
+        transition: all .3s ease-in-out;
         width: 0;
         height: 0;
         border-bottom: 300px solid $blue;

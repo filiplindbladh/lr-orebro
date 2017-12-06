@@ -2,7 +2,7 @@
     <div id="lrMenu">
         <div class="container lrMenuContainer">
             <div class="lrLogoContainer">
-                <img class="lrLogo" src="../img/logo.svg">
+                <router-link to="/"><img class="lrLogo" src="../img/logo.svg"></router-link> 
             </div>
             <div class="menuItems">
                 <router-link to="/">START</router-link> 
