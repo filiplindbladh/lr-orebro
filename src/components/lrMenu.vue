@@ -29,7 +29,7 @@
                     <li><a href='#'>TJÄNSTER</a></li>
                     <li><a href='#'>OM OSS</a></li>
                     <li><a href='#'>KONTAKT</a></li>
-                    <li><a href='#'>LR-ONLINE</a></li>
+                    <li><router-link to="/online">LR-ONLINE</router-link></li>
                     <!-- <li><a class="button is-primary is-outlined lr-button-online">LR-ONLINE</a></li> -->
                     <li><a href="#"><img class="hoverFortnox" src="../img/fortnoxHover.png"></a></li>
                 </ul> 
@@ -132,7 +132,7 @@ export default {
         top: 0;
         transition: all 0.5s;
         width: 0%;
-        z-index: 200;
+        z-index: 500;
         a {
             color: $white;
             display: block;
@@ -181,6 +181,9 @@ export default {
             width: 90%;
             justify-content: space-between;
         }
+    }
+    .menuOverlay .closeBtn {
+        right: 4%;
     }
     @media screen and (min-width: $tablet) {
         .smallScreenMenuContainer {
