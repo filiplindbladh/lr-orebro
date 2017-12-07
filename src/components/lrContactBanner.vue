@@ -42,6 +42,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
         z-index: 300;
         h3 {
             color: $white;
@@ -73,6 +74,7 @@
     }
     .contactInfo {
         display: flex;
+        flex-direction: row;
         align-items: center;
         width: 100%;
         .fa {
@@ -108,6 +110,14 @@
             #lr-button-more {
                 font-size: 3vw;
                 border: 2px solid $green;
+            }
+        }
+    }
+    @media screen and (max-width: 650px) {
+        .contactInfo {
+            flex-direction: column;
+            .column {
+                display: block;
             }
         }
     }
