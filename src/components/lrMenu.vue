@@ -14,7 +14,7 @@
             </div>
             <div class="smallScreenMenuContainer is-hidden-desktop">
                 <!-- Menu open button -->
-                <div id='open-menu' class='openBtn'>
+                <div id='open-menu' class='openBtn' v-on:click='open()'>
                     <!-- Hamburger menu -->
                     <div></div>
                     <div></div>
@@ -22,8 +22,8 @@
                 </div>
             </div>
             <!-- Menu overlay that covers the whole screen -->
-            <nav id='nav' class='menuOverlay'>
-                <div id='close-menu' class='closeBtn'>X</div>
+            <nav id='nav' class='menuOverlay' v-bind:class="{ active: isActive }">
+                <div id='close-menu' class='closeBtn' v-on:click='close()'>X</div>
                 <ul class='overlay-content' id='overlay-content'>
                     <li><a href='#'>START</a></li>
                     <li><a href='#'>TJÄNSTER</a></li>
@@ -40,7 +40,20 @@
 
 <script>
 export default {
-  name: 'lrMenu'
+  name: 'lrMenu',
+  data: function () {
+    return {
+      isActive: false
+    }
+  },
+  methods: {
+    open: function () {
+      this.isActive = true
+    },
+    close: function () {
+      this.isActive = false
+    }
+  }
 }
 </script>
 
@@ -163,6 +176,10 @@ export default {
             }
         }
     }
+    .active {
+        width: 100%;
+    }
+
     .overlay-content {
         position: relative;
         text-align: center;
