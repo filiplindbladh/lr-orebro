@@ -65,10 +65,12 @@
         font-size: 23px;
     }
     /* ****************** MEDIAQUERIES ****************** */
-    @media screen and (max-width: $tablet - 1px) {
-        /* .overlay:before {
-            background-color: red;
-        } */
+    @media screen and (max-width: 430px) {
+        .lrHeader > h1 {
+            font-size: 22px;
+        }
+        .lrHeaderLineHeader {
+            width: 195px;
+        }
     }
-
 </style>

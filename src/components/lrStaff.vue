@@ -213,7 +213,7 @@ export default {
       border: 1px solid red;
     } */
   }
-  .lrStaff p {
+  .mainText {
     text-align: center;
     width: 70%;
     margin-bottom: 30px;
