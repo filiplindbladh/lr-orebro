@@ -39,10 +39,15 @@
 <style scoped lang="scss">
     @import '../style/main.scss';
     .banner {
+        display: -webkit-box;
         display: flex;
         -ms-display: flex;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         text-align: center;
         z-index: 300;
         h3 {
@@ -76,15 +81,23 @@
     /* to center the content inside */
     .column {
         color: $green;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
+        display: -webkit-box;
         display: flex;
         -ms-display: flex;
     }
     .contactInfo {
+        display: -webkit-box;
         display: flex;
         -ms-display: flex;
         -ms-flex-direction: row;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
         flex-direction: row;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
         width: 100%;
         .fa {
@@ -125,6 +138,9 @@
     }
     @media screen and (max-width: 650px) {
         .contactInfo {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
             flex-direction: column;
             .column {
                 display: block;
