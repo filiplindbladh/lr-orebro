@@ -59,35 +59,59 @@ export default {
 
 <style lang="scss">
 @import '../style/main.scss';
-    #lrMenu {
-        display: flex; 
-        flex-direction: row; 
-        height: 67px;
-        width: 100%;
-        background-color: $white;
-        border-bottom: 1px solid $blue;
-        position: fixed;
-        top: 0;
-        z-index: 500;
-    }
+#lrMenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; 
+    -webkit-box-orient: horizontal; 
+    -webkit-box-direction: normal; 
+    -ms-flex-direction: row; 
+    flex-direction: row; 
+    height: 67px;
+    width: 100%;
+    background-color: $white;
+    border-bottom: 1px solid $blue;
+    position: fixed;
+    top: 0;
+    z-index: 500;
+}
     /* Company logo */
     .lrLogoContainer {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center; 
     }
     .lrLogo {
         height: 65px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex; 
+        -webkit-box-align: center; 
+        -ms-flex-align: center; 
         align-items: center;
     }
     .lrMenuContainer {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
     .menuItems {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
         justify-content: flex-end;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
         flex-direction: row;
         width: 100%; 
+        -webkit-box-align: center; 
+        -ms-flex-align: center; 
         align-items: center;
         a {
             padding: 0 20px;
@@ -120,13 +144,19 @@ export default {
         }
         img {
             height: 15px;
+            /* min height to get IE happy */
+            min-width: 100%;  
         }  
     }   
     /*####################
     Menu on small screens
     ####################*/
     .smallScreenMenuContainer {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
     #open-menu div {
@@ -143,6 +173,8 @@ export default {
         position: fixed;
         right: 0;
         top: 0;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
         transition: all 0.5s;
         width: 0%;
         z-index: 500;
@@ -154,6 +186,8 @@ export default {
             text-decoration: none;
             white-space: nowrap;
             border-bottom: 1px solid transparent;
+            -webkit-transition: all 0.4s ease-in-out;
+            -o-transition: all 0.4s ease-in-out;
             transition: all 0.4s ease-in-out;
         }
         a:hover {
@@ -176,10 +210,10 @@ export default {
             }
         }
     }
+    /* the added class to get the menu to fold out over the screen */
     .active {
         width: 100%;
     }
-
     .overlay-content {
         position: relative;
         text-align: center;
@@ -196,6 +230,8 @@ export default {
         }
         .lrMenuContainer {
             width: 90%;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
             justify-content: space-between;
         }
     }
