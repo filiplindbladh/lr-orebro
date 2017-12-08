@@ -1,6 +1,6 @@
 <template>
     <div class="lrSection">
-        <div class="banner parallax overlay">
+        <div class="banner parallax overlay" :style="style">
             <div class="container section">
                 <div class="columns">
                     <div class="column">
@@ -57,7 +57,7 @@
         }
     }
     .parallax { 
-        background-image: url("../img/lrImage.jpg");
+
         height: 250px; 
         /* Create the parallax scrolling effect */
         background-attachment: fixed;

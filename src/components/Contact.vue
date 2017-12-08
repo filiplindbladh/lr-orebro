@@ -65,10 +65,6 @@ export default {
   .header-container img {
     margin-left:20px; 
   }
-  .contact {
-    z-index: 400;
-    right: 15px;
-  }
   img {
     max-width: 16%;  
     }
