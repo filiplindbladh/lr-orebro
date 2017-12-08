@@ -175,57 +175,67 @@ export default {
 
 <style lang="scss">
 @import '../style/main.scss';
-  .lrHeaderLine {
-    background-color: $red;
-    height:5px; 
+.lrHeaderLine {
+  background-color: $red;
+  height:5px; 
+}
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; 
+  -webkit-box-orient: vertical; 
+  -webkit-box-direction: normal; 
+      -ms-flex-direction: column; 
+          flex-direction: column; 
+}
+.staffContainer {
+  position: relative;
+}
+.staffInfo {
+  display: none;
+  margin: auto;
+  position: absolute;
+  left: 0; right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  .fa {
+    margin: 15px 12px 0 12px;
+    color: $white;
+    font-size: 25px;
   }
-  .section {
-    display: flex;
-    align-items: center; 
-    flex-direction: column; 
+  .fa-phone {
+    font-size: 30px;
   }
-  .staffContainer {
-    position: relative;
+  .fa-paper-plane {
+    margin-bottom: 5px;
   }
-  .staffInfo {
-    display: none;
-    margin: auto;
-    position: absolute;
-    left: 0; right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    .fa {
-      margin: 15px 12px 0 12px;
-      color: $white;
-      font-size: 25px;
-    }
-    .fa-phone {
-      font-size: 30px;
-    }
-    .fa-paper-plane {
-      margin-bottom: 5px;
-    }
-    span {
-      color: $black;
-      font-weight: bold;
-    }
+  span {
+    color: $black;
+    font-weight: bold;
   }
-  .mainText {
-    text-align: center;
-    width: 70%;
-    margin-bottom: 30px;
+}
+.mainText {
+  text-align: center;
+  width: 70%;
+  margin-bottom: 30px;
+}
+.lrPictures {
+  text-align: center; 
+}
+.lrStaffMember {
+  width: 250px;
+  height: auto;
+}
+.staffContainer:hover .lrStaffMember {
+    -webkit-filter: blur(2px) grayscale(100%);
+            filter: blur(2px) grayscale(100%);
   }
-  .lrPictures {
-    text-align: center; 
-  }
-  .lrStaffMember {
-    width: 250px;
-    height: auto;
-  }
-  .staffContainer:hover .lrStaffMember {
-      filter: blur(2px) grayscale(100%);
-    }
-  .staffContainer:hover .staffInfo {
-    display: block;
-  } 
+.staffContainer:hover .staffInfo {
+  display: block;
+} 
 </style>
