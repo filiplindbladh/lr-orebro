@@ -40,6 +40,7 @@
     @import '../style/main.scss';
     .banner {
         display: flex;
+        -ms-display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -68,14 +69,21 @@
         background-size: cover;
         position: relative;
     }
+    /* for IE to know the width of the columns */
+    .columns {
+        min-width: 100%;
+    }
     /* to center the content inside */
     .column {
         color: $green;
         justify-content: center;
         display: flex;
+        -ms-display: flex;
     }
     .contactInfo {
         display: flex;
+        -ms-display: flex;
+        -ms-flex-direction: row;
         flex-direction: row;
         align-items: center;
         width: 100%;
