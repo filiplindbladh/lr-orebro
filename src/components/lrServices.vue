@@ -128,6 +128,7 @@
         width: 0;
         height: 0;
         right: 0;
+        top: 0;
         border-bottom: 300px solid $blue;
         border-left: 298px solid transparent;
         z-index: 1; 
