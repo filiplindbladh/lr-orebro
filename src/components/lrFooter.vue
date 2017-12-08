@@ -39,7 +39,7 @@ export default {
 <style scoped lang="scss">
 @import '../style/main.scss';
 .footer {
-  background-color:$blue; 
+  background-color:$blue !important; 
   height:100%; 
   position:relative; 
   a, p, h4 {

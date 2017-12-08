@@ -10,7 +10,7 @@
                 <section class="modal-card-body">
                 <h1>Hej</h1>
                 <img src="../img/waving-hand.png">
-                <p class="mainText">Vad kan vi hjälpa dig med? Skriv ett meddelande så kontaktar vi dig</p>
+                <p>Vad kan vi hjälpa dig med? Skriv ett meddelande så kontaktar vi dig</p>
                 <form action="">
                     <div class="control has-icons-left has-icons-right">
                     <input class="input" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$" type="email" placeholder="Email">

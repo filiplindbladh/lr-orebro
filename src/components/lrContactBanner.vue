@@ -55,9 +55,11 @@
                 color: $white;
             }
         }
+        .section {
+            width: 100%;
+        }
     }
     .parallax { 
-
         height: 250px; 
         /* Create the parallax scrolling effect */
         background-attachment: fixed;

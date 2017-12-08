@@ -6,7 +6,7 @@
         <div class="services">
             <a href="#"> 
                 <div class="box redovisning">
-                    <img id="image" src="../img/accounting_icon.svg" alt="redovisning.png">
+                    <img class="boxImage" src="../img/accounting_icon.svg" alt="redovisning.png">
                     <h3>redovisning</h3>
                     <div class="triangle-bottomright"></div>
                 </div>
@@ -20,7 +20,7 @@
             </a>
             <a href="#"> 
                 <div class="box revision"> 
-                    <img src="../img/revision_icon.svg" alt="revision.png">
+                    <img class="boxImage" src="../img/revision_icon.svg" alt="revision.png">
                     <h3>revision</h3>
                     <div class="triangle-bottomright"></div>
                 </div>
@@ -52,16 +52,14 @@
         text-align:center; 
     }
     .section {
-    display: flex;
-    align-items: center; 
-    flex-direction: column; 
+        display: flex;
+        align-items: center; 
+        flex-direction: column; 
     }
-
     .lrHeaderLine {
         background-color: $red;
         height:5px; 
     }
-
     .services {
         width:100%; 
         display: flex; 
@@ -97,7 +95,8 @@
         color:$black; 
     }
     .consulting img {
-         width: 80%;
+        width: 80%;
+        height: 211px;
     }
     .triangle-bottomright {
         transition: all .3s ease-in-out;
@@ -109,10 +108,13 @@
         z-index: 1; 
         position:absolute; 
     }
-
     p {
         text-align:center; 
         width:70%; 
+    }
+    .services .box .boxImage {
+        height: 211px;
+        max-width: 100%;
     }
     /* ****************** MEDIAQUERIES ****************** */
     @media screen and (max-width: $tablet - 1px) {

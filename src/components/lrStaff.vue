@@ -176,9 +176,9 @@ export default {
 <style lang="scss">
 @import '../style/main.scss';
   .lrHeaderLine {
-        background-color: $red;
-        height:5px; 
-    }
+    background-color: $red;
+    height:5px; 
+  }
   .section {
     display: flex;
     align-items: center; 
@@ -209,9 +209,6 @@ export default {
       color: $black;
       font-weight: bold;
     }
-    /* a {
-      border: 1px solid red;
-    } */
   }
   .mainText {
     text-align: center;
