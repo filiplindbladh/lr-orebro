@@ -7,8 +7,8 @@
             <div class="menuItems">
                 <router-link to="/">START</router-link> 
                 <router-link to="/tjanster">TJÄNSTER</router-link>
-                <a class="menuItem" href="#">OM OSS</a>
-                <a class="menuItem" href="#">KONTAKT</a>
+                <router-link to="/om-oss">OM OSS</router-link>
+                <router-link to="/kontakta-oss">KONTAKT</router-link>
                 <router-link to="/online">LR-ONLINE</router-link>
                 <a class="button is-primary is-outlined lr-button-fortnox"><img src="../img/fortnox.png"><img class="hoverFortnox" src="../img/fortnoxHover.png"></a>
             </div>
