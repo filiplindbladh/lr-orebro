@@ -2,8 +2,7 @@
     <div>
         <div class="contactImage overlay">
             <div class="quote">
-                <div class="quoteText"><i class="fa fa-quote-left" aria-hidden="true"></i>Vi ser fram emot</div>  
-                <div class="quoteText textIn">att höra från dig!</div>
+                <div class="quoteText"><h3>Vi ser fram emot att höra från dig!</h3></div>
             </div>
         </div>
         <div class="section container contactUs">
@@ -235,7 +234,6 @@ export default {
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
-        font-family: 'Playfair Display', serif;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;

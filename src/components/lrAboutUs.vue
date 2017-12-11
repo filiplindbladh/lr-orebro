@@ -2,8 +2,7 @@
     <div>
         <div class="aboutUsImage overlay">
             <div class="quote">
-                <div class="quoteText"><i class="fa fa-quote-left" aria-hidden="true"></i>Lär känna oss i personalen</div>  
-                <div class="quoteText textIn">på Lr Revision i Örebro!</div>
+                <div class="quoteText"><h3>Lär känna oss i personalen på Lr Revision i Örebro!</h3></div>
             </div>
         </div>
         <div class="section">
@@ -24,7 +23,6 @@ export default {
 .quote {
     display: flex;
     align-items: center;
-    font-family: 'Playfair Display', serif;
     justify-content: center;
     flex-direction: column;
     color: $white;
