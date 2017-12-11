@@ -7,7 +7,7 @@
             </div>
         </div>
         <vue-tabs active-tab-color="white" active-text-color="black" centered>
-            <v-tab title="Redovisning" icon="fa-calculator">
+            <v-tab title="Redovisning">
                 <div class="section tab-content">
                     <h3>Redovisning</h3>
                     <hr class="lrHeaderLine"> 
@@ -106,11 +106,20 @@ export default {
 
     /* styling for quote inside header */
      .quote {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         font-family: 'Playfair Display', serif;
-        justify-content: center;
-        flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         color: $white;
         font-size: 28px;
         height: 100%;
@@ -152,22 +161,38 @@ export default {
             color:white; 
         }
     }
+     .tabs__link:hover > .title {
+        color:black; 
+    }
     .leadText {
         margin-bottom:40px; 
         width:70%;
     }
     .tab-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction:column; 
-        align-items:center; 
-        justify-content:center;  
+        -webkit-box-orient:vertical;
+        -webkit-box-direction:normal;
+            -ms-flex-direction:column;
+                flex-direction:column; 
+        -webkit-box-align:center; 
+            -ms-flex-align:center; 
+                align-items:center; 
+        -webkit-box-pack:center; 
+            -ms-flex-pack:center; 
+                justify-content:center;  
         .tab-container {
             display: block;
-            animation: fadeIn 0.5s;
+            -webkit-animation: fadeIn 0.5s;
+                    animation: fadeIn 0.5s;
         }
     }
     .icon {
         height:10px; 
+    }
+    .lrHeaderLine {
+        color:$red;
     }
 
 

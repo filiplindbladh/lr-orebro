@@ -11,7 +11,10 @@
       </div>       
     </div>
   <div class="bannerButton">
-    <a class="button is-primary is-outlined lr-button-fortnox">ÅTERKOM MED EN OFFERT</a>
+    <a class="button is-primary is-outlined lr-button-fortnox">
+      ÅTERKOM MED EN OFFERT 
+      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+    </a>
   </div> 
 </div>
 </template>
@@ -31,13 +34,26 @@ export default {
 @import '../style/main.scss';
   .bannerSlider {
     width:100%; 
+    display:-webkit-box; 
+    display:-ms-flexbox; 
     display:flex; 
-    flex-direction:row; 
-    justify-content:space-around; 
+    -webkit-box-orient:horizontal; 
+    -webkit-box-direction:normal; 
+        -ms-flex-direction:row; 
+            flex-direction:row; 
+    -ms-flex-pack:distribute; 
+        justify-content:space-around; 
   }
   .bannerButton {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content:center; 
+    -webkit-box-pack:center;
+        -ms-flex-pack:center;
+            justify-content:center; 
+    i {
+      margin-left:10px; 
+    }
   }
   .bannerSliderContainer {
     background-color:$grey;
