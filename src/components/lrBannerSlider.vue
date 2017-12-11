@@ -60,5 +60,8 @@ export default {
     width:100%; 
     height: 250px;  
   }
+  .bannerItem {
+    margin-top:30px; 
+  }
 
 </style>
