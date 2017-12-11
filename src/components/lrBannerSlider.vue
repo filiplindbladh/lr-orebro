@@ -3,11 +3,11 @@
   <div class="bannerSlider section">
       <div class="bannerItem">
         <vue-slider ref="slider" v-model="value"></vue-slider>
-        <p>Hur många fakturor har ni?</p>
+        <h5>Hur många fakturor har ni?</h5>
       </div> 
       <div class="bannerItem">
         <vue-slider ref="slider" v-model="value"></vue-slider>
-        <p>Hur många anställda har ni?</p>
+        <h5>Hur många anställda har ni?</h5>
       </div>       
     </div>
   <div class="bannerButton">
@@ -38,10 +38,11 @@ export default {
   .bannerButton {
     display: flex;
     justify-content:center; 
-    margin-bottom:40px; 
   }
   .bannerSliderContainer {
-    background-color:$grey; 
+    background-color:$grey;
+    width:100%; 
+    height: 250px;  
   }
 
 </style>
