@@ -23,6 +23,7 @@ export default {
 <style scoped lang="scss">
 @import '../style/main.scss';
 .section {
+    margin-top:67px; 
     display: flex;
     justify-content: center; 
     align-items:center; 

@@ -11,6 +11,7 @@
                 <h1>Hej</h1>
                 <img src="../img/waving-hand.png">
                 <p>Vad kan vi hjälpa dig med? Skriv ett meddelande så kontaktar vi dig</p>
+
                 <form action="">
                     <div class="control has-icons-left has-icons-right">
                     <input class="input" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$" type="email" placeholder="Email">
@@ -31,11 +32,11 @@
             </div>
         </div>
     </div>
-
-    
 </template>
 
 <script>
+import { required, minLength } from 'vuelidate/lib/validators'
+
 export default {
   name: 'contactModal',
   props: ['activate'],
@@ -43,22 +44,24 @@ export default {
     close () {
       this.$emit('closeRequest')
     }
+  },
+  data () {
+    return {
+      email: ''
+    }
+  },
+  validations: {
+    email: {
+      required,
+      minLength: minLength(4)
+    }
   }
 }
 </script>
 
 <style scoped lang="scss">
     @import '../style/main.scss';
-    /* this styling for IE to position the modal right */
-    .modal > .modal-card {
-        margin-left: auto;
-        margin-right: auto;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-    }
+
     h1 {
         display:inline; 
     }
@@ -73,7 +76,7 @@ export default {
         background-color:$white; 
     }
     input:valid  {
-        border: 2px solid $green; 
+       // border: 2px solid $green; 
     }
     input:valid > .is-right.fa-check {
         color: $green; 
@@ -83,5 +86,9 @@ export default {
     }
     form {
         margin-top:20px; 
+    }
+    .modal {
+        height:100%; 
+        z-index:999999999; 
     }
 </style>

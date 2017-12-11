@@ -42,6 +42,7 @@ export default {
 <style scoped lang="scss">
 @import '../style/main.scss';
 .flex {
+    margin-top:67px; 
     height:100%; 
     display:-webkit-box; 
     display:-ms-flexbox; 

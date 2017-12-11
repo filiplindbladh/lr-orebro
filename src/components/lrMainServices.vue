@@ -2,8 +2,7 @@
     <div>
         <div class="accounting-stockphoto overlay">
             <div class="quote">
-                <div class="quoteText"><i class="fa fa-quote-left" aria-hidden="true"></i>Vi kan erbjuda ett stort utbud av tjänster</div>  
-                <div class="quoteText textIn">inom redovisning och administration</div>
+                <h3>Vi kan erbjuda ett stort utbud av tjänster inom redovisning och administration.</h3>
             </div>
         </div>
         <vue-tabs active-tab-color="white" active-text-color="black" centered>
@@ -106,39 +105,18 @@ export default {
 
     /* styling for quote inside header */
      .quote {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        font-family: 'Playfair Display', serif;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        color: $white;
-        font-size: 28px;
+        color: white;
         height: 100%;
-        .textIn {
-            margin-left: 130px;
-        }
-        span {
-            font-size: 40px;
-            font-weight: bold;
-            z-index: 1000;
-        }
-        .quoteText {
-            z-index: 300;
-            margin-top: 0;
-            margin-bottom:0;
-        }
-        .fa {
-            font-size: 40px;
-            padding-right: 20px;
+        position:relative; 
+        margin-left:50px; 
+        display:flex; 
+        align-items:center; 
+        h3 {
+            color:white; 
+            z-index:999999999; 
+            width:50%; 
+            font-size:40px; 
+            margin-left:50px; 
         }
     }
     .accounting-stockphoto {
@@ -149,7 +127,8 @@ export default {
         background-size:cover; 
         width:100%; 
         height:250px; 
-        position:relative; 
+        position:relative;
+        z-index:-1;  
     }
     .vue-tabs .nav > li span.title {
         font-size:20px; 
