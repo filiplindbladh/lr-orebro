@@ -74,6 +74,7 @@
 <script>
 import {VueTabs, VTab} from 'vue-nav-tabs'
 import Icon from 'vue-awesome/components/Icon.vue'
+require('vue-animate/dist/vue-animate.min.css')
 
 export default {
   name: 'lrMainServices',
@@ -162,7 +163,7 @@ export default {
         justify-content:center;  
         .tab-container {
             display: block;
-            animation: fadeIn 0.3s;
+            animation: fadeIn 0.5s;
         }
     }
     .icon {
