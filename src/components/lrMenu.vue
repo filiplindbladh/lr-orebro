@@ -10,7 +10,7 @@
                 <router-link to="/om-oss">OM OSS</router-link>
                 <router-link to="/kontakta-oss">KONTAKT</router-link>
                 <router-link to="/online">LR-ONLINE</router-link>
-                <a class="button is-primary is-outlined lr-button-fortnox"><img src="../img/fortnox.png"><img class="hoverFortnox" src="../img/fortnoxHover.png"></a>
+                <router-link to="/fortnox">FORTNOX</router-link>
             </div>
             <div class="smallScreenMenuContainer is-hidden-desktop">
                 <!-- Menu open button -->
@@ -30,8 +30,7 @@
                     <li><a href='#'>OM OSS</a></li>
                     <li><a href='#'>KONTAKT</a></li>
                     <li><router-link to="/online">LR-ONLINE</router-link></li>
-                    <!-- <li><a class="button is-primary is-outlined lr-button-online">LR-ONLINE</a></li> -->
-                    <li><a href="#"><img class="hoverFortnox" src="../img/fortnoxHover.png"></a></li>
+                    <li><router-link to="/fortnox">FORTNOX</router-link></li>
                 </ul> 
             </nav>
         </div>

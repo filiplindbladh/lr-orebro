@@ -5,6 +5,7 @@ import Services from '@/components/Services'
 import Contact from '@/components/Contact'
 import About from '@/components/About'
 import lrOnline from '@/components/lrOnline'
+import Fortnox from '@/components/Fortnox'
 
 Vue.use(Router)
 
@@ -37,6 +38,11 @@ export default new Router({
       path: '/om-oss',
       name: 'About',
       component: About
+    }, 
+    {
+      path: '/fortnox',
+      name: 'Fortnox', 
+      component: Fortnox
     }
   ]
 })
