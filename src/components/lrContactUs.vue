@@ -228,84 +228,112 @@ export default {
 <style lang="scss">
     @import '../style/main.scss';
             /* styling for quote inside header */
-        .quote {
-            display: flex;
-            align-items: center;
-            font-family: 'Playfair Display', serif;
-            justify-content: center;
-            flex-direction: column;
-            color: $white;
-            font-size: 28px;
-            height: 100%;
-        .textIn {
-            margin-left: 130px;
-        }
-        span {
-            font-size: 40px;
-            font-weight: bold;
-            z-index: 1000;
-        }
-        .quoteText {
-            z-index: 300;
-            margin-top: 0;
-            margin-bottom:0;
-        }
-        .fa {
-            font-size: 40px;
-            padding-right: 20px;
-        }
+    .quote {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        font-family: 'Playfair Display', serif;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        color: $white;
+        font-size: 28px;
+        height: 100%;
+    .textIn {
+        margin-left: 130px;
     }
-    .contactImage {
-        margin-top:67px; 
-        background-image: url("../img/contact.jpeg"); 
-        background-repeat: no-repeat; 
-        background-position:center; 
-        background-size:cover; 
-        width:100%; 
-        height:250px; 
-        position:relative; 
+    span {
+        font-size: 40px;
+        font-weight: bold;
+        z-index: 1000;
     }
+    .quoteText {
+        z-index: 300;
+        margin-top: 0;
+        margin-bottom:0;
+    }
+    .fa {
+        font-size: 40px;
+        padding-right: 20px;
+    }
+}
+.contactImage {
+    margin-top:67px; 
+    background-image: url("../img/contact.jpeg"); 
+    background-repeat: no-repeat; 
+    background-position:center; 
+    background-size:cover; 
+    width:100%; 
+    height:250px; 
+    position:relative; 
+}
 
-    .mainText {
-        width: 70%;
-        text-align: center;
+.mainText {
+    width: 70%;
+    text-align: center;
+}
+    .contactUs .head {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        margin-bottom: 50px;
     }
-        .contactUs .head {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            margin-bottom: 50px;
-        }
-        .work {
-            background-color: $grey;
-            display: flex;
-            align-items: center;
-            text-align: center;
-            flex-direction: column;
-            width: 100%;
-            height: 250px;
-            justify-content: center;
-        }
-        .fa {
-            margin-right: 5px;
-        }
-        .lrContactPictures {
-            text-align: center; 
-            width: 100%;
-        }
-        .lrStaffMember {
-            width: 250px;
-            height: auto;
-        }
-        .staffContainer {
-            border: 1px solid $grey;
-        }
-        .staffInfo {
-            text-align: left;
-            padding-bottom: 20px;
-            width: 250px;
-            margin: 0 auto;
-        }
+    .work {
+        background-color: $grey;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        text-align: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        width: 100%;
+        height: 250px;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .fa {
+        margin-right: 5px;
+    }
+    .staffInfo > .fa-mobile {
+        font-size: 22px;
+    }
+    .lrContactPictures {
+        text-align: center; 
+        width: 100%;
+    }
+    .lrStaffMember {
+        width: 250px;
+        height: auto;
+    }
+    .staffContainer {
+        border: 1px solid $grey;
+    }
+    .staffInfo {
+        text-align: left;
+        padding-bottom: 20px;
+        width: 250px;
+        margin: 0 auto;
+    }
         /* .imageTitle {
             position: relative;
         } */
