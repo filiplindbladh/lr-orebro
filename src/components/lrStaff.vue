@@ -179,7 +179,7 @@ export default {
   background-color: $red;
   height:5px; 
 }
-.section {
+.lrStaff {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -226,6 +226,7 @@ export default {
 }
 .lrPictures {
   text-align: center; 
+  width: 100%;
 }
 .lrStaffMember {
   width: 250px;

@@ -6,7 +6,7 @@
   <lrHeader></lrHeader>
   <!-- contact -->
   <div class="contact">
-  <Contact></Contact>
+  <contactBubble></contactBubble>
   </div> 
   <!-- services -->
   <lrServices></lrServices>
@@ -34,7 +34,7 @@
 
 <script>
 import 'font-awesome/css/font-awesome.css'
-import Contact from '@/components/Contact.vue'
+import contactBubble from '@/components/contactBubble.vue'
 import lrMenu from '@/components/lrMenu.vue'
 import lrHeader from '@/components/lrHeader.vue'
 import lrContactBanner from '@/components/lrContactBanner.vue'
@@ -48,7 +48,7 @@ import VueImgLoader from 'vue-img-loader'
 export default {
   name: 'Start',
   components: {
-    Contact,
+    contactBubble,
     lrMenu,
     lrHeader,
     lrServices,
