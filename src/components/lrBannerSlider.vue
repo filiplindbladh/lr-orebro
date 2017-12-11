@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="bannerSliderContainer">
   <div class="bannerSlider section">
       <div class="bannerItem">
         <vue-slider ref="slider" v-model="value"></vue-slider>
@@ -39,6 +39,9 @@ export default {
     display: flex;
     justify-content:center; 
     margin-bottom:40px; 
+  }
+  .bannerSliderContainer {
+    background-color:$grey; 
   }
 
 </style>
