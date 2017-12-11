@@ -2,7 +2,7 @@
     <div>
         <div class="aboutUsImage overlay">
             <div class="quote">
-                <div class="quoteText"><h3>Lär känna oss i personalen på Lr Revision i Örebro!</h3></div>
+                <div class="quoteTextAbout"><h3>Lär känna oss i personalen på Lr Revision i Örebro!</h3></div>
             </div>
         </div>
         <div class="section">
@@ -17,7 +17,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
     @import '../style/main.scss';
 /* styling for quote inside header */
 .quote {
@@ -36,10 +36,12 @@ export default {
         font-weight: bold;
         z-index: 1000;
     }
-    .quoteText {
+    .quoteTextAbout {
         z-index: 300;
         margin-top: 0;
         margin-bottom:0;
+        text-align: center;
+        width: 90%;
     }
     .fa {
         font-size: 40px;

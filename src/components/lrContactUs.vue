@@ -2,7 +2,7 @@
     <div>
         <div class="contactImage overlay">
             <div class="quote">
-                <div class="quoteText"><h3>Vi ser fram emot att höra från dig!</h3></div>
+                <div class="quoteTextContact"><h3>Vi ser fram emot att höra från dig!</h3></div>
             </div>
         </div>
         <div class="section container contactUs">
@@ -16,12 +16,12 @@
             </div>
             <div class="columns is-mobile is-multiline lrContactPictures">
                 <div class="column is-mobile is-half-tablet is-one-third-desktop"> 
-                    <div class="staffContainer">
+                    <div class="staffContactContainer">
                         <div class="imageTitle">
                             <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
-                            <div class="staffInfo">		
+                            <div class="staffContactInfo">		
                                 <strong><h5>Peter Lindbladh</h5></strong>
                                 <br/><strong>Auktoriserad revisor</strong>
                                 <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 57
@@ -32,12 +32,12 @@
                     </div>
                 </div>
                 <div class="column is-mobile is-half-tablet is-one-third-desktop">
-                    <div class="staffContainer">
+                    <div class="staffContactContainer">
                        <div class="imageTitle">
                             <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
-                            <div class="staffInfo">
+                            <div class="staffContactInfo">
                                 <strong><h5>Peter Lindbladh</h5></strong>		
                                 <br/><strong>Auktoriserad revisor</strong>
                                 <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 57
@@ -48,12 +48,12 @@
                     </div>
                 </div>
                 <div class="column is-mobile is-half-tablet is-one-third-desktop">
-                    <div class="staffContainer">
+                    <div class="staffContactContainer">
                         <div class="imageTitle">
                             <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
-                            <div class="staffInfo">
+                            <div class="staffContactInfo">
                                 <strong><h5>Peter Lindbladh</h5></strong>		
                                 <br/><strong>Auktoriserad revisor</strong>
                                 <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 57
@@ -64,12 +64,12 @@
                     </div>
                 </div>
                 <div class="column is-mobile is-half-tablet is-one-third-desktop">
-                    <div class="staffContainer">
+                    <div class="staffContactContainer">
                         <div class="imageTitle">
                             <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
-                            <div class="staffInfo">
+                            <div class="staffContactInfo">
                                 <strong><h5>Peter Lindbladh</h5></strong>		
                                 <br/><strong>Auktoriserad revisor</strong>
                                 <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 57
@@ -80,12 +80,12 @@
                     </div>
                 </div>
                 <div class="column is-mobile is-half-tablet is-one-third-desktop">
-                    <div class="staffContainer">
+                    <div class="staffContactContainer">
                         <div class="imageTitle">
                             <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
-                            <div class="staffInfo">		
+                            <div class="staffContactInfo">		
                                 <strong><h5>Peter Lindbladh</h5></strong>
                                 <br/><strong>Auktoriserad revisor</strong>
                                 <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 57
@@ -96,12 +96,12 @@
                     </div>
                 </div>
                 <div class="column is-mobile is-half-tablet is-one-third-desktop">
-                    <div class="staffContainer">
+                    <div class="staffContactContainer">
                         <div class="imageTitle">
                             <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
-                            <div class="staffInfo">
+                            <div class="staffContactInfo">
                                 <strong><h5>Peter Lindbladh</h5></strong>		
                                 <br/><strong>Auktoriserad revisor</strong>
                                 <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 57
@@ -112,12 +112,12 @@
                     </div>
                 </div>
                 <div class="column is-mobile is-half-tablet is-one-third-desktop">
-                    <div class="staffContainer">
+                    <div class="staffContactContainer">
                         <div class="imageTitle">
                             <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
-                            <div class="staffInfo">		
+                            <div class="staffContactInfo">		
                                 <strong><h5>Peter Lindbladh</h5></strong>
                                 <br/><strong>Auktoriserad revisor</strong>
                                 <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 57
@@ -128,12 +128,12 @@
                     </div>
                 </div>
                 <div class="column is-mobile is-half-tablet is-one-third-desktop">
-                    <div class="staffContainer">
+                    <div class="staffContactContainer">
                         <div class="imageTitle">
                             <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
-                            <div class="staffInfo">		
+                            <div class="staffContactInfo">		
                                 <strong><h5>Peter Lindbladh</h5></strong>
                                 <br/><strong>Auktoriserad revisor</strong>
                                 <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 57
@@ -144,12 +144,12 @@
                     </div>
                 </div>
                 <div class="column is-mobile is-half-tablet is-one-third-desktop">
-                    <div class="staffContainer">
+                    <div class="staffContactContainer">
                         <div class="imageTitle">
                             <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
-                            <div class="staffInfo">		
+                            <div class="staffContactInfo">		
                                 <strong><h5>Peter Lindbladh</h5></strong>
                                 <br/><strong>Auktoriserad revisor</strong>
                                 <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 57
@@ -160,12 +160,12 @@
                     </div>
                 </div>
                 <div class="column is-mobile is-half-tablet is-one-third-desktop">
-                    <div class="staffContainer">
+                    <div class="staffContactContainer">
                         <div class="imageTitle">
                             <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
-                            <div class="staffInfo">		
+                            <div class="staffContactInfo">		
                                 <strong><h5>Peter Lindbladh</h5></strong>
                                 <br/><strong>Auktoriserad revisor</strong>
                                 <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 57
@@ -176,12 +176,12 @@
                     </div>
                 </div>
                 <div class="column is-mobile is-half-tablet is-one-third-desktop">
-                    <div class="staffContainer">
+                    <div class="staffContactContainer">
                         <div class="imageTitle">
                             <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
-                            <div class="staffInfo">	
+                            <div class="staffContactInfo">	
                                 <strong><h5>Peter Lindbladh</h5></strong>	
                                 <br/><strong>Auktoriserad revisor</strong>
                                 <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 57
@@ -192,12 +192,12 @@
                     </div>
                 </div>
                 <div class="column is-mobile is-half-tablet is-one-third-desktop">
-                    <div class="staffContainer">
+                    <div class="staffContactContainer">
                         <div class="imageTitle">
                             <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
-                            <div class="staffInfo">		
+                            <div class="staffContactInfo">		
                                 <strong><h5>Peter Lindbladh</h5></strong>
                                 <br/><strong>Auktoriserad revisor</strong>
                                 <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 57
@@ -224,7 +224,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
     @import '../style/main.scss';
             /* styling for quote inside header */
     .quote {
@@ -252,10 +252,12 @@ export default {
         font-weight: bold;
         z-index: 1000;
     }
-    .quoteText {
+    .quoteTextContact {
         z-index: 300;
         margin-top: 0;
         margin-bottom:0;
+        text-align: center;
+        width: 90%;
     }
     .fa {
         font-size: 40px;
@@ -323,10 +325,11 @@ export default {
         width: 250px;
         height: auto;
     }
-    .staffContainer {
+    .staffContactContainer {
+        position: relative;
         border: 1px solid $grey;
     }
-    .staffInfo {
+    .staffContactInfo {
         text-align: left;
         padding-bottom: 20px;
         width: 250px;
