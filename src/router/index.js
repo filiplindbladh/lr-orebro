@@ -2,8 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Start from '@/components/Start'
 import Services from '@/components/Services'
-import ContactUs from '@/components/ContactUs'
-import AboutUs from '@/components/AboutUs'
+import Contact from '@/components/Contact'
+import About from '@/components/About'
 import lrOnline from '@/components/lrOnline'
 
 Vue.use(Router)
@@ -30,13 +30,13 @@ export default new Router({
     },
     {
       path: '/kontakta-oss',
-      name: 'ContactUs',
-      component: ContactUs
+      name: 'Contact',
+      component: Contact
     },
     {
       path: '/om-oss',
-      name: 'AboutUs',
-      component: AboutUs
+      name: 'About',
+      component: About
     }
   ]
 })
