@@ -38,10 +38,10 @@ export default new Router({
       path: '/om-oss',
       name: 'About',
       component: About
-    }, 
+    },
     {
       path: '/fortnox',
-      name: 'Fortnox', 
+      name: 'Fortnox',
       component: Fortnox
     }
   ]
