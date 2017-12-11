@@ -2,8 +2,8 @@
     <div>
         <div class="aboutUsImage overlay">
             <div class="quote">
-                <div class="quoteText"><i class="fa fa-quote-left" aria-hidden="true"></i>Vi ser fram emot</div>  
-                <div class="quoteText textIn">att höra från dig!</div>
+                <div class="quoteText"><i class="fa fa-quote-left" aria-hidden="true"></i>Lär känna oss i personalen</div>  
+                <div class="quoteText textIn">på Lr Revision i Örebro!</div>
             </div>
         </div>
         <div class="section">

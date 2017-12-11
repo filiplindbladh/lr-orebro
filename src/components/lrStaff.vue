@@ -5,7 +5,7 @@
 
     <p class="mainText">I samband med rådgivningen möter du ofta fler medarbetare hos oss, t.ex redovisningskonsulter, företagsrådvigare, skatteexperter. Vi analyserar inte bara det föregående året, utan kan även hjälpa dig med att se framåt och göra analyser och antaganden.</p>
 
-    <!-- pictures of staff -->
+    <!-- pictures of the staff -->
     <div class="columns is-mobile is-multiline lrPictures">
       <div class="column is-half-mobile is-one-quarter-tablet"> 
         <div class="staffContainer">
