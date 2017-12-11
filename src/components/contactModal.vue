@@ -49,7 +49,16 @@ export default {
 
 <style scoped lang="scss">
     @import '../style/main.scss';
-
+    /* this styling for IE to position the modal right */
+    .modal > .modal-card {
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
     h1 {
         display:inline; 
     }
