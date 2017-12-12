@@ -283,7 +283,6 @@ export default {
     }
     .mainText {
         width: 70%;
-        text-align: center;
     }
     .contactUs .head {
         display: -webkit-box;

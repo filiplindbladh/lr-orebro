@@ -92,7 +92,6 @@ export default {
         }
     .mainText {
         width: 70%;
-        text-align: center;
     }
     .lrHeaderLine {
         background-color: $red;
