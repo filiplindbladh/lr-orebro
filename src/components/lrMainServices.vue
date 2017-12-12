@@ -90,7 +90,7 @@ export default {
       type: 'center'
     },
     centered: true
-  },
+  }
 }
 </script>
 
