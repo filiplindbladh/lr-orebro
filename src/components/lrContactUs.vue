@@ -344,4 +344,12 @@ export default {
         width: 250px;
         margin: 0 auto;
     }
+     /* MEDIA QUERYS */ 
+    @media screen and (max-width: $tablet - 1px) {
+    .quote {
+        h3 {
+        font-size: 5vw;
+        }
+    }
+}
 </style>

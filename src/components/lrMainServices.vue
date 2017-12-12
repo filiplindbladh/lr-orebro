@@ -91,12 +91,6 @@ export default {
     },
     centered: true
   },
-
-  computed: {
-    style () {
-      return 'font-size:20px;'
-    }
-  }
 }
 </script>
 
@@ -182,4 +176,12 @@ export default {
     .lrHeaderLine {
         background-color: $red;
     }
+    /* MEDIA QUERYS */ 
+    @media screen and (max-width: $tablet - 1px) {
+    .quote {
+        h3 {
+        font-size: 5vw;
+        }
+    }
+  }
 </style>
