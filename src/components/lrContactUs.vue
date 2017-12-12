@@ -26,7 +26,7 @@
                                 <br/><strong>Auktoriserad revisor</strong>
                                 <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 57
                                 <br/><i class="fa fa-mobile" aria-hidden="true"></i>070-697 79 99
-                                <br/><i class="fa fa-envelope-o" aria-hidden="true"></i>peter.lindbladh@lr-revision.se
+                                <br/><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:peter.lindbladh@lr-revision.se">peter.lindbladh@lr-revision.se</a>
                             </div>
                         </div>
                     </div>
@@ -38,11 +38,11 @@
                         </div>
                         <div class="imageInfo">
                             <div class="staffContactInfo">
-                                <strong><h5>Peter Lindbladh</h5></strong>		
-                                <br/><strong>Auktoriserad revisor</strong>
-                                <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 57
-                                <br/><i class="fa fa-mobile" aria-hidden="true"></i>070-697 79 99
-                                <br/><i class="fa fa-envelope-o" aria-hidden="true"></i>peter.lindbladh@lr-revision.se
+                                <strong><h5>Ulf Ludvigsson</h5></strong>		
+                                <br/><strong>Auktoriserad redovisningskonsult</strong>
+                                <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 54
+                                <br/><i class="fa fa-mobile" aria-hidden="true"></i>070-231 99 59
+                                <br/><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:thomas.allard@lr-revision.se">thomas.allard@lr-revision.se</a>
                             </div>
                         </div>
                     </div>
@@ -54,11 +54,11 @@
                         </div>
                         <div class="imageInfo">
                             <div class="staffContactInfo">
-                                <strong><h5>Peter Lindbladh</h5></strong>		
+                                <strong><h5>Thomas Allard</h5></strong>		
                                 <br/><strong>Auktoriserad revisor</strong>
-                                <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 57
-                                <br/><i class="fa fa-mobile" aria-hidden="true"></i>070-697 79 99
-                                <br/><i class="fa fa-envelope-o" aria-hidden="true"></i>peter.lindbladh@lr-revision.se
+                                <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 53
+                                <br/><i class="fa fa-mobile" aria-hidden="true"></i>073-545 33 79
+                                <br/><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:thomas.allard@lr-revision.se">thomas.allard@lr-revision.se</a>
                             </div>
                         </div>
                     </div>
@@ -70,11 +70,11 @@
                         </div>
                         <div class="imageInfo">
                             <div class="staffContactInfo">
-                                <strong><h5>Peter Lindbladh</h5></strong>		
-                                <br/><strong>Auktoriserad revisor</strong>
-                                <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 57
-                                <br/><i class="fa fa-mobile" aria-hidden="true"></i>070-697 79 99
-                                <br/><i class="fa fa-envelope-o" aria-hidden="true"></i>peter.lindbladh@lr-revision.se
+                                <strong><h5>Lena Lundberg</h5></strong>		
+                                <br/><strong>Godkänd revisor</strong>
+                                <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 51
+                                <br/><i class="fa fa-mobile" aria-hidden="true"></i>070-848 85 13
+                                <br/><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:lena.lundberg@lr-revision.se">lena.lundberg@lr-revision.se</a>
                             </div>
                         </div>
                     </div>
@@ -86,11 +86,11 @@
                         </div>
                         <div class="imageInfo">
                             <div class="staffContactInfo">		
-                                <strong><h5>Peter Lindbladh</h5></strong>
-                                <br/><strong>Auktoriserad revisor</strong>
-                                <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 57
-                                <br/><i class="fa fa-mobile" aria-hidden="true"></i>070-697 79 99
-                                <br/><i class="fa fa-envelope-o" aria-hidden="true"></i>peter.lindbladh@lr-revision.se
+                                <strong><h5>Ann-Charlotte Larsson</h5></strong>
+                                <br/><strong>Löneadministratör/ <br /> Redovisningskonsult</strong>
+                                <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 50
+                                <br/><i class="fa fa-mobile" aria-hidden="true"></i>073-819 14 02
+                                <br/><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:ann-charlotte.larsson@lr-revision.se">ann-charlotte.larsson@lr-revision.se</a>
                             </div>
                         </div>
                     </div>
@@ -102,11 +102,11 @@
                         </div>
                         <div class="imageInfo">
                             <div class="staffContactInfo">
-                                <strong><h5>Peter Lindbladh</h5></strong>		
+                                <strong><h5>Jens Forneng</h5></strong>		
                                 <br/><strong>Auktoriserad revisor</strong>
-                                <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 57
-                                <br/><i class="fa fa-mobile" aria-hidden="true"></i>070-697 79 99
-                                <br/><i class="fa fa-envelope-o" aria-hidden="true"></i>peter.lindbladh@lr-revision.se
+                                <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 59
+                                <br/><i class="fa fa-mobile" aria-hidden="true"></i>070-996 48 11
+                                <br/><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:jens.forneng@lr-revision.se">jens.forneng@lr-revision.se</a>
                             </div>
                         </div>
                     </div>
@@ -118,11 +118,11 @@
                         </div>
                         <div class="imageInfo">
                             <div class="staffContactInfo">		
-                                <strong><h5>Peter Lindbladh</h5></strong>
-                                <br/><strong>Auktoriserad revisor</strong>
-                                <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 57
-                                <br/><i class="fa fa-mobile" aria-hidden="true"></i>070-697 79 99
-                                <br/><i class="fa fa-envelope-o" aria-hidden="true"></i>peter.lindbladh@lr-revision.se
+                                <strong><h5>Eva Edström</h5></strong>
+                                <br/><strong>Auktoriserad redovisningskonsult</strong>
+                                <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 52
+                                <br/><i class="fa fa-mobile" aria-hidden="true"></i>070-532 07 45
+                                <br/><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:eva.edstrom@lr-revision.se">eva.edstrom@lr-revision.se</a>
                             </div>
                         </div>
                     </div>
@@ -134,11 +134,11 @@
                         </div>
                         <div class="imageInfo">
                             <div class="staffContactInfo">		
-                                <strong><h5>Peter Lindbladh</h5></strong>
-                                <br/><strong>Auktoriserad revisor</strong>
-                                <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 57
-                                <br/><i class="fa fa-mobile" aria-hidden="true"></i>070-697 79 99
-                                <br/><i class="fa fa-envelope-o" aria-hidden="true"></i>peter.lindbladh@lr-revision.se
+                                <strong><h5>Robert Larsson</h5></strong>
+                                <br/><strong>Redovisningskonsult</strong>
+                                <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 58
+                                <br/><i class="fa fa-mobile" aria-hidden="true"></i>073-596 47 17
+                                <br/><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:robert.larsson@lr-revision.se">robert.larsson@lr-revision.se</a>
                             </div>
                         </div>
                     </div>
@@ -150,11 +150,11 @@
                         </div>
                         <div class="imageInfo">
                             <div class="staffContactInfo">		
-                                <strong><h5>Peter Lindbladh</h5></strong>
-                                <br/><strong>Auktoriserad revisor</strong>
-                                <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 57
-                                <br/><i class="fa fa-mobile" aria-hidden="true"></i>070-697 79 99
-                                <br/><i class="fa fa-envelope-o" aria-hidden="true"></i>peter.lindbladh@lr-revision.se
+                                <strong><h5>Elin Viitanen</h5></strong>
+                                <br/><strong>Revisorsassistent</strong>
+                                <br/><i class="fa fa-phone" aria-hidden="true"></i>019-765 23 22
+                                <!-- <br/><i class="fa fa-mobile" aria-hidden="true"></i>070-697 79 99 -->
+                                <br/><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:elin.viitanen@lr-revision.se">elin.viitanen@lr-revision.se</a>
                             </div>
                         </div>
                     </div>
@@ -166,11 +166,11 @@
                         </div>
                         <div class="imageInfo">
                             <div class="staffContactInfo">		
-                                <strong><h5>Peter Lindbladh</h5></strong>
-                                <br/><strong>Auktoriserad revisor</strong>
-                                <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 57
-                                <br/><i class="fa fa-mobile" aria-hidden="true"></i>070-697 79 99
-                                <br/><i class="fa fa-envelope-o" aria-hidden="true"></i>peter.lindbladh@lr-revision.se
+                                <strong><h5>Louise Hagberg</h5></strong>
+                                <br/><strong>Redovisningsassistent</strong>
+                                <br/><i class="fa fa-phone" aria-hidden="true"></i>019-765 23 21
+                                <br/><i class="fa fa-mobile" aria-hidden="true"></i>073-540 99 18
+                                <br/><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:louise.hagberg@lr-revision.se">louise.hagberg@lr-revision.se</a>
                             </div>
                         </div>
                     </div>
@@ -182,11 +182,11 @@
                         </div>
                         <div class="imageInfo">
                             <div class="staffContactInfo">	
-                                <strong><h5>Peter Lindbladh</h5></strong>	
-                                <br/><strong>Auktoriserad revisor</strong>
-                                <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 57
-                                <br/><i class="fa fa-mobile" aria-hidden="true"></i>070-697 79 99
-                                <br/><i class="fa fa-envelope-o" aria-hidden="true"></i>peter.lindbladh@lr-revision.se
+                                <strong><h5>Sandra Duvdahl</h5></strong>	
+                                <br/><strong>Redovisningskonsult</strong>
+                                <br/><i class="fa fa-phone" aria-hidden="true"></i>019-10 38 52
+                                <!-- <br/><i class="fa fa-mobile" aria-hidden="true"></i>070-697 79 99 -->
+                                <br/><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:sandra.duvdahl@lr-revision.se">sandra.duvdahl@lr-revision.se</a>
                             </div>
                         </div>
                     </div>
@@ -331,6 +331,7 @@ export default {
     .staffContactContainer {
         position: relative;
         border: 1px solid $grey;
+        height: 500px;
     }
     .staffContactInfo {
         text-align: left;
