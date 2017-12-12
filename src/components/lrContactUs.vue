@@ -211,8 +211,9 @@
         </div>
         <div class="work">
             <div>
+                <i class="fa fa-briefcase" aria-hidden="true"></i>
                 <h3>Lediga Jobb</h3>
-                <p>Vi har alltid behov av kompetent personal och tar gärna emot spontanansökningar. <br />Maila din ansökan till <a href="mailto:carolin.larsson@lr-revision.se">carolin.larsson@lr-revision.se</a></p>
+                <p>Vi har alltid behov av kompetent personal och tar gärna emot spontanansökningar. <br />Maila din ansökan till <a href="mailto:hej@lr-orebro.se">hej@lr-orebro.se</a></p>
             </div>
         </div>
     </div>
@@ -277,7 +278,6 @@ export default {
         height:250px; 
         position:relative; 
     }
-
     .mainText {
         width: 70%;
         text-align: center;
@@ -313,6 +313,9 @@ export default {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
+        .fa-briefcase {
+            font-size: 30px;
+        }
     }
     .fa {
         margin-right: 5px;
