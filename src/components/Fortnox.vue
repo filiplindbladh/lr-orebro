@@ -30,7 +30,6 @@ export default {
 }
 .card, .card-content {
     height:500px;
-    margin-top:20px;  
 }
 
 /* ****************** MEDIAQUERIES ****************** */

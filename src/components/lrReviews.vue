@@ -32,7 +32,7 @@
             <p class="mainText">Remember, a "good" review is the type of review that's useful to the people who come along behind you. If you need to take some time away from the keyboard to really organize your thoughts and think about your experience from multiple sides of the issue, take it. Don't start writing in a fit of rage.</p>
           </div>
           <div class="slider-company">
-            <p class="mainText">– Namn Namnsson, <span>Företag AB</span></p>
+            <p>– Namn Namnsson, <span>Företag AB</span></p>
           </div>
         </slider-item>
       </slider>
