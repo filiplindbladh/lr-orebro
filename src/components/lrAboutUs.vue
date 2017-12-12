@@ -2,7 +2,7 @@
     <div>
         <div class="aboutUsImage overlay">
             <div class="quote">
-                <div class="quoteTextAbout"><h3>Lär känna oss i personalen på Lr Revision i Örebro!</h3></div>
+                <h3>Lär känna oss i personalen på Lr Revision i Örebro!</h3>
             </div>
         </div>
         <div class="section">
@@ -28,8 +28,13 @@ export default {
     color: $white;
     font-size: 28px;
     height: 100%;
-    .textIn {
-        margin-left: 130px;
+    h3 {
+        color:white; 
+        z-index:999999999; 
+        width:80%; 
+        font-size:35px; 
+        /* margin-left:50px;  */
+        margin: 0 auto;
     }
     span {
         font-size: 40px;

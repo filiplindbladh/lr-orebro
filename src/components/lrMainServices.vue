@@ -114,9 +114,10 @@ export default {
         h3 {
             color:white; 
             z-index:999999999; 
-            width:50%; 
-            font-size:40px; 
-            margin-left:50px; 
+            width:80%; 
+            font-size:35px; 
+            /* margin-left:50px;  */
+            margin: 0 auto;
         }
     }
     .accounting-stockphoto {
