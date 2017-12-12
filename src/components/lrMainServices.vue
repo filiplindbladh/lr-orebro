@@ -1,8 +1,8 @@
 <template>
     <div>
         <div class="accounting-stockphoto overlay">
-            <div class="quote">
-                <h3>Vi kan erbjuda ett stort utbud av tjänster inom redovisning och administration</h3>
+            <div class="quote container">
+                <h3>Vi kan erbjuda ett stort utbud av tjänster <br /> inom redovisning och administration</h3>
             </div>
         </div>
         <vue-tabs active-tab-color="white" active-text-color="black" centered>
@@ -105,19 +105,27 @@ export default {
 
     /* styling for quote inside header */
      .quote {
-        color: white;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        font-size: 28px;
         height: 100%;
-        position:relative; 
-        margin-left:50px; 
-        display:flex; 
-        align-items:center; 
         h3 {
             color:white; 
             z-index:999999999; 
             width:80%; 
             font-size:35px; 
-            /* margin-left:50px;  */
-            margin: 0 auto;
+            margin-left:50px;
         }
     }
     .accounting-stockphoto {

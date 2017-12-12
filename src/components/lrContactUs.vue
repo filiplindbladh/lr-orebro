@@ -1,8 +1,8 @@
 <template>
     <div>
         <div class="contactImage overlay">
-            <div class="quote">
-                <h3>Vi ser fram emot att höra från dig!</h3>
+            <div class="quote container">
+                <h3>Kontakta oss för mer information, <br />vi ser fram emot att höra från dig</h3>
             </div>
         </div>
         <div class="section container contactUs">
@@ -248,8 +248,7 @@ export default {
             z-index:999999999; 
             width:80%; 
             font-size:35px; 
-            /* margin-left:50px;  */
-            margin: 0 auto;
+            margin-left:50px; 
         }
     span {
         font-size: 40px;
@@ -339,16 +338,4 @@ export default {
         width: 250px;
         margin: 0 auto;
     }
-        /* .imageTitle {
-            position: relative;
-        } */
-        /* .imageInfo {
-            border: 1px solid olive;
-        } */
-        /* h5 {
-            position: absolute;
-            bottom: 15px;
-            left: 0;
-            right: 0;
-        } */
 </style>

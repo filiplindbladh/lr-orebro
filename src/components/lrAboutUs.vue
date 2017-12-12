@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="aboutUsImage overlay">
-            <div class="quote">
+            <div class="quote container">
                 <h3>Lär känna oss i personalen på Lr Revision i Örebro</h3>
             </div>
         </div>
@@ -21,10 +21,19 @@ export default {
     @import '../style/main.scss';
 /* styling for quote inside header */
 .quote {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     color: $white;
     font-size: 28px;
     height: 100%;
@@ -33,8 +42,7 @@ export default {
         z-index:999999999; 
         width:80%; 
         font-size:35px; 
-        /* margin-left:50px;  */
-        margin: 0 auto;
+        margin-left:50px; 
     }
     span {
         font-size: 40px;
@@ -57,7 +65,7 @@ export default {
     margin-top:67px; 
     background-image: url("../img/lrImage.jpg"); 
     background-repeat: no-repeat; 
-    background-position:center; 
+    background-position:top; 
     background-size:cover; 
     width:100%; 
     height:250px; 
