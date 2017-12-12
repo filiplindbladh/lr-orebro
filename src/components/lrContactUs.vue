@@ -268,6 +268,9 @@ export default {
             padding-right: 20px;
         }
     }
+    .mainText {
+        width: 70%;
+    }
     .lrHeaderLine {
         background-color: $red;
     }
@@ -280,9 +283,6 @@ export default {
         width:100%; 
         height:250px; 
         position:relative; 
-    }
-    .mainText {
-        width: 70%;
     }
     .contactUs .head {
         display: -webkit-box;
