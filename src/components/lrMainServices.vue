@@ -119,8 +119,9 @@ export default {
             -ms-flex-direction: column;
                 flex-direction: column;
         height: 100%;
+        text-align: center;
         h3 {
-            color:white; 
+            color:$white; 
             z-index:450; 
             width:80%; 
             font-size:35px; 
@@ -179,8 +180,6 @@ export default {
         height:10px; 
     }
     .lrHeaderLine {
-        color:$red;
+        background-color: $red;
     }
-
-
 </style>

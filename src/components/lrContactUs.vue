@@ -242,31 +242,34 @@ export default {
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column;
-        color: $white;
         height: 100%;
+        text-align: center;
         h3 {
-            color:white; 
+            color:$white; 
             z-index:450; 
             width:80%; 
             font-size:35px; 
             margin-left:50px; 
         }
-    span {
-        font-size: 40px;
-        font-weight: bold;
-        z-index: 1000;
+        span {
+            font-size: 40px;
+            font-weight: bold;
+            z-index: 1000;
+        }
+        .quoteTextContact {
+            z-index: 300;
+            margin-top: 0;
+            margin-bottom:0;
+            text-align: center;
+            width: 90%;
+        }
+        .fa {
+            font-size: 40px;
+            padding-right: 20px;
+        }
     }
-    .quoteTextContact {
-        z-index: 300;
-        margin-top: 0;
-        margin-bottom:0;
-        text-align: center;
-        width: 90%;
-    }
-    .fa {
-        font-size: 40px;
-        padding-right: 20px;
-    }
+    .lrHeaderLine {
+        background-color: $red;
     }
     .contactImage {
         margin-top:67px; 

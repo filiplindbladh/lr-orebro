@@ -41,10 +41,10 @@ export default {
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column;
-        color: $white;
         height: 100%;
+        text-align: center;
         h3 {
-            color:white; 
+            color:$white; 
             z-index:450; 
             width:80%; 
             font-size:35px; 
@@ -93,5 +93,8 @@ export default {
     .mainText {
         width: 70%;
         text-align: center;
+    }
+    .lrHeaderLine {
+        background-color: $red;
     }
 </style>
