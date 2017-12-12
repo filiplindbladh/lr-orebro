@@ -121,7 +121,7 @@ export default {
         height: 100%;
         h3 {
             color:white; 
-            z-index:999999999; 
+            z-index:450; 
             width:80%; 
             font-size:35px; 
             margin-left:50px;

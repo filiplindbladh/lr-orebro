@@ -226,7 +226,7 @@ export default {
 
 <style scoped lang="scss">
     @import '../style/main.scss';
-            /* styling for quote inside header */
+    /* styling for quote inside header */
     .quote {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -245,7 +245,7 @@ export default {
         height: 100%;
         h3 {
             color:white; 
-            z-index:999999999; 
+            z-index:450; 
             width:80%; 
             font-size:35px; 
             margin-left:50px; 
@@ -266,22 +266,22 @@ export default {
         font-size: 40px;
         padding-right: 20px;
     }
-}
-.contactImage {
-    margin-top:67px; 
-    background-image: url("../img/contact.jpeg"); 
-    background-repeat: no-repeat; 
-    background-position:center; 
-    background-size:cover; 
-    width:100%; 
-    height:250px; 
-    position:relative; 
-}
+    }
+    .contactImage {
+        margin-top:67px; 
+        background-image: url("../img/contact.jpeg"); 
+        background-repeat: no-repeat; 
+        background-position:center; 
+        background-size:cover; 
+        width:100%; 
+        height:250px; 
+        position:relative; 
+    }
 
-.mainText {
-    width: 70%;
-    text-align: center;
-}
+    .mainText {
+        width: 70%;
+        text-align: center;
+    }
     .contactUs .head {
         display: -webkit-box;
         display: -ms-flexbox;
