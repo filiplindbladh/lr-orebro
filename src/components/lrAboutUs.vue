@@ -2,7 +2,7 @@
     <div>
         <div class="aboutUsImage overlay">
             <div class="quote container">
-                <h3>Lär känna oss i personalen på Lr Revision i Örebro</h3>
+                <h3>Vi på LR Örebro är som de flesta av våra kunder <br />– hårt arbetande småföretagare</h3>
             </div>
         </div>
         <div class="section container contactUs">
