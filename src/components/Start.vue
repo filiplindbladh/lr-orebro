@@ -69,7 +69,7 @@ export default {
     position:relative; 
   }
   .contact {
-    z-index: 1000;
+    z-index: 900;
     right: 15px;
     position:fixed;
     top:500px; 
