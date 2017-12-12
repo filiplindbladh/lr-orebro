@@ -25,10 +25,10 @@
             <nav id='nav' class='menuOverlay' v-bind:class="{ active: isActive }">
                 <div id='close-menu' class='closeBtn' v-on:click='close()'>X</div>
                 <ul class='overlay-content' id='overlay-content'>
-                    <li><a href='#'>START</a></li>
-                    <li><a href='#'>TJÄNSTER</a></li>
-                    <li><a href='#'>OM OSS</a></li>
-                    <li><a href='#'>KONTAKT</a></li>
+                    <li><router-link to="/">START</router-link></li>
+                    <li><router-link to="/tjanster">TJÄNSTER</router-link></li>
+                    <li><router-link to="/om-oss">OM OSS</router-link></li>
+                    <li><router-link to="/kontakta-oss">KONTAKT</router-link></li>
                     <li><router-link to="/online">LR-ONLINE</router-link></li>
                     <li><router-link to="/fortnox">FORTNOX</router-link></li>
                 </ul> 
