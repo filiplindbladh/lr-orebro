@@ -35,7 +35,6 @@ export default {
         -ms-flex-direction: column;
             flex-direction: column;
     color: $white;
-    font-size: 28px;
     height: 100%;
     h3 {
         color:white; 

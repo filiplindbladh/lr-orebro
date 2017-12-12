@@ -118,7 +118,6 @@ export default {
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column;
-        font-size: 28px;
         height: 100%;
         h3 {
             color:white; 
