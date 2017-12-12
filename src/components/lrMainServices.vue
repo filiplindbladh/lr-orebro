@@ -182,4 +182,7 @@ export default {
     .lrHeaderLine {
         background-color: $red;
     }
+    mainText {
+        width: 70%;
+    }
 </style>

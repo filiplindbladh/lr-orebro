@@ -67,6 +67,9 @@ export default {
             padding-right: 20px;
         }
     }
+    .mainText {
+        width: 70%;
+    }
     .aboutUsImage {
         margin-top:67px; 
         background-image: url("../img/lrImage.jpg"); 
@@ -90,9 +93,9 @@ export default {
                     flex-direction: column;
             margin-bottom: 50px;
         }
-    .mainText {
+    /* .mainText {
         width: 70%;
-    }
+    } */
     .lrHeaderLine {
         background-color: $red;
     }
