@@ -2,7 +2,7 @@
     <div>
         <div class="accounting-stockphoto overlay">
             <div class="quote">
-                <h3>Vi kan erbjuda ett stort utbud av tjänster inom redovisning och administration.</h3>
+                <h3>Vi kan erbjuda ett stort utbud av tjänster inom redovisning och administration</h3>
             </div>
         </div>
         <vue-tabs active-tab-color="white" active-text-color="black" centered>

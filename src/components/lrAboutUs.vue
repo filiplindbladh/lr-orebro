@@ -2,7 +2,7 @@
     <div>
         <div class="aboutUsImage overlay">
             <div class="quote">
-                <h3>Lär känna oss i personalen på Lr Revision i Örebro!</h3>
+                <h3>Lär känna oss i personalen på Lr Revision i Örebro</h3>
             </div>
         </div>
         <div class="section">
