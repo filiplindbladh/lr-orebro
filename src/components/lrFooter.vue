@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="lrFooter">
       <div class="footer">
         <div class="container footer-container"> 
           <div class="footer-item">
@@ -40,7 +40,7 @@ export default {
 
 <style scoped lang="scss">
   @import '../style/main.scss';
-  .footer {
+  .lrFooter {
     background-color:$blue; 
     height:100%; 
     position:relative; 

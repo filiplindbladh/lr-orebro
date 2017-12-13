@@ -195,6 +195,7 @@ export default {
   position: relative;
 }
 .staffInfo {
+  transition: all .3s ease-in-out;
   display: none;
   margin: auto;
   position: absolute;
