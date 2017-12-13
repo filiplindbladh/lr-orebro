@@ -275,7 +275,7 @@ export default {
     }
     .contactImage {
         margin-top:67px; 
-        background-image: url("../img/contact.jpeg"); 
+        background-image: url("../img/lrContact.jpeg"); 
         background-repeat: no-repeat; 
         background-position:center; 
         background-size:cover; 
