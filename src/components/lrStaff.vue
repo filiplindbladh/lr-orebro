@@ -174,70 +174,80 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../style/main.scss';
-.lrHeaderLine {
-  background-color: $red;
-  height:5px; 
-}
-.lrStaff {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; 
-  -webkit-box-orient: vertical; 
-  -webkit-box-direction: normal; 
-      -ms-flex-direction: column; 
-          flex-direction: column; 
-}
-.staffContainer {
-  position: relative;
-}
-.staffInfo {
-  transition: all .3s ease-in-out;
-  opacity: 0;
-  margin: auto;
-  position: absolute;
-  left: 0; right: 0;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-  .fa {
-    margin: 15px 12px 0 12px;
-    color: $white;
-    font-size: 25px;
+  @import '../style/main.scss';
+  .lrHeaderLine {
+    background-color: $red;
+    height:5px; 
   }
-  .fa-phone {
-    font-size: 30px;
+  .lrStaff {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; 
+    -webkit-box-orient: vertical; 
+    -webkit-box-direction: normal; 
+        -ms-flex-direction: column; 
+            flex-direction: column; 
   }
-  .fa-paper-plane {
-    margin-bottom: 5px;
+  .staffContainer {
+    position: relative;
   }
-  span {
-    color: $black;
-    font-weight: bold;
+  .staffInfo {
+    transition: all .3s ease-in-out;
+    opacity: 0;
+    margin: auto;
+    position: absolute;
+    left: 0; right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    .fa {
+      margin: 15px 12px 0 12px;
+      color: $white;
+      font-size: 25px;
+    }
+    .fa-phone {
+      font-size: 30px;
+    }
+    .fa-paper-plane {
+      margin-bottom: 5px;
+    }
+    span {
+      color: $black;
+      font-weight: bold;
+    }
   }
-}
-.mainText {
-  text-align: center;
-  width: 70%;
-  margin-bottom: 30px;
-}
-.lrPictures {
-  text-align: center; 
-  width: 100%;
-}
-.lrStaffMember {
-  width: 250px;
-  height: auto;
-}
-.staffContainer:hover .lrStaffMember {
-    -webkit-filter: blur(2px) grayscale(100%);
-            filter: blur(2px) grayscale(100%);
+  .mainText {
+    text-align: center;
+    width: 70%;
+    margin-bottom: 30px;
   }
-.staffContainer:hover .staffInfo {
-  opacity: 1;
-} 
+  .lrPictures {
+    text-align: center; 
+    width: 100%;
+  }
+  .lrStaffMember {
+    width: 250px;
+    height: auto;
+  }
+  .staffContainer:hover .lrStaffMember {
+      -webkit-filter: blur(2px) grayscale(100%);
+              filter: blur(2px) grayscale(100%);
+    }
+  .staffContainer:hover .staffInfo {
+    opacity: 1;
+  } 
+  /* ****************** MEDIAQUERIES ****************** */
+  @media screen and (max-width: $tablet - 1px) {
+    .staffInfo {
+      opacity: 1;
+    }
+    .staffContainer:hover .lrStaffMember {
+      -webkit-filter: none;
+              filter: none;
+    }
+  }
 </style>

@@ -5,8 +5,10 @@ import App from './App'
 import router from './router'
 import VueTabs from 'vue-nav-tabs'
 import 'vue-nav-tabs/themes/vue-tabs.css'
+import VueScrollTo from 'vue-scrollto'
 
 Vue.use(VueTabs)
+Vue.use(VueScrollTo)
 
 // Require the main Sass manifest file
 require('./style/main.scss')

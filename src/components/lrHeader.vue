@@ -3,7 +3,7 @@
         <div class="lrHeader container">
             <h1> VÄLKOMMEN TILL <br /> DIN FRAMTIDSBYRÅ </h1>
             <hr class="lrHeaderLineHeader">
-            <a id="lr-button-more" class="button is-info is-outlined">LÄS MER</a>
+            <a href="#" v-scroll-to="'#test'" id="lr-button-more" class="button is-info is-outlined">LÄS MER</a>
         </div>
     </div>
 </template>
