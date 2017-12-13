@@ -196,7 +196,7 @@ export default {
 }
 .staffInfo {
   transition: all .3s ease-in-out;
-  display: none;
+  opacity: 0;
   margin: auto;
   position: absolute;
   left: 0; right: 0;
@@ -238,6 +238,6 @@ export default {
             filter: blur(2px) grayscale(100%);
   }
 .staffContainer:hover .staffInfo {
-  display: block;
+  opacity: 1;
 } 
 </style>

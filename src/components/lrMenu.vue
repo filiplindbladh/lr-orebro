@@ -113,6 +113,7 @@ export default {
         -ms-flex-align: center; 
         align-items: center;
         a {
+            transition: all .3s ease-in-out;
             padding: 20px 20px;
             font-weight: bold;
             font-size: 0.85rem;

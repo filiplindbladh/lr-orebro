@@ -73,6 +73,7 @@
         margin-bottom: 30px;
     }
     #lr-button-more {
+        transition: all .3s ease-in-out;
         border: 5px solid $green;
         font-size: 23px;
     }
