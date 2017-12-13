@@ -16,7 +16,6 @@
     
 <style lang="scss">
     @import '../style/main.scss';
-
     .overlay:before {
         content: "";
         display: block;
@@ -37,16 +36,29 @@
         background-color: $blue;
         position: relative;
         padding: 80px 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         height: calc(100vh - 67px);
         margin-top: 67px;
     }
     .lrHeader {
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         h1 {
             text-align: center;
             color: $white;
@@ -64,13 +76,4 @@
         border: 5px solid $green;
         font-size: 23px;
     }
-    /* ****************** MEDIAQUERIES ****************** */
-    /* @media screen and (max-width: 430px) {
-        .lrHeader > h1 {
-            font-size: 22px;
-        }
-        .lrHeaderLineHeader {
-            width: 195px;
-        }
-    } */
 </style>

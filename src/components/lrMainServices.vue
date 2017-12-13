@@ -96,9 +96,8 @@ export default {
 
 <style lang="scss">
     @import '../style/main.scss';
-
     /* styling for quote inside header */
-     .quote {
+    .quote {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -142,7 +141,7 @@ export default {
             color:white; 
         }
     }
-     .tabs__link:hover > .title {
+    .tabs__link:hover > .title {
         color:black; 
     }
     .leadText {

@@ -39,47 +39,47 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import '../style/main.scss';
-.footer {
-  background-color:$blue; 
-  height:100%; 
-  position:relative; 
-  a, p, h4 {
-    color:white; 
+  @import '../style/main.scss';
+  .footer {
+    background-color:$blue; 
+    height:100%; 
+    position:relative; 
+    a, p, h4 {
+      color:white; 
+    }
+    a:hover {
+      text-decoration:underline; 
+    }
   }
-  a:hover {
-    text-decoration:underline; 
+  .lrHeaderLine {
+    background-color:$red; 
   }
-}
-.lrHeaderLine {
-  background-color:$red; 
-}
-.footer-container {
-  display:flex; 
-  flex-direction:row; 
-  justify-content:space-between;
-  flex-wrap:wrap; 
-  margin-bottom: 200px;  
-}
-.footer-item {
-  margin:20px; 
-  z-index:300; 
-}
-.footer-icon-container {
-  position:absolute; 
-  bottom:0; 
-  width:100%; 
+  .footer-container {
+    display:flex; 
+    flex-direction:row; 
+    justify-content:space-between;
+    flex-wrap:wrap; 
+    margin-bottom: 200px;  
+  }
+  .footer-item {
+    margin:20px; 
+    z-index:300; 
+  }
+  .footer-icon-container {
+    position:absolute; 
+    bottom:0; 
+    width:100%; 
 
-}
- /* ****************** MEDIAQUERIES ****************** */
-    @media screen and (max-width: $tablet - 1px) {
-      .footer-container {
-        margin-bottom:0; 
-      }
-      /* .footer-icon-container {
-        width:90%; 
-      } */
+  }
+  /* ****************** MEDIAQUERIES ****************** */
+  @media screen and (max-width: $tablet - 1px) {
+    .footer-container {
+      margin-bottom:0; 
     }
-    @media screen and (min-width: $tablet) {
-    }
+    /* .footer-icon-container {
+      width:90%; 
+    } */
+  }
+  @media screen and (min-width: $tablet) {
+  }
 </style>

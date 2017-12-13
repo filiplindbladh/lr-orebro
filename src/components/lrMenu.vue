@@ -57,23 +57,23 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../style/main.scss';
-#lrMenu {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; 
-    -webkit-box-orient: horizontal; 
-    -webkit-box-direction: normal; 
-    -ms-flex-direction: row; 
-    flex-direction: row; 
-    height: 67px;
-    width: 100%;
-    background-color: $white;
-    border-bottom: 1px solid $blue;
-    position: fixed;
-    top: 0;
-    z-index: 1000;
-}
+    @import '../style/main.scss';
+    #lrMenu {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; 
+        -webkit-box-orient: horizontal; 
+        -webkit-box-direction: normal; 
+        -ms-flex-direction: row; 
+        flex-direction: row; 
+        height: 67px;
+        width: 100%;
+        background-color: $white;
+        border-bottom: 1px solid $blue;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+    }
     /* Company logo */
     .lrLogoContainer {
         display: -webkit-box;

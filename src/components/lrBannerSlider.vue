@@ -50,7 +50,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../style/main.scss';
+  @import '../style/main.scss';
   .bannerSlider {
     width:100%; 
     display:-webkit-box; 
@@ -82,5 +82,4 @@ export default {
   .bannerItem {
     margin-top:30px; 
   }
-
 </style>

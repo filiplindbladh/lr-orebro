@@ -4,7 +4,7 @@
     <div class="section flex">
         <div class="card">
             <div class="card-content">
-                <img src="../img/lr-online.png" alt="lr-online.png">
+                <img src="../img/lr-online.png" alt="lr-online">
                 <p>Håll koll på din ekonomi i mobilen med Lr-Online</p>
             </div>
         </div> 
@@ -40,55 +40,55 @@ export default {
 }
 </script>
 <style scoped lang="scss">
-@import '../style/main.scss';
-.flex {
-    margin-top:67px; 
-    height:100%; 
-    display:-webkit-box; 
-    display:-ms-flexbox; 
-    display:flex;
-    -webkit-box-orient:horizontal;
-    -webkit-box-direction:normal;
-        -ms-flex-direction:row;
-            flex-direction:row;  
-    -webkit-box-pack:center;  
-        -ms-flex-pack:center;  
-            justify-content:center; 
-    -webkit-box-align:center; 
-        -ms-flex-align:center; 
-            align-items:center; 
-}
-
-.card { 
-    width:50%;
-    height:410px; 
-}
-.card-content {
-    display:-webkit-box;
-    display:-ms-flexbox;
-    display:flex; 
-    -webkit-box-pack:center; 
-        -ms-flex-pack:center; 
-            justify-content:center; 
-    -webkit-box-orient:vertical; 
-    -webkit-box-direction:normal; 
-        -ms-flex-direction:column; 
-            flex-direction:column; 
-}
-button, p  {
-    margin-top:20px; 
-}
-/* ****************** MEDIAQUERIES ****************** */
-@media screen and (max-width: $tablet - 1px) {
+    @import '../style/main.scss';
     .flex {
-        -webkit-box-orient:vertical;
+        margin-top:67px; 
+        height:100%; 
+        display:-webkit-box; 
+        display:-ms-flexbox; 
+        display:flex;
+        -webkit-box-orient:horizontal;
         -webkit-box-direction:normal;
-            -ms-flex-direction:column;
+            -ms-flex-direction:row;
+                flex-direction:row;  
+        -webkit-box-pack:center;  
+            -ms-flex-pack:center;  
+                justify-content:center; 
+        -webkit-box-align:center; 
+            -ms-flex-align:center; 
+                align-items:center; 
+    }
+
+    .card { 
+        width:50%;
+        height:410px; 
+    }
+    .card-content {
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex; 
+        -webkit-box-pack:center; 
+            -ms-flex-pack:center; 
+                justify-content:center; 
+        -webkit-box-orient:vertical; 
+        -webkit-box-direction:normal; 
+            -ms-flex-direction:column; 
                 flex-direction:column; 
     }
-    .card {
-        width:100%;
-        height:auto;  
+    button, p  {
+        margin-top:20px; 
     }
-}
+    /* ****************** MEDIAQUERIES ****************** */
+    @media screen and (max-width: $tablet - 1px) {
+        .flex {
+            -webkit-box-orient:vertical;
+            -webkit-box-direction:normal;
+                -ms-flex-direction:column;
+                    flex-direction:column; 
+        }
+        .card {
+            width:100%;
+            height:auto;  
+        }
+    }
 </style>

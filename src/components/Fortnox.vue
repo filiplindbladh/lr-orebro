@@ -22,20 +22,26 @@ export default {
 </script>
 <style scoped lang="scss">
 @import '../style/main.scss';
-.section {
-    margin-top:67px; 
-    display: flex;
-    justify-content: center; 
-    align-items:center; 
-}
-.card, .card-content {
-    height:500px;
-}
+    .section {
+        margin-top:67px; 
+        display: -webkit-box; 
+        display: -ms-flexbox; 
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; 
+        -webkit-box-align:center; 
+            -ms-flex-align:center; 
+                align-items:center; 
+    }
+    .card, .card-content {
+        height:500px;
+    }
 
-/* ****************** MEDIAQUERIES ****************** */
-@media screen and (max-width: $tablet - 1px) {
-   iframe {
-       width:100%; 
-   }
-}
+    /* ****************** MEDIAQUERIES ****************** */
+    @media screen and (max-width: $tablet - 1px) {
+        iframe {
+            width:100%; 
+        }
+    }
 </style>

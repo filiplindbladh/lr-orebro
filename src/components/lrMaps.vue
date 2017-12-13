@@ -30,65 +30,62 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../style/main.scss';
-.heading-container {
-  display:flex; 
-  justify-content:center; 
-  flex-direction:column; 
-  align-items:center; 
-}
-.lrHeaderLine {
-  background-color: $red;
-  height:5px; 
-}
-.lrSocialMedia {
-  width: 100%;
-  margin-top: 50px;
-  margin-bottom: 150px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.lrMediaItem {
-  padding: 0 25px;
-  .fa {
-    font-size: 50px;
-    margin-right: 10px;
+  @import '../style/main.scss';
+  .heading-container {
+    display:flex; 
+    justify-content:center; 
+    flex-direction:column; 
+    align-items:center; 
   }
-  .fa-facebook-square {
-    color: $blue;
+  .lrHeaderLine {
+    background-color: $red;
+    height:5px; 
   }
-  .fa-linkedin-square {
-    color: $black;
-  }
-  img {
-    width: 216px;
-    height: auto;
-  }
-}
-/* styles for the map */
-#map-responsive{
-  overflow:hidden;
-  /* padding-bottom:36.25%; */
-  padding-bottom: 350px;
-  position:relative;
-  height:0;
-  width: 100%;
-}
-#map-responsive #lrMap {
-  width: 100%;
-  height: 350px;
-  left:0;
-  top:0;
-  position:absolute; 
-}
-
-@media screen and (max-width: 550px) {
   .lrSocialMedia {
-    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
-  /* #map-responsive {
-    padding-bottom: 71.25%;
-  } */
-}
+  .lrMediaItem {
+    padding: 0 25px;
+    .fa {
+      font-size: 50px;
+      margin-right: 10px;
+    }
+    .fa-facebook-square {
+      color: $blue;
+    }
+    .fa-linkedin-square {
+      color: $black;
+    }
+    img {
+      width: 216px;
+      height: auto;
+    }
+  }
+  /* styles for the map */
+  #map-responsive{
+    overflow:hidden;
+    /* padding-bottom:36.25%; */
+    padding-bottom: 350px;
+    position:relative;
+    height:0;
+    width: 100%;
+  }
+  #map-responsive #lrMap {
+    width: 100%;
+    height: 350px;
+    left:0;
+    top:0;
+    position:absolute; 
+  }
+  /* ****************** MEDIAQUERIES ****************** */
+  @media screen and (max-width: 550px) {
+    .lrSocialMedia {
+      flex-direction: column;
+    }
+  }
 </style>
