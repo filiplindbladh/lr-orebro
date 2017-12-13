@@ -156,6 +156,12 @@
         .box {
             margin-bottom:40px; 
         }
+        .triangle-bottomright {
+            display: none;
+        }
+        .box > h3 {
+            color:$black; 
+        }
     }
     @media screen and (min-width: $tablet) and (max-width: $desktop - 1px) {
         .box {

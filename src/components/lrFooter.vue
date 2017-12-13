@@ -41,7 +41,7 @@ export default {
 <style scoped lang="scss">
 @import '../style/main.scss';
 .footer {
-  background-color:$blue !important; 
+  background-color:$blue; 
   height:100%; 
   position:relative; 
   a, p, h4 {
@@ -68,7 +68,7 @@ export default {
 .footer-icon-container {
   position:absolute; 
   bottom:0; 
-  width:97%; 
+  width:100%; 
 
 }
  /* ****************** MEDIAQUERIES ****************** */
@@ -76,9 +76,9 @@ export default {
       .footer-container {
         margin-bottom:0; 
       }
-      .footer-icon-container {
+      /* .footer-icon-container {
         width:90%; 
-      }
+      } */
     }
     @media screen and (min-width: $tablet) {
     }

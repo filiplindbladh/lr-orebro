@@ -48,7 +48,6 @@ export default {
             z-index:450; 
             width:80%; 
             font-size:35px; 
-            margin-left:50px; 
         }
         span {
             font-size: 40px;
@@ -99,12 +98,15 @@ export default {
     .lrHeaderLine {
         background-color: $red;
     }
-    /* MEDIA QUERYS */ 
+    /* ****************** MEDIAQUERIES ****************** */
     @media screen and (max-width: $tablet - 1px) {
-    .quote {
-        h3 {
-        font-size: 5vw;
+        .quote {
+            h3 {
+                font-size: 5vw;
+            }
         }
-    }
+        .mainText {
+            width: 100%;
+        }
     }
 </style>
