@@ -21,7 +21,7 @@
   <lrReviews></lrReviews>
 
  <!-- second contact banner -->
- <lrContactBanner bannerText="Behöver ni hjälp att utveckla ert företag?":backgroundImage ="'/static/img/lrContact.c355b63.jpeg'"></lrContactBanner>
+ <lrContactBanner bannerText="Behöver ni hjälp att utveckla ert företag?":backgroundImage ="'/static/img/lrContact.2a58653.jpeg'"></lrContactBanner>
 
   <!-- How to get there -->
   <lrMaps></lrMaps>
