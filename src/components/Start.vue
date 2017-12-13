@@ -12,7 +12,7 @@
   <lrServices></lrServices>
 
   <!-- first contact banner -->
-  <lrContactBanner bannerText="Långsiktiga lösningar för traditionella eller digitala företag" :backgroundImage="'src/img/lrImage.jpg'"></lrContactBanner>
+  <lrContactBanner bannerText="Långsiktiga lösningar för traditionella eller digitala företag" :backgroundImage="'./static/img/lrImage.jpg'"></lrContactBanner>
 
   <!-- the staff on LR-orebro -->
   <lrStaff></lrStaff>
@@ -21,7 +21,7 @@
   <lrReviews></lrReviews>
 
  <!-- second contact banner -->
- <lrContactBanner bannerText="Behöver ni hjälp att utveckla ert företag?" :backgroundImage="'src/img/contact.jpeg'"></lrContactBanner>
+ <lrContactBanner bannerText="Behöver ni hjälp att utveckla ert företag?":backgroundImage ="'./static/img/contact.jpeg'"></lrContactBanner>
 
   <!-- How to get there -->
   <lrMaps></lrMaps>

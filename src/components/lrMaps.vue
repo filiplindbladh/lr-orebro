@@ -1,7 +1,9 @@
 <template>
   <div class="section container lrMaps">
-    <h2>Här finns vi</h2>
-    <hr class="lrHeaderLine">
+    <div class="heading-container">
+      <h2>Här finns vi</h2>
+      <hr class="lrHeaderLine">
+    </div>
 
     <!-- map to find the way to lr-orebro -->
     <div id="map-responsive">
@@ -29,6 +31,12 @@ export default {
 
 <style lang="scss">
 @import '../style/main.scss';
+.heading-container {
+  display:flex; 
+  justify-content:center; 
+  flex-direction:column; 
+  align-items:center; 
+}
 .lrHeaderLine {
   background-color: $red;
   height:5px; 
