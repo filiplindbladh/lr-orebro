@@ -69,7 +69,13 @@ export default {
     position:absolute; 
     bottom:0; 
     width:100%; 
-
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
   }
   /* ****************** MEDIAQUERIES ****************** */
   @media screen and (max-width: $tablet - 1px) {
