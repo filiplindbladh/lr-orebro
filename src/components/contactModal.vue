@@ -10,8 +10,7 @@
                 <section class="modal-card-body">
                 <h1>Hej</h1>
                 <img src="../img/waving-hand.png">
-                <p>Vad kan vi hjälpa dig med? Skriv ett meddelande så kontaktar vi dig</p>
-
+                <p>Vad kan vi hjälpa dig med? Skriv ett meddelande så kontaktar vi dig. Önskas en offert vänligen bifoga antal anställda samt fakturor per månad.</p>
                 <form action="">
                     <div class="control has-icons-left has-icons-right">
                     <input class="input" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$" type="email" placeholder="Email">
@@ -22,7 +21,20 @@
                         <i class="fa fa-check"></i>
                     </span>
                     </div>
-                <textarea class="textarea" placeholder="Meddelande"></textarea>
+                    <div class="values">
+                    <div class="field is-grouped is-expanded">
+                        <div class="control">
+                            <label class="label">Anställda:</label>
+                            <input class="input valueOne" type="number" v-model="valueOne">
+                        </div>
+                        <div class="control">
+                            <label class="label">Fakturor per månad:</label>
+                            <input class="input valueTwo" type="number" v-model="valueTwo">
+                        </div>
+                    </div>
+                    </div>
+                    <textarea class="textarea" placeholder="Meddelande">
+                    </textarea>
                 </form>
                 </section>
                 <footer class="modal-card-foot">
@@ -39,7 +51,7 @@ import { required, minLength } from 'vuelidate/lib/validators'
 
 export default {
   name: 'contactModal',
-  props: ['activate'],
+  props: ['activate', 'valueOne', 'valueTwo'],
   methods: {
     close () {
       this.$emit('closeRequest')
@@ -47,7 +59,7 @@ export default {
   },
   data () {
     return {
-      email: ''
+      email: '',
     }
   },
   validations: {
@@ -89,5 +101,16 @@ export default {
     .modal {
         height:100%; 
         z-index:999999999; 
+    }
+    .values {
+        .control {
+            margin-top:20px; 
+        }
+        .valueOne, .valueTwo, {
+            width:100%; 
+        }
+    }
+    .textarea {
+        margin-top:20px;
     }
 </style>

@@ -16,7 +16,7 @@
       <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
     </a>
   </div> 
-  <contactModal :activate="addActive" @closeRequest='close'></contactModal>
+  <contactModal :activate="addActive" @closeRequest='close' :valueOne="valueOne" :valueTwo="valueTwo" ></contactModal>
 </div>
 </template>
 
@@ -32,7 +32,16 @@ export default {
       isOpen: false,
       addActive: '',
       valueOne: 50,
-      valueTwo: 50
+      valueTwo: 50,
+      value: false
+    }
+  },
+  computed: {
+    valueOneMsg () {
+      return this.valueOne
+    },
+    valueTwoMsg () {
+      return this.valueTwo
     }
   },
   methods: {
