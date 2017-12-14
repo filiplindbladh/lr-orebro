@@ -6,7 +6,9 @@ import router from './router'
 import VueTabs from 'vue-nav-tabs'
 import 'vue-nav-tabs/themes/vue-tabs.css'
 import VueScrollTo from 'vue-scrollto'
+import VeeValidate from 'vee-validate'
 
+Vue.use(VeeValidate)
 Vue.use(VueTabs)
 Vue.use(VueScrollTo)
 

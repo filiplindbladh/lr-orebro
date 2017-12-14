@@ -13,7 +13,10 @@
                 <p>Vad kan vi hjälpa dig med? Skriv ett meddelande så kontaktar vi dig. Önskas en offert vänligen bifoga antal anställda samt fakturor per månad.</p>
                 <form action="">
                     <div class="control has-icons-left has-icons-right">
-                    <input class="input" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$" type="email" placeholder="Email">
+                        <p :class="{ 'control': true }">
+                            <input v-validate="'required|email'" :class="{'input': true, 'is-danger': errors.has('email') }" name="email" type="text" placeholder="Email">
+                            <span v-show="errors.has('email')" class="help is-danger">{{ errors.first('email') }}</span>
+                        </p>
                     <span class="icon is-left">
                         <i class="fa fa-envelope"></i>
                     </span>
@@ -47,7 +50,6 @@
 </template>
 
 <script>
-import { required, minLength } from 'vuelidate/lib/validators'
 
 export default {
   name: 'contactModal',
@@ -55,17 +57,6 @@ export default {
   methods: {
     close () {
       this.$emit('closeRequest')
-    }
-  },
-  data () {
-    return {
-      email: ''
-    }
-  },
-  validations: {
-    email: {
-      required,
-      minLength: minLength(4)
     }
   }
 }
@@ -82,18 +73,6 @@ export default {
     }
     header.modal-card-head {
         background-color:$green; 
-    }
-    input {
-        background-color:$white; 
-    }
-    input:valid  {
-       // border: 2px solid $green; 
-    }
-    input:valid > .is-right.fa-check {
-        color: $green; 
-    }
-    input:invalid {
-        border: 2px solid $red; 
     }
     form {
         margin-top:20px; 
@@ -112,5 +91,8 @@ export default {
     }
     .textarea {
         margin-top:20px;
+    }
+    input:valid > div.control.has-icons-left.has-icons-right > span.icon.is-right > i {
+        background-color:green; 
     }
 </style>
