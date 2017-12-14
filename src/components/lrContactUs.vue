@@ -267,9 +267,6 @@ export default {
             padding-right: 20px;
         }
     }
-    /* .mainText {
-        width: 70%;
-    } */
     .lrHeaderLine {
         background-color: $red;
     }
@@ -351,8 +348,11 @@ export default {
                 font-size: 5vw;
             }
         }
-        /* .mainText {
-            width: 100%;
-        } */
+    }
+    @media screen and (max-width: 616px) {
+        .staffContactContainer {
+            border: 1px solid transparent;
+            height: auto;
+        }
     }
 </style>
