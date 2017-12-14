@@ -1,5 +1,5 @@
 body {
-    font-family: Oxygen; 
+    font-family: "Oxygen", "Arial", serif;
   } 
   h1 {
     font-size: 5vw;
@@ -24,6 +24,7 @@ body {
     font-size: 18px;
     font-weight: normal;
     line-height:30px; 
+    width: 70%;
   }
   .lrHeaderLine {
     height: 5px;
@@ -45,7 +46,7 @@ body {
       font-size: 5vw;
     }
     .mainText {
-      width: 100%;
+      width: 90%;
     }
   }
   @media screen and (max-width: 430px) {

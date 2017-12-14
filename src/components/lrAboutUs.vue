@@ -66,9 +66,9 @@ export default {
             padding-right: 20px;
         }
     }
-    .mainText {
+    /* .mainText {
         width: 70%;
-    }
+    } */
     .aboutUsImage {
         margin-top:67px; 
         background-image: url("../img/lrImage.jpg"); 
@@ -80,21 +80,18 @@ export default {
         position:relative; 
     }
     .contactUs .head {
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-align: center;
-                -ms-flex-align: center;
-                    align-items: center;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-                -ms-flex-direction: column;
-                    flex-direction: column;
-            margin-bottom: 50px;
-        }
-    /* .mainText {
-        width: 70%;
-    } */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        margin-bottom: 50px;
+    }
     .lrHeaderLine {
         background-color: $red;
     }
@@ -105,8 +102,8 @@ export default {
                 font-size: 5vw;
             }
         }
-        .mainText {
+        /* .mainText {
             width: 100%;
-        }
+        } */
     }
 </style>

@@ -210,7 +210,7 @@
             </div>
         </div>
         <div class="work">
-            <div>
+            <div class="section">
                 <i class="fa fa-briefcase" aria-hidden="true"></i>
                 <h3>Lediga Jobb</h3>
                 <p>Vi har alltid behov av kompetent personal och tar gärna emot spontanansökningar. <br />Maila din ansökan till <a href="mailto:hej@lr-orebro.se">hej@lr-orebro.se</a></p>
@@ -267,9 +267,9 @@ export default {
             padding-right: 20px;
         }
     }
-    .mainText {
+    /* .mainText {
         width: 70%;
-    }
+    } */
     .lrHeaderLine {
         background-color: $red;
     }
@@ -351,8 +351,8 @@ export default {
                 font-size: 5vw;
             }
         }
-        .mainText {
+        /* .mainText {
             width: 100%;
-        }
+        } */
     }
 </style>

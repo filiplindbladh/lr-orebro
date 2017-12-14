@@ -70,8 +70,8 @@ export default {
   }
   .contact {
     z-index: 900;
-    right: 15px;
+    right: 10px;
     position:fixed;
-    top:500px; 
+    top:490px; 
   }
 </style>

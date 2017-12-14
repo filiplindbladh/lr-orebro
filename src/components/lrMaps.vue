@@ -13,7 +13,7 @@
   <!-- the social media icons for lr-orebro -->
     <div class="lrSocialMedia">
       <div class="lrMediaItem">
-        <a href="http://lr-revision.se/" target="_blank"> <img src="../img/lr-sverige.svg" alt="Logo LR Sverige"></a>
+        <a href="http://lr-revision.se/" target="_blank"> <img src="../img/LR-sverige.png" alt="Logo LR Sverige"></a>
       </div>
       <div class="lrMediaItem">
         <a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook-square" aria-hidden="true"></i> </a>
@@ -44,7 +44,7 @@ export default {
   .lrSocialMedia {
     width: 100%;
     margin-top: 50px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -69,7 +69,6 @@ export default {
   /* styles for the map */
   #map-responsive{
     overflow:hidden;
-    /* padding-bottom:36.25%; */
     padding-bottom: 350px;
     position:relative;
     height:0;
