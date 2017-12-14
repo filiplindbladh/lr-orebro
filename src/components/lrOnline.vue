@@ -58,7 +58,6 @@ export default {
             -ms-flex-align:center; 
                 align-items:center; 
     }
-
     .card { 
         width:50%;
         height:410px; 
@@ -74,6 +73,10 @@ export default {
         -webkit-box-direction:normal; 
             -ms-flex-direction:column; 
                 flex-direction:column; 
+        img {
+            min-height: 100%;
+            width: 100%;
+        }
     }
     button, p  {
         margin-top:20px; 
@@ -88,7 +91,6 @@ export default {
         }
         .card {
             width:100%;
-            height:auto;  
         }
     }
 </style>
