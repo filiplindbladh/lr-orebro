@@ -102,8 +102,5 @@ export default {
                 font-size: 5vw;
             }
         }
-        /* .mainText {
-            width: 100%;
-        } */
     }
 </style>

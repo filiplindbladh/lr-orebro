@@ -144,6 +144,7 @@ export default {
     }
     .tab {
         background-color:$blue; 
+        transition: all .3s ease-in-out;
         border-right: 1px solid white;
         /* transition: all 1s ease-out; */
         .title {
@@ -151,6 +152,7 @@ export default {
         }
     }
     li.tab:hover {
+        transition: all .3s ease-in-out;
         background-color: #eeeeee;
     }
     li.tab:hover .title {

@@ -72,7 +72,7 @@ export default {
         border-bottom: 1px solid $blue;
         position: fixed;
         top: 0;
-        z-index: 500;
+        z-index: 1000;
     }
     /* Company logo */
     .lrLogoContainer {
