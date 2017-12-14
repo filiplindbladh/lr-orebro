@@ -86,9 +86,8 @@ export default {
     margin-right:30px;  
   }
   .slider-indicator-icon {
-    border:1px solid black;
-    width:30px; 
-    height:30px; 
+    width:20px !important; 
+    height:20px !important; 
   }
   .indicators > .slider-indicator-active {
     background-color: $red !important;
@@ -161,7 +160,7 @@ export default {
         margin:10px; 
       }
       .slider {
-        min-height:400px; 
+        min-height:430px; 
       }
     }
 
