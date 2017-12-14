@@ -341,6 +341,9 @@ export default {
         width: 250px;
         margin: 0 auto;
     }
+     .mainText {
+        text-align:left; 
+    }
     /* ****************** MEDIAQUERIES ****************** */
     @media screen and (max-width: $tablet - 1px) {
         .quote {

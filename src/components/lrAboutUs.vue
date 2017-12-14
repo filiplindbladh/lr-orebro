@@ -92,6 +92,9 @@ export default {
     .lrHeaderLine {
         background-color: $red;
     }
+    .mainText {
+        text-align:left; 
+    }
     /* ****************** MEDIAQUERIES ****************** */
     @media screen and (max-width: $tablet - 1px) {
         .quote {
