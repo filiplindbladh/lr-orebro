@@ -66,9 +66,6 @@ export default {
             padding-right: 20px;
         }
     }
-    /* .mainText {
-        width: 70%;
-    } */
     .aboutUsImage {
         margin-top:67px; 
         background-image: url("../img/lrImage.jpg"); 

@@ -132,14 +132,32 @@ export default {
         z-index:-1;  
     }
     .vue-tabs .nav > li span.title {
-        font-size:20px; 
+        font-size:15px; 
+    }
+    li.tab.active,
+    li.tab.active:hover {
+        background-color: $white;
+    }
+    .vue-tabs .nav-tabs-justified > li > a, 
+    .vue-tabs .nav-tabs.nav-justified > li > a {
+        border-bottom: 1px solid transparent;
     }
     .tab {
         background-color:$blue; 
-        border-right: 1px solid white; 
+        border-right: 1px solid white;
+        /* transition: all 1s ease-out; */
         .title {
             color:white; 
         }
+    }
+    li.tab:hover {
+        background-color: #eeeeee;
+    }
+    li.tab:hover .title {
+        color:black;
+    }
+    .tabs__link > .title {
+        color:$white; 
     }
     .tabs__link:hover > .title {
         color:black; 
