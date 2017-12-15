@@ -1,8 +1,8 @@
 <template>
     <div>
-    <lrMenu></lrMenu>
-    <lrAboutUs></lrAboutUs>
-    <lrFooter></lrFooter>
+      <lrMenu></lrMenu>
+      <lrAboutUs></lrAboutUs>
+      <lrFooter></lrFooter>
     </div>
 </template>
 

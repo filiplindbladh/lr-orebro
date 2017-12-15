@@ -18,22 +18,19 @@
                         <i class="fa fa-paper-plane" aria-hidden="true"></i> <a href="mailto:hej@lr-orebro.se">hej@lr-orebro.se</a>
                     </div>
                 </div>
-            </div>
+            </div>  
         </div>
+        <!-- when we click on KONTAKT, show this modal window -->
+        <contactModal :activate="addActive" @closeRequest='close'></contactModal>
     </div>  
 </template>
     
 <script>
-import contactModal from '@/components/contactModal.vue'
+import contactModal from '@/components/contactModal'
 export default {
   name: 'lrContactBanner',
   components: {contactModal},
   props: ['bannerText', 'backgroundImage'],
-  computed: {
-    style () {
-      return 'background-image: url(' + this.backgroundImage + ')'
-    }
-  },
   data: function () {
     return {
       isOpen: false,
@@ -49,6 +46,11 @@ export default {
     },
     close () {
       this.addActive = ''
+    }
+  },
+  computed: {
+    style () {
+      return 'background-image: url(' + this.backgroundImage + ')'
     }
   }
 }
