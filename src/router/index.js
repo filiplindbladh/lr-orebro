@@ -44,5 +44,10 @@ export default new Router({
       name: 'Fortnox',
       component: Fortnox
     }
-  ]
+  ],
+  // when we change to a different page
+  // we alwalys see the top of the page
+  scrollBehavior (to, from, savedPosition) {
+    return { x: 0, y: 0 }
+  }
 })
