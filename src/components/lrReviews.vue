@@ -94,6 +94,7 @@ export default {
   }
   .indicators {
     bottom:0 !important; 
+    z-index: 500 !important; 
   }
   .slider-icon {
     display:-webkit-box;
