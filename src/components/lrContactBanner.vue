@@ -11,7 +11,7 @@
                     <div class="column">
                         <i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:019183850">019 18 38 50</a>
                     </div>
-                    <div class="column">
+                    <div class="column contactBtn">
                         <a id="lr-button-more" class="button is-info is-outlined">KONTAKT</a>
                     </div>
                     <div class="column">
@@ -39,6 +39,7 @@
 <style scoped lang="scss">
     @import '../style/main.scss';
     .banner {
+        min-height: 100%;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -71,7 +72,6 @@
     }
     .bannerContent {
         min-width: 100%;
-        /* border: 1px solid red; */
         display: -webkit-box;
         display: flex;
         -ms-display: flex;
@@ -91,7 +91,6 @@
     }
     /* for IE to know the width of the columns */
     .columns {
-        /* border: 1px solid yellowgreen; */
         min-width: 100%;
     }
     /* to center the content inside */
@@ -161,9 +160,17 @@
             -ms-flex-direction: column;
             flex-direction: column;
             .column {
-                min-height: 100%;
-                /* border: 1px solid pink; */
                 display: block;
+                min-height: 50px;
+            }
+            /* to make the contact button display center vertically */
+            .contactBtn {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
             }
         }
     }

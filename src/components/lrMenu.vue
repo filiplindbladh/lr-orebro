@@ -228,8 +228,13 @@ export default {
         .menuItems {
             display: none;
         }
+        .smallScreenMenuContainer {
+            right: 0;
+            position: absolute;
+            top: 10px;
+        }
         .lrMenuContainer {
-            width: 90%;
+            min-width: 90%;
             -webkit-box-pack: justify;
             -ms-flex-pack: justify;
             justify-content: space-between;
