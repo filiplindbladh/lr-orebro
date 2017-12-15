@@ -65,13 +65,19 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
     @import '../style/main.scss'; 
-  body {
-    position:relative; 
-  }
-  .contact {
-    z-index: 900;
-    right: 10px;
-    position:fixed;
-    top:490px; 
-  }
+    html {
+      box-sizing: border-box;
+    }
+    *, *:before, *:after {
+            box-sizing: inherit;
+    }
+    body {
+      position:relative; 
+    }
+    .contact {
+      z-index: 900;
+      right: 10px;
+      position:fixed;
+      top:490px; 
+    }
 </style>
