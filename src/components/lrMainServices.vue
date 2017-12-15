@@ -11,11 +11,14 @@
                     <h3>Redovisning</h3>
                     <hr class="lrHeaderLine"> 
                     <p class="leadText">
+                        Vill du slippa pappersfakturor och en full mejlinkorg? Vi är en modern byrå som kan hjälpa dig att digitalisera och automatisera din ekonomiska administration. Detta skapar en större trygghet för dig och frigör samtidigt mer tid som du istället kan ägna åt din kärnverksamhet. Inom ramen för begreppet redovisning ingår en rad olika ekonomiska tjänster som vi erbjuder våra kunder, däribland löpande bokföring, löneadministration, deklarationer och bokslut. Du väljer själv hur mycket du vill ha hjälp med och vi anpassar våra tjänster utifrån dina behov.
+                    </p>
+                    <!-- <p class="leadText">
                         Inom ramen för begreppet redovisning ryms en rad återkommande ekonomiska arbetsuppgifter, som t.ex. bokföring, kontering,skatte- och momsfrågor, kund- och leverantörsreskontra, ekonomisk rapportering etc. Vi kan erbjuda ett stort utbud av tjänster inom redovisning och administration. Du väljer själv hur du vill använda oss.
-                    </p>
-                    <p class="leadText">
+                    </p> -->
+                    <!-- <p class="leadText">
                         Vi kan hjälpa till att införa effektiva rutiner anpassade för ditt företag. Det kan handla om att anpassa kontoplanen så att rätt beslutsunderlag kan tas fram, utnyttja teknikens möjligheter, välja rätt program och skapa rutiner för ekonomi och administration. Vi kan också hjälpa till att bygga upp system för effektiv intern kontroll i företaget, vilket minskar risken för fel.
-                    </p>
+                    </p> -->
                 </div>
             </v-tab>
             <v-tab title="Rådgivning">

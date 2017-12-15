@@ -1,7 +1,7 @@
 <template>
     <div class="lrSection">
         <div class="banner parallax overlay" :style="style">
-            <div class="container section">
+            <div class="container section bannerContent">
                 <div class="columns">
                     <div class="column">
                         <h3> {{ bannerText }} </h3>
@@ -40,16 +40,11 @@
     @import '../style/main.scss';
     .banner {
         display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        -ms-display: flex;
         -webkit-box-pack: center;
-            -ms-flex-pack: center;
+        -ms-flex-pack: center;
                 justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        text-align: center;
-        z-index: 300;
         h3 {
             color: $white;
             z-index: 300;
@@ -74,8 +69,29 @@
         background-size: cover;
         position: relative;
     }
+    .bannerContent {
+        min-width: 100%;
+        /* border: 1px solid red; */
+        display: -webkit-box;
+        display: flex;
+        -ms-display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        text-align: center;
+        z-index: 300;
+        -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            margin: 0 auto;
+    }
     /* for IE to know the width of the columns */
     .columns {
+        /* border: 1px solid yellowgreen; */
         min-width: 100%;
     }
     /* to center the content inside */
@@ -139,11 +155,14 @@
     }
     @media screen and (max-width: 650px) {
         .contactInfo {
+            min-height: 100%;
             -webkit-box-orient: vertical;
             -webkit-box-direction: normal;
             -ms-flex-direction: column;
             flex-direction: column;
             .column {
+                min-height: 100%;
+                /* border: 1px solid pink; */
                 display: block;
             }
         }

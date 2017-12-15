@@ -47,6 +47,7 @@
                 align-items: center;
         height: calc(100vh - 67px);
         margin-top: 67px;
+        flex-direction: column;
     }
     .lrHeader {
         -webkit-box-align: center;
