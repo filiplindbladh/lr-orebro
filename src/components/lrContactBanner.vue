@@ -12,7 +12,7 @@
                         <i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:019183850">019 18 38 50</a>
                     </div>
                     <div class="column contactBtn">
-                        <a id="lr-button-more" class="button is-info is-outlined">KONTAKT</a>
+                        <a id="lr-button-more" class="button is-info is-outlined" @click='openModal()'>KONTAKT</a>
                     </div>
                     <div class="column">
                         <i class="fa fa-paper-plane" aria-hidden="true"></i> <a href="mailto:hej@lr-orebro.se">hej@lr-orebro.se</a>
@@ -24,16 +24,34 @@
 </template>
     
 <script>
-    // import VueImgLoader from 'vue-img-loader'
-    export default {
-      name: 'lrContactBanner',
-      props: ['bannerText', 'backgroundImage'],
-      computed: {
-        style () {
-          return 'background-image: url(' + this.backgroundImage + ')'
-        }
-      }
+import contactModal from '@/components/contactModal.vue'
+export default {
+  name: 'lrContactBanner',
+  components: {contactModal},
+  props: ['bannerText', 'backgroundImage'],
+  computed: {
+    style () {
+      return 'background-image: url(' + this.backgroundImage + ')'
     }
+  },
+  data: function () {
+    return {
+      isOpen: false,
+      addActive: ''
+    }
+  },
+  methods: {
+    toggle: function () {
+      this.isOpen = !this.isOpen
+    },
+    openModal: function () {
+      this.addActive = 'is-active'
+    },
+    close () {
+      this.addActive = ''
+    }
+  }
+}
 </script>
 
 <style scoped lang="scss">

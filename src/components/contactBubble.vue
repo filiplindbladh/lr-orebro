@@ -12,7 +12,7 @@ import 'font-awesome/css/font-awesome.css'
 import contactModal from '@/components/contactModal'
 
 export default {
-  name: 'Contact',
+  name: 'ContactBubble',
   components: {contactModal},
   data: function () {
     return {
@@ -31,7 +31,6 @@ export default {
       this.addActive = ''
     }
   }
-
 }
 </script>
 
