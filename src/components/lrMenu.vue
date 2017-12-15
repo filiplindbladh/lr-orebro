@@ -5,8 +5,8 @@
                 <router-link to="/"><img class="lrLogo" src="../img/logo.svg"></router-link> 
             </div>
             <div class="menuItems">
-                <router-link to="/">START</router-link> 
-                <router-link to="/tjanster">TJÄNSTER</router-link>
+                <router-link to="/"  v-scroll-to="'#start'">START</router-link> 
+                <router-link to="/tjanster" v-scroll-to="'#services'">TJÄNSTER</router-link>
                 <router-link to="/om-oss">OM OSS</router-link>
                 <router-link to="/kontakta-oss">KONTAKT</router-link>
                 <router-link to="/online">LR-ONLINE</router-link>
