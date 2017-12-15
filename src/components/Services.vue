@@ -1,6 +1,7 @@
 <template>
     <div>
     <lrMenu></lrMenu>
+    <lrHeaderBanner></lrHeaderBanner>
     <lrMainServices></lrMainServices>
     <lrBannerSlider></lrBannerSlider>
     <lrFooter></lrFooter>
@@ -12,6 +13,7 @@ import lrMenu from '@/components/lrMenu.vue'
 import lrMainServices from '@/components/lrMainServices.vue'
 import lrFooter from '@/components/lrFooter.vue'
 import lrBannerSlider from '@/components/lrBannerSlider.vue'
+import lrHeaderBanner from '@/components/lrHeaderBanner.vue'
 
 export default {
   name: 'Services',
@@ -19,7 +21,8 @@ export default {
     lrMenu,
     lrMainServices,
     lrFooter,
-    lrBannerSlider
+    lrBannerSlider,
+    lrHeaderBanner
   }
 }
 </script>
