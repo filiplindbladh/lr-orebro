@@ -3,7 +3,7 @@
         <lr-menu></lr-menu>
         <div class="contactImage overlay">
             <div class="quote container">
-                <h3> Logga in till Fortnox</h3>
+                <h3>Moderna bokföringsprogram <br /> för småföretagare</h3>
             </div>
         </div>
         <div class="section flex">
@@ -14,22 +14,26 @@
             </div> 
             <div class="card">
                 <div class="card-content">
-                <p class="FNstrong"><img src="../img/fortnox.png"> <br /> Hej, Logga in här!</p>
-                <!-- target blank to get the inlogged page to show in a new tab -->
-                <form action="https://apps.fortnox.se/fs/fs/login.php" name="login" method="post" id="login" target="_blank"> 
-                    <p>
-                        <label for="username">Användarnamn:</label>  
-                        <input class="input" type="text" id="login_userid" name="userid">
-                    </p>
-                    <p>
-                        <label for="password">Lösenord:</label>  
-                        <input class="input" type="password" id="login_password" name="passwd">   
-                    </p>  
-                    <button class="button is-primary is-outlined" type="submit" value="Logga in">Logga in</button>  
-                </form>  
-                <br />
-                <a class="link" href="/password/request" tabindex="4">Har du glömt ditt lösenord?</a>
-                <a href="https://www.fortnox.se/">Gå direkt till fortnox.se</a>
+                    <div class="FNimg">
+                        <img src="../img/fortnox.png" alt="fortnox logo">
+                    </div>
+
+                    <p class="FNstrong">Hej, Logga in här!</p>
+                    <!-- target blank to get the inlogged page to show in a new tab -->
+                    <form action="https://apps.fortnox.se/fs/fs/login.php" name="login" method="post" id="login" target="_blank"> 
+                        <p>
+                            <label for="username">Användarnamn:</label>  
+                            <input class="input" type="text" id="login_userid" name="userid">
+                        </p>
+                        <p>
+                            <label for="password">Lösenord:</label>  
+                            <input class="input" type="password" id="login_password" name="passwd">   
+                        </p>  
+                        <button class="button is-primary is-outlined" type="submit" value="Logga in">Logga in</button>  
+                    </form>  
+                    <br />
+                    <a class="link" href="https://apps.fortnox.se/password/request" target="_blank">Har du glömt ditt lösenord?</a>
+                    <a href="https://www.fortnox.se/" target="_blank">Gå direkt till fortnox.se</a>
                 </div>
             </div>
         </div>
@@ -145,6 +149,7 @@ export default {
     .FNstrong {
         font-weight: bold;
         font-size: 18px;
+        margin-left: 5px;
     }
     /* ****************** MEDIAQUERIES ****************** */
     @media screen and (max-width: $tablet - 1px) {

@@ -94,7 +94,6 @@ export default {
 
 <style lang="scss">
     @import '../style/main.scss';
-
     .vue-tabs .nav > li span.title {
         font-size:15px; 
     }
