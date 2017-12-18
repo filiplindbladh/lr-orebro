@@ -2,7 +2,7 @@
     <div>
         <vue-tabs active-tab-color="white" active-text-color="black" centered v-scroll-to="{ y: true }">
             <v-tab class="v-tab" title="Redovisning">
-                <div id="tabContent" class="section tab-content">
+                <div id="tabContent" class="section container tab-content">
                     <h3>Redovisning</h3>
                     <hr class="lrHeaderLine"> 
                     <p class="leadText">
@@ -17,7 +17,7 @@
                 </div>
             </v-tab>
             <v-tab class="v-tab" title="Rådgivning">
-                <div class="section tab-content">
+                <div class="section container tab-content">
                     <h3>Rådgivning</h3>
                     <hr class="lrHeaderLine"> 
                     <p class="leadText">
@@ -29,7 +29,7 @@
                 </div>
             </v-tab>
             <v-tab class="v-tab" title="Revision">
-                <div class="section tab-content">
+                <div class="section container tab-content">
                     <h3>Revision</h3>
                     <hr class="lrHeaderLine"> 
                     <p class="leadText">
@@ -41,7 +41,7 @@
                 </div>
             </v-tab>
             <v-tab class="v-tab" title="Bokslut">
-              <div class="section tab-content">
+              <div class="section container tab-content">
                   <h3>Bokslut</h3>
                   <hr class="lrHeaderLine"> 
                   <p class="leadText">
@@ -53,7 +53,7 @@
               </div>
             </v-tab>
             <v-tab class="v-tab" title="Löneradministration">
-              <div class="section tab-content">
+              <div class="section container tab-content">
                   <h3>Löneadministration</h3>
                   <hr class="lrHeaderLine"> 
                   <p class="leadText">

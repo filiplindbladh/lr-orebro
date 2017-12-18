@@ -27,6 +27,9 @@
                     </p>  
                     <button class="button is-primary is-outlined" type="submit" value="Logga in">Logga in</button>  
                 </form>  
+                <br />
+                <a class="link" href="/password/request" tabindex="4">Har du glömt ditt lösenord?</a>
+                <a href="https://www.fortnox.se/">Gå direkt till fortnox.se</a>
                 </div>
             </div>
         </div>
@@ -137,7 +140,7 @@ export default {
         }
     }
     button, p  {
-        margin-top:20px; 
+        margin-top:10px; 
     }
     .FNstrong {
         font-weight: bold;
