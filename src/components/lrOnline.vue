@@ -10,14 +10,13 @@
             <div class="card">
                 <div class="card-content">
                     <img src="../img/lr-online.png" alt="lr-online">
-                    <!-- <p>Håll koll på din ekonomi i mobilen med Lr-Online</p> -->
                 </div>
             </div> 
             <div class="card">
                 <div class="card-content">
                 <p class="title">Logga in på Lr-Online</p>
-                <form action="https://monitor.foretagsplatsen.se/Login" method="post"> 
-    
+                <!-- target blank to get the inlogged page to show in a new tab -->
+                <form action="https://monitor.foretagsplatsen.se/Login" method="post" target="_blank"> 
                     <input type="hidden" id="theme" name="theme" value="KundId" />     
                     <input type="hidden" id="cultureInfo" name="cultureInfo" value="sv-SE" />   
                     <p>
@@ -151,6 +150,7 @@ export default {
         }
         .card {
             width:100%;
+            height:auto;
         }
     }
 </style>
