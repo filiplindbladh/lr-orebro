@@ -4,7 +4,7 @@
       <slider animation="normal" :speed="200" :auto="false" :indicators="'center'" :control-btn="false" :height="'350px'">
         <slider-item>
           <div class="slider-icon">
-            <i class="fa fa-quote-left fa-5x" aria-hidden="true"></i>
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
           </div>
           <div class="slider-text">
             <p class="mainText">Remember, a "good" review is the type of review that's useful to the people who come along behind you. If you need to take some time away from the keyboard to really organize your thoughts and think about your experience from multiple sides of the issue, take it. Don't start writing in a fit of rage.</p>
@@ -120,9 +120,9 @@ export default {
     -webkit-box-align:center;
         -ms-flex-align:center;
             align-items:center;
-    p {
+    /* p {
       width:60%; 
-    }   
+    }    */
   }
   .slider-company {
     display:-webkit-box;
@@ -135,6 +135,9 @@ export default {
     span {
       font-weight:900; 
     }
+  }
+  .fa-quote-left {
+    font-size: 5em;
   }
 
 /* ****************** MEDIAQUERIES ****************** */
@@ -164,5 +167,14 @@ export default {
         min-height:430px; 
       }
     }
-
+    @media screen and (max-width: 500px) { 
+      .fa-quote-left {
+        font-size: 3em;
+      }
+    }
+    @media screen and (max-width: 347px) { 
+      .fa-quote-left {
+        display: none;
+      }
+    }
 </style>
