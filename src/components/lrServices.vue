@@ -33,7 +33,7 @@
             </p>
     </div>
      <div class="facebookBanner">
-        <iframe id="facebook" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F20531316728%2Fposts%2F10154009990506729%2F&width=500&show_text=true&appId=310732159388781&height=290"  style="border:none;overflow:hidden" scrolling="no" frameborder="2" allowTransparency="true"></iframe>
+        <iframe id="lrFacebookFeed" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F20531316728%2Fposts%2F10154009990506729%2F&width=500&show_text=true&appId=310732159388781&height=290"  style="border:none;overflow:hidden" scrolling="no" frameborder="2" allowTransparency="true"></iframe>
     </div>
 </div>
 </template>

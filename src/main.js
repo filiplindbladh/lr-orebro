@@ -7,7 +7,12 @@ import VueTabs from 'vue-nav-tabs'
 import 'vue-nav-tabs/themes/vue-tabs.css'
 import VueScrollTo from 'vue-scrollto'
 import VeeValidate from 'vee-validate'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
 
+// require styles
+import 'swiper/dist/css/swiper.css'
+
+Vue.use(VueAwesomeSwiper /* { default global options } */)
 Vue.use(VeeValidate)
 Vue.use(VueTabs)
 Vue.use(VueScrollTo)
@@ -110,6 +115,7 @@ document.addEventListener('DOMContentLoaded', function () {
 })
 
 /* eslint-disable*/
+/* TAWK APP */ 
 var Tawk_API = Tawk_API || {},
 Tawk_LoadStart = new Date();
 (function () {
@@ -121,3 +127,5 @@ var s1 = document.createElement("script"),
   s1.setAttribute('crossorigin', '*');
   s0.parentNode.insertBefore(s1, s0);
 })();
+
+
