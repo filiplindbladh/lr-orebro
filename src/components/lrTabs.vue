@@ -37,5 +37,8 @@
 
 .tabs {
   width:100%; 
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  white-space: normal !important;
 }
 </style>

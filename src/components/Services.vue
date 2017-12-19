@@ -29,6 +29,4 @@ export default {
 
 <style scoped lang="scss">
     @import '../style/main.scss';
-
-
 </style>

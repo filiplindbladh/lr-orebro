@@ -95,7 +95,9 @@ export default {
 <style lang="scss">
 @import "../style/main.scss";
 .tabContent {
-  width:500px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
 }
 .section { 
   .lrHeaderLine {
