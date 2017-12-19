@@ -39,17 +39,9 @@
 </template>
 
 <script>
-    /* eslint-disable */
-    export default {
-      name: 'lrServices',
-      methods: {
-    //     mouseOver: function () {
-    //     getElementByClass('triangle-bottomright').hide();
-    // }
-  }
-
-    }
-
+export default {
+  name: 'lrServices'
+}
 </script>
 
 <style scoped lang="scss">
