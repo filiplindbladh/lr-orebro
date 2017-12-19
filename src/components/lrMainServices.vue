@@ -98,7 +98,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center; 
-}
+} 
 .section { 
   .lrHeaderLine {
     background-color: $red;

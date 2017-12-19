@@ -1,14 +1,16 @@
 <template>
+  <div>
     <div class="tabs is-centered">
         <ul>
             <li v-for="tab in tabs" :class="{'is-active' : tab.isActive } ">
               <a :href="tab.href" @click="selectTab(tab)">{{ tab.name }}</a>
             </li>
         </ul>
-        <div class="tabsDetails">
-          <slot></slot>  
-        </div> 
     </div>
+    <div class="tabsDetails">
+      <slot></slot>  
+    </div> 
+  </div>
 </template>
 <script>
   export default {
@@ -37,8 +39,8 @@
 
 .tabs {
   width:100%; 
-  flex-wrap: wrap;
+  /* flex-wrap: wrap;
   overflow-x: hidden;
-  white-space: normal !important;
+  white-space: normal !important; */
 }
 </style>
