@@ -23,15 +23,13 @@
         <swiper-slide>
           <div class="section header overlay">
               <div class="lrHeader container">
-                  <h2>HÅLL KOLL PÅ DIN<br> EKONOMI MED LR-ONLINE</h2>
+                  <h1>HÅLL KOLL PÅ DIN<br> EKONOMI MED LR-ONLINE</h1>
                   <hr class="lrHeaderLineHeader">
                   <a href="/online" id="lr-button-more" class="button is-info is-outlined">LÄS MER</a>
               </div>
           </div>
         </swiper-slide>
         <div class="swiper-pagination" slot="pagination"></div>
-        <div class="swiper-button-prev" slot="button-prev"></div>
-        <div class="swiper-button-next" slot="button-next"></div>
       </swiper>
 </template>
 
