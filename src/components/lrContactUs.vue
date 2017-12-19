@@ -1,10 +1,12 @@
 <template>
     <div>
+        <!-- Banner  -->
         <div class="contactImage overlay">
             <div class="quote container">
                 <h3>Kontakta oss för mer information, <br />vi ser fram emot att höra från dig</h3>
             </div>
         </div>
+        <!-- Content on contact us page -->
         <div class="section container contactUs">
             <div class="head">
                 <h3>Kontakta oss</h3>
@@ -14,6 +16,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quisquam iste ipsam qui laboriosam doloremque voluptatum, consequatur veritatis rem voluptatibus. Ex quaerat voluptate odit fugit qui at accusamus quibusdam maiores.
                 </p>
             </div>
+            <!-- Pictures and info about the staff on LR Örebro -->
             <div class="columns is-mobile is-multiline lrContactPictures">
                 <div class="column is-mobile is-half-tablet is-one-third-desktop"> 
                     <div class="staffContactContainer">

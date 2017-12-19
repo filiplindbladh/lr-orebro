@@ -1,11 +1,14 @@
 <template>
     <div>
+        <!-- Menu  -->
         <lr-menu></lr-menu>
+        <!-- Banner -->
         <div class="contactImage overlay">
             <div class="quote container">
                 <h3>Moderna bokföringsprogram <br /> för småföretagare</h3>
             </div>
         </div>
+        <!-- Content for Fortnox page -->
         <div class="section flex">
             <div class="card">
                 <div class="card-content">
@@ -19,6 +22,7 @@
                     </div>
 
                     <p class="FNstrong">Hej, Logga in här!</p>
+                    <!-- Log in form to Fortnox page -->
                     <!-- target blank to get the inlogged page to show in a new tab -->
                     <form action="https://apps.fortnox.se/fs/fs/login.php" name="login" method="post" id="login" target="_blank"> 
                         <p>
@@ -33,13 +37,16 @@
                     </form>  
                     <br />
                     <a class="link" href="https://apps.fortnox.se/password/request" target="_blank">Har du glömt ditt lösenord?</a>
+                    <!-- Link to go directly to the home page Fortnox -->
                     <a href="https://www.fortnox.se/" target="_blank">Gå direkt till fortnox.se</a>
                 </div>
             </div>
         </div>
+        <!-- Footer here -->
         <lrFooter></lrFooter>
     </div>
 </template>
+
 <script>
 import lrMenu from '@/components/lrMenu.vue'
 import lrFooter from '@/components/lrFooter.vue'
@@ -51,6 +58,7 @@ export default {
   }
 }
 </script>
+
 <style scoped lang="scss">
     @import '../style/main.scss';
     /* styling for quote inside header */

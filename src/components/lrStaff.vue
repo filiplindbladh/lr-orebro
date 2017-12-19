@@ -5,7 +5,7 @@
 
     <p class="mainText">I samband med rådgivningen möter du ofta fler medarbetare hos oss, t.ex redovisningskonsulter, företagsrådvigare, skatteexperter. Vi analyserar inte bara det föregående året, utan kan även hjälpa dig med att se framåt och göra analyser och antaganden.</p>
 
-    <!-- pictures of the staff -->
+    <!-- pictures of the staff on LR örebro -->
     <div class="columns is-mobile is-multiline lrPictures">
       <div class="column is-half-mobile is-one-quarter-tablet"> 
         <div class="staffContainer">
@@ -158,8 +158,8 @@
                 <br>
                 <span>Revisor</span>
                 <br>
-                    <a href="tel:019183850"><i class="fa fa-phone" aria-hidden="true"></i></a>
-                    <a href="mailto:hej@lr-orebro.se"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+                <a href="tel:019183850"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                <a href="mailto:hej@lr-orebro.se"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
               </div>
             </div>
       </div>

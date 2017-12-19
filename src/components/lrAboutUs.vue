@@ -1,10 +1,12 @@
 <template>
     <div>
+        <!-- Banner  -->
         <div class="aboutUsImage overlay">
             <div class="quote container">
                 <h3>Vi på LR Örebro är som de flesta av våra kunder <br />– hårt arbetande småföretagare</h3>
             </div>
         </div>
+        <!-- Content on about us page -->
         <div class="section container contactUs">
             <div class="head">
                 <h3>Om oss</h3>
