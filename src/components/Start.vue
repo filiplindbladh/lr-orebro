@@ -5,9 +5,9 @@
   <lrMenu></lrMenu>
   <lrHeader></lrHeader>
   <!-- contact -->
-  <div class="contact">
+  <!-- <div class="contact">
   <contactBubble></contactBubble>
-  </div> 
+  </div>  -->
   <!-- services -->
   <lrServices></lrServices>
 
