@@ -20,7 +20,7 @@
     },
     computed: {
       href () {
-        return '#' + this.name.toLowerCase().replace(/åä/g, 'a')
+        return '#' + this.name.toLowerCase().replace(/[åä]/g, 'a')
       }
     }
   }

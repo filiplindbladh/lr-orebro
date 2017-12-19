@@ -5,21 +5,21 @@
         <hr class="lrHeaderLine">
 
         <div class="services">
-            <a href="#"> 
+            <a href="/tjanster#redovisning"> 
                 <div class="box redovisning">
                     <img class="boxImage" src="../img/accounting_icon.svg" alt="redovisning.png">
                     <h3>redovisning</h3>
                     <div class="triangle-bottomright"></div>
                 </div>
             </a>
-            <a href="#"> 
+            <a href="/tjanster#radgivning"> 
                 <div class="box consulting">
                     <img src="../img/consulting_icon.svg" alt="consultation.png">
                     <h3>rådgivning</h3>
                     <div class="triangle-bottomright"></div>
                 </div>
             </a>
-            <a href="#"> 
+            <a href="/tjanster#revision"> 
                 <div class="box revision"> 
                     <img class="boxImage" src="../img/revision_icon.svg" alt="revision.png">
                     <h3>revision</h3>
