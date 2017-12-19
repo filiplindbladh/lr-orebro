@@ -2,10 +2,10 @@
     <div>
         <lr-menu></lr-menu>
         <div class="contactImage overlay">
-                <div class="quote container">
-                    <h3>Håll koll på din ekonomi i mobilen <br /> med Lr-Online</h3>
-                </div>
+            <div class="quote container">
+                <h3>Håll koll på din ekonomi i mobilen <br /> med Lr-Online</h3>
             </div>
+        </div>
         <div class="section flex">
             <div class="card">
                 <div class="card-content">

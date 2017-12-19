@@ -4,6 +4,7 @@
             <div class="lrLogoContainer">
                 <router-link to="/"><img class="lrLogo" src="../img/logo.svg"></router-link> 
             </div>
+            <!-- Menu on desktop and lager screens -->
             <div class="menuItems">
                 <router-link to="/">START</router-link> 
                 <router-link to="/tjanster">TJÄNSTER</router-link>
@@ -21,6 +22,7 @@
                     <div></div>
                 </div>
             </div>
+            <!-- Menu for screens smaller than tablet -->
             <!-- Menu overlay that covers the whole screen -->
             <nav id='nav' class='menuOverlay' v-bind:class="{ active: isActive }">
                 <div id='close-menu' class='closeBtn' v-on:click='close()'>X</div>

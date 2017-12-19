@@ -1,5 +1,6 @@
 <template>
     <div class="lrSection">
+        <!-- get the background image for Start component -->
         <div class="banner parallax overlay" :style="style">
             <div class="container section bannerContent">
                 <div class="columns">
@@ -7,6 +8,7 @@
                         <h3> {{ bannerText }} </h3>
                     </div>
                 </div>  
+                <!-- Contact info to LR örebro -->
                 <div class="columns contactInfo">
                     <div class="column">
                         <i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:019183850">019 18 38 50</a>
