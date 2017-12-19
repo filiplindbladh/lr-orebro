@@ -16,7 +16,7 @@
                     <h2>REGISTRERAT VERKLIG HUVUDMAN <br> HOS BOLAGSVERKET?</h2>
                     <h4>– Sista dagen 30 Januari.</h4>
                     <hr class="lrHeaderLineHeader">
-                    <a v-scroll-to="'#lrFacebookFeed'" id="lr-button-more" class="button is-info is-outlined">LÄS MER</a>
+                    <a v-scroll-to="'.facebookBanner'" id="lr-button-more" class="button is-info is-outlined">LÄS MER</a>
                 </div>
             </div>
         </swiper-slide>
@@ -66,7 +66,7 @@ export default {
     .overlay:before {
         content: "";
         display: block;
-        height: 100%;
+        height:100%;
         position: absolute;
         top: 0;
         left: 0;
@@ -74,6 +74,9 @@ export default {
         right: 0;
         width: 100%;
         background-color: rgba(0, 81, 146, .75);
+    }
+    .swiper-slide {
+      height:100vh; 
     }
     .header {
         background-image: url("../img/redovisning_ed.png");

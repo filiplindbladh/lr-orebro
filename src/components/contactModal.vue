@@ -34,6 +34,10 @@
                             <label class="label">Fakturor per månad:</label>
                             <input class="input valueTwo" type="number" v-model="valueTwo">
                         </div>
+                        <div class="control">
+                            <label class="label">Organisationsnummer:</label>
+                            <input class="input valueTwo" type="number">
+                        </div>
                     </div>
                     </div>
                     <textarea class="textarea" placeholder="Meddelande">
