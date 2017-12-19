@@ -1,4 +1,5 @@
 <template>
+<div> 
     <div  id="sectionServices" class="section container">
         <h2>Kompetens och engagemang som ger resultat</h2>
         <hr class="lrHeaderLine">
@@ -31,6 +32,10 @@
                 Hos oss får du ett personligt och professionellt bemötande när vi hjälper dig att förvalta och utveckla ditt företag.
             </p>
     </div>
+     <div class="facebookBanner">
+        <iframe id="facebook" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F20531316728%2Fposts%2F10154009990506729%2F&width=500&show_text=true&appId=310732159388781&height=290"  style="border:none;overflow:hidden" scrolling="no" frameborder="2" allowTransparency="true"></iframe>
+    </div>
+</div>
 </template>
 
 <script>
@@ -143,6 +148,19 @@
         height: 211px;
         max-width: 100%;
     }
+    .facebookBanner {
+        width:100%; 
+        height:auto; 
+        background-color:$grey; 
+        display:flex; 
+        justify-content:center; 
+        iframe {
+            width:500px; 
+            height:290px; 
+            margin:40px; 
+        }
+    }
+   
     /* ****************** MEDIAQUERIES ****************** */
     @media screen and (max-width: $tablet - 1px) {
         .services {
@@ -163,11 +181,17 @@
         .box > h3 {
             color:$black; 
         }
+        .facebookBanner {
+            #facebook {
+                max-width:100%; 
+            }
+        }
     }
     @media screen and (min-width: $tablet) and (max-width: $desktop - 1px) {
         .box {
             margin:25px; 
         }
+        
     }
 
 </style>
