@@ -1,11 +1,14 @@
 <template>
     <div>
+        <!-- Header  -->
         <lr-menu></lr-menu>
+        <!-- Banner  -->
         <div class="contactImage overlay">
             <div class="quote container">
                 <h3>Håll koll på din ekonomi i mobilen <br /> med Lr-Online</h3>
             </div>
         </div>
+        <!-- Content on page LR online -->
         <div class="section flex">
             <div class="card">
                 <div class="card-content">
@@ -16,6 +19,7 @@
                 <div class="card-content">
                 <p class="title">Logga in på Lr-Online</p>
                 <!-- target blank to get the inlogged page to show in a new tab -->
+                <!-- form to log in to LR online -->
                 <form action="https://monitor.foretagsplatsen.se/Login" method="post" target="_blank"> 
                     <input type="hidden" id="theme" name="theme" value="KundId" />     
                     <input type="hidden" id="cultureInfo" name="cultureInfo" value="sv-SE" />   
@@ -32,9 +36,11 @@
                 </div>
             </div>
         </div>
+        <!-- Footer here -->
         <lrFooter></lrFooter>
     </div>
 </template>
+
 <script>
 import lrMenu from '@/components/lrMenu.vue'
 import lrFooter from '@/components/lrFooter.vue'
@@ -46,6 +52,7 @@ export default {
   }
 }
 </script>
+
 <style scoped lang="scss">
     @import '../style/main.scss';
     /* styling for quote inside header */
