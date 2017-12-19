@@ -17,9 +17,6 @@ Vue.use(VeeValidate)
 Vue.use(VueTabs)
 Vue.use(VueScrollTo)
 
-// Require responsive iframe npm package
-require('responsive-iframe')
-
 // Require the main Sass manifest file
 require('./style/main.scss')
 
