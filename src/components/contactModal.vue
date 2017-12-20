@@ -99,4 +99,8 @@ export default {
     input:valid > div.control.has-icons-left.has-icons-right > span.icon.is-right > i {
         background-color:green; 
     }
+    .is-grouped {
+        -ms-flex-wrap:wrap;
+            flex-wrap:wrap; 
+    }
 </style>
