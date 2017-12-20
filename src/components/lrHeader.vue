@@ -70,7 +70,7 @@ export default {
         background-color: rgba(0, 81, 146, .75);
     }
     .swiper-slide {
-      height:100vh; 
+      max-height:100vh;
     }
     .header {
         background-image: url("../img/redovisning_ed.png");
@@ -90,7 +90,7 @@ export default {
             -ms-flex-align: center;
                 align-items: center;
         height: calc(100vh - 67px);
-        margin-top: 67px;
+        margin-top: 30px;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;

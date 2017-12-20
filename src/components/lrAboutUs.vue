@@ -13,7 +13,21 @@
                 <hr class="lrHeaderLine">
                 <br/>
                 <p class="mainText">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quisquam iste ipsam qui laboriosam doloremque voluptatum, consequatur veritatis rem voluptatibus. Ex quaerat voluptate odit fugit qui at accusamus quibusdam maiores.
+                    I mitten av Sverige…
+                    <br />
+                    finns vi med kontor i Örebro och Vingåker.
+                    <br />
+                    <br />
+                    Vi på LR Revision & Redovisning Örebro/Vingåker AB är som de flesta av våra kunder – hårt arbetande småföretagare. Som revisor, rådgivare och bollplank träffar vi olika typer av företag från en mängd olika branscher. Det ger oss en bredd och ett djup i vår erfarenhet som alla våra kunder har glädje av.
+                    <br />
+                    <br />
+                    Det viktigaste för oss är att du som kund får ett personligt och professionellt bemötande, och att vi kan hjälpa dig att förvalta och utveckla ditt företag.
+                    <br /> 
+                    <br />
+                    Vi är en del av LR Revision & Redovisning med 70 lokalkontor runt om i Sverige, ett nätverk av revisorer och redovisningskonsulter som ger oss tillgång till specialistkompetens, utbildning och ett internationellt nätverk.
+                    <br />
+                    <br />
+                    Vi samarbetar även med jurist Lena Koss, från LK Juridiska Byrå AB, för att möta våra kunders behov av familje-, avtals- och bolagsjuridisk rådgivning mm.
                 </p>
             </div>
         </div>

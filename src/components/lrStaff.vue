@@ -3,7 +3,10 @@
     <h2>Mer än bara siffror</h2>
     <hr class="lrHeaderLine">
 
-    <p class="mainText">I samband med rådgivningen möter du ofta fler medarbetare hos oss, t.ex redovisningskonsulter, företagsrådvigare, skatteexperter. Vi analyserar inte bara det föregående året, utan kan även hjälpa dig med att se framåt och göra analyser och antaganden.</p>
+    <p class="mainText">
+        Vår byrå består av kompetent och engagerad personal. Vi gör vårt yttersta för att hjälpa Er företagare med vår kunskap och erfarenhet. På LR tycker vi att det är viktigt att bygga en långsiktig affärsmässig relation med våra kunder, där trygghet och förståelse för kundens verksamhet står i centrum. Därför får alla våra kunder en personlig kontakt att vända sig till. 
+      <!-- I samband med rådgivningen möter du ofta fler medarbetare hos oss, t.ex redovisningskonsulter, företagsrådvigare, skatteexperter. Vi analyserar inte bara det föregående året, utan kan även hjälpa dig med att se framåt och göra analyser och antaganden. -->
+    </p>
 
     <!-- pictures of the staff on LR örebro -->
     <div class="columns is-mobile is-multiline lrPictures">

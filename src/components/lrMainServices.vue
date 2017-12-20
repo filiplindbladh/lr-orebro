@@ -21,10 +21,10 @@
                     <h3>Rådgivning</h3>
                     <hr class="lrHeaderLine"> 
                     <p class="leadText">
-                        För många företag är revisorn så mycket mer än ”bara siffror”. I vårt arbete lägger vi stor vikt vid att analysera företaget . Vi gör det genom att se till helheten, d.v.s. produkter, människor, lönsamhet, kvalitet i ekonomisk information etc. På så sätt får vi också en bra uppfattning om företaget fungerar som det är avsett att fungera. Vi kan också vara ett bollplank i frågor som rör affärsutveckling, t.ex. genom att ställa de viktiga frågorna och ta fram underlagen inför besluten.
+                        Vår verksamhet är så mycket mer än ”bara siffror”. Vi kan fungera som ditt bollplank i frågor som rör affärsutveckling, skatter eller personalfrågor. Vi kan analysera tidigare år men även blicka framåt i tiden. Genom att se hur omvärlden ser ut, analysera trender i din bransch och se på vilka konsekvenser ett beslut kan få på lång respektive kort sikt, kan vi ta fram de rätta beslutsunderlagen som är viktiga för dig för att kunna driva ditt företag i rätt riktning.     
                     </p>
                     <p class="leadText">
-                        Genom att titta på hur omvärlden ser ut, analysera trender i branschen eller bland liknande företag och se på vilka konsekvenser ett beslut kan få på kort och lång sikt, kan våra medarbetare vara värdefulla resurser. Du får även råd inom många viktiga områden, t.ex. ekonomisk planering, skatter och IT. Vi kan också hjälpa dig med kontakter till banker, kreditbolag och myndigheter.
+                        Vi arbetar med ägarledda företag och där vet vi att delägarnas egen ekonomi är en viktig pusselbit. Vi kan hjälpa dig räkna på löneuttag och 3:12-regler för att optimera din skattesituation.    
                     </p>
                 </div>
             </v-tab>
@@ -33,10 +33,10 @@
                     <h3>Revision</h3>
                     <hr class="lrHeaderLine"> 
                     <p class="leadText">
-                        Revisorn genomför en oberoende revision genom att granska och bedöma företags årsredovisning, bokföring och förvaltning. Resultatet av granskningen dokumenteras och rapporteras både till dig som företagare och i den offentliga revisionsberättelsen. Revisorns kanske viktigaste funktion är att ge trovärdighet åt företagets finansiella information.
+                        Aktiebolag som omsätter över 3 miljoner kronor* behöver en auktoriserad revisor, men även för mindre företag kan det vara nyttigt att anlita en revisor. Hos oss arbetar flera auktoriserade revisorer med lång erfarenhet. Revisorn utför en oberoende granskning vilken dokumenteras och rapporteras till dig som företagare och i den offentliga revisionsberättelsen. Revisorns viktigaste funktion är att ge trovärdighet åt företagets finansiella information.     
                     </p>
                     <p class="leadText">
-                        Årsredovisningen och revisionsberättelsen är tillsammans beslutsunderlag för företagets intressenter, och de måste kunna lita på den information som lämnas i årsredovisningen. Revisorn har lagstadgad tystnadsplikt, och det är oftast bara i revisionsberättelsen och vid bolagsstämman som revisorn får lämna ut information.
+                        Årsredovisningen och revisionsberättelsen är tillsammans beslutsunderlag för företagets intressenter (banker, kreditbedömare, leasinggivare, leverantörer m.fl), och de måste kunna lita på den information som lämnas i årsredovisningen. Revisorn har lagstadgad tystnadsplikt. Vi vill inte att vår revision endast ska utmynna i revisionsberättelse, utan vi vill bidra med våra erfarenheter för att förbättra våra kunders verksamhet. Exempel på sådana områden är den interna kontrollen och risker för oegentligheter samt uppläggning av ekonomisystem och rutiner.    
                     </p>
                 </div>
             </v-tab>
@@ -47,21 +47,15 @@
                   <p class="leadText">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                   </p>
-                  <p class="leadText">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
               </div>
             </v-tab>
             <v-tab class="v-tab" title="Löneradministration">
               <div class="section container tab-content">
-                  <h3>Löneadministration</h3>
-                  <hr class="lrHeaderLine"> 
-                  <p class="leadText">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
-                  <p class="leadText">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
+                    <h3>Löneadministration</h3>
+                    <hr class="lrHeaderLine"> 
+                    <p class="leadText">
+                        Vi arbetar med ägarledda företag och där vet vi att delägarnas egen ekonomi är en viktig pusselbit. Vi kan hjälpa dig räkna på löneuttag och 3:12-regler för att optimera din skattesituation.
+                    </p>
               </div>
             </v-tab>
         </vue-tabs>
