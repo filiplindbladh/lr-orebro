@@ -143,6 +143,8 @@ export default {
         }
     }
     #lr-button-more {
+        -webkit-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
         transition: all .3s ease-in-out;
         border: 5px solid $green;
         font-size: 23px;

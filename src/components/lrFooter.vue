@@ -58,10 +58,18 @@ export default {
     background-color:$red; 
   }
   .footer-container {
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex; 
-    flex-direction:row; 
-    justify-content:space-between;
-    flex-wrap:wrap; 
+    -webkit-box-orient:horizontal; 
+    -webkit-box-direction:normal; 
+        -ms-flex-direction:row; 
+            flex-direction:row; 
+    -webkit-box-pack:justify; 
+        -ms-flex-pack:justify; 
+            justify-content:space-between;
+    -ms-flex-wrap:wrap;
+        flex-wrap:wrap; 
     margin-bottom: 200px;  
   }
   .footer-item {

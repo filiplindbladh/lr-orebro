@@ -66,10 +66,12 @@ export default {
 <style lang="scss">
     @import '../style/main.scss'; 
     html {
-      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
     }
     *, *:before, *:after {
-            box-sizing: inherit;
+            -webkit-box-sizing: inherit;
+                    box-sizing: inherit;
     }
     body {
       position:relative; 

@@ -91,7 +91,10 @@ export default {
                 align-items: center;
         height: calc(100vh - 67px);
         margin-top: 67px;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .lrHeader {
         -webkit-box-align: center;
@@ -118,6 +121,8 @@ export default {
         margin-bottom: 30px;
     }
     #lr-button-more {
+        -webkit-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
         transition: all .3s ease-in-out;
         border: 5px solid $green;
         font-size: 23px;

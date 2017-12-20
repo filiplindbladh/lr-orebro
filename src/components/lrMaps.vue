@@ -32,10 +32,19 @@ export default {
 <style lang="scss">
   @import '../style/main.scss';
   .heading-container {
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex; 
-    justify-content:center; 
-    flex-direction:column; 
-    align-items:center; 
+    -webkit-box-pack:center; 
+        -ms-flex-pack:center; 
+            justify-content:center; 
+    -webkit-box-orient:vertical; 
+    -webkit-box-direction:normal; 
+        -ms-flex-direction:column; 
+            flex-direction:column; 
+    -webkit-box-align:center; 
+        -ms-flex-align:center; 
+            align-items:center; 
   }
   .lrHeaderLine {
     background-color: $red;
@@ -45,9 +54,15 @@ export default {
     width: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .lrMediaItem {
     padding: 0 25px;
@@ -84,7 +99,10 @@ export default {
   /* ****************** MEDIAQUERIES ****************** */
   @media screen and (max-width: 550px) {
     .lrSocialMedia {
-      flex-direction: column;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
     }
   }
 </style>

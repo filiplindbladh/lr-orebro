@@ -43,6 +43,7 @@
                         den 27 augusti 2015
                     </a>
                 </blockquote>
+                <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
             </div>
         </div>
     </div>
@@ -164,6 +165,10 @@ export default {
         .fb-post {
             display:none; 
         }
+    }
+    .fb-like {
+        z-index:999; 
+        margin-top:40px; 
     }
    
     /* ****************** MEDIAQUERIES ****************** */

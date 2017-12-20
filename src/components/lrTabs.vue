@@ -1,15 +1,15 @@
 <template>
-  <div>
-    <div class="tabs is-centered">
+<div>
+    <div class="tabs is-centered" v-scroll-to="{ y: true }">
         <ul>
             <li v-for="tab in tabs" :class="{'is-active' : tab.isActive } ">
-              <a :href="tab.href" @click="selectTab(tab)">{{ tab.name }}</a>
+              <a :href="tab.href" @click="selectTab(tab)"> {{ tab.name }} </a>
             </li>
         </ul>
-    </div>
-    <div class="tabsDetails">
-      <slot></slot>  
-    </div> 
+        </div>
+         <div class="tabsDetails">
+        <slot></slot>  
+      </div>
   </div>
 </template>
 <script>
@@ -39,8 +39,5 @@
 
 .tabs {
   width:100%; 
-  /* flex-wrap: wrap;
-  overflow-x: hidden;
-  white-space: normal !important; */
 }
 </style>

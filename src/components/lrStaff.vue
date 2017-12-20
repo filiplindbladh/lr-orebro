@@ -195,6 +195,8 @@ export default {
     position: relative;
   }
   .staffInfo {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
     opacity: 0;
     margin: auto;

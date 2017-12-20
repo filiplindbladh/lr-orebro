@@ -115,6 +115,8 @@ export default {
         -ms-flex-align: center; 
         align-items: center;
         a {
+            -webkit-transition: all .3s ease-in-out;
+            -o-transition: all .3s ease-in-out;
             transition: all .3s ease-in-out;
             padding: 20px 20px;
             font-weight: bold;
