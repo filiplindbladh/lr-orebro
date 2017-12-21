@@ -209,7 +209,7 @@ export default {
             }
             #iframe {
                 /* display:none;  */
-                height: 400px !important;
+                height: 345px !important;
             }
         }
     }
