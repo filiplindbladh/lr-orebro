@@ -21,7 +21,7 @@
                 <div class="column is-mobile is-half-tablet is-one-third-desktop"> 
                     <div class="staffContactContainer">
                         <div class="imageTitle">
-                            <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
+                            <img class="lrStaffMember" src="../img/Peter.jpg" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
                             <div class="staffContactInfo">		
@@ -37,7 +37,7 @@
                 <div class="column is-mobile is-half-tablet is-one-third-desktop">
                     <div class="staffContactContainer">
                        <div class="imageTitle">
-                            <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
+                            <img class="lrStaffMember" src="../img/person.png" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
                             <div class="staffContactInfo">
@@ -53,7 +53,7 @@
                 <div class="column is-mobile is-half-tablet is-one-third-desktop">
                     <div class="staffContactContainer">
                         <div class="imageTitle">
-                            <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
+                            <img class="lrStaffMember" src="../img/person.png" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
                             <div class="staffContactInfo">
@@ -69,7 +69,7 @@
                 <div class="column is-mobile is-half-tablet is-one-third-desktop">
                     <div class="staffContactContainer">
                         <div class="imageTitle">
-                            <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
+                            <img class="lrStaffMember" src="../img/person.png" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
                             <div class="staffContactInfo">
@@ -85,7 +85,7 @@
                 <div class="column is-mobile is-half-tablet is-one-third-desktop">
                     <div class="staffContactContainer">
                         <div class="imageTitle">
-                            <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
+                            <img class="lrStaffMember" src="../img/person.png" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
                             <div class="staffContactInfo">		
@@ -101,7 +101,7 @@
                 <div class="column is-mobile is-half-tablet is-one-third-desktop">
                     <div class="staffContactContainer">
                         <div class="imageTitle">
-                            <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
+                            <img class="lrStaffMember" src="../img/Jens.jpg" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
                             <div class="staffContactInfo">
@@ -117,7 +117,7 @@
                 <div class="column is-mobile is-half-tablet is-one-third-desktop">
                     <div class="staffContactContainer">
                         <div class="imageTitle">
-                            <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
+                            <img class="lrStaffMember" src="../img/Eva.jpg" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
                             <div class="staffContactInfo">		
@@ -133,7 +133,7 @@
                 <div class="column is-mobile is-half-tablet is-one-third-desktop">
                     <div class="staffContactContainer">
                         <div class="imageTitle">
-                            <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
+                            <img class="lrStaffMember" src="../img/Robert.jpg" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
                             <div class="staffContactInfo">		
@@ -149,7 +149,7 @@
                 <div class="column is-mobile is-half-tablet is-one-third-desktop">
                     <div class="staffContactContainer">
                         <div class="imageTitle">
-                            <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
+                            <img class="lrStaffMember" src="../img/person.png" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
                             <div class="staffContactInfo">		
@@ -165,7 +165,7 @@
                 <div class="column is-mobile is-half-tablet is-one-third-desktop">
                     <div class="staffContactContainer">
                         <div class="imageTitle">
-                            <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
+                            <img class="lrStaffMember" src="../img/Louise.jpg" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
                             <div class="staffContactInfo">		
@@ -181,7 +181,7 @@
                 <div class="column is-mobile is-half-tablet is-one-third-desktop">
                     <div class="staffContactContainer">
                         <div class="imageTitle">
-                            <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
+                            <img class="lrStaffMember" src="../img/Sandra.jpg" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
                             <div class="staffContactInfo">	
@@ -197,15 +197,12 @@
                 <div class="column is-mobile is-half-tablet is-one-third-desktop">
                     <div class="staffContactContainer">
                         <div class="imageTitle">
-                            <img class="lrStaffMember" src="http://via.placeholder.com/250x250" alt="Staff member Lr Örebro">
+                            <img class="lrStaffMember" src="../img/Sara.jpg" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
                             <div class="staffContactInfo">		
-                                <strong><h5>Peter Lindbladh</h5></strong>
-                                <br/><strong>Auktoriserad revisor</strong>
-                                <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 57
-                                <br/><i class="fa fa-mobile" aria-hidden="true"></i>070-697 79 99
-                                <br/><i class="fa fa-envelope-o" aria-hidden="true"></i>peter.lindbladh@lr-revision.se
+                                <strong><h5>Sara Gustavsson</h5></strong>
+                                <br/><strong>Praktikant</strong>    
                             </div>
                         </div>
                     </div>
@@ -336,7 +333,7 @@ export default {
     .staffContactContainer {
         position: relative;
         border: 1px solid $grey;
-        height: 500px;
+        height: 600px;
     }
     .staffContactInfo {
         text-align: left;
