@@ -12,7 +12,7 @@
     <div class="columns is-mobile is-multiline lrPictures">
       <div class="column is-half-mobile is-one-quarter-tablet"> 
         <div class="staffContainer">
-            <img class="lrStaffMember" src="../img/Peter.jpg" alt="Staff member Lr Örebro">
+            <img class="lrStaffMember" src="../img/PeterLindbladh.png" alt="Staff member Lr Örebro">
             <div class="staffInfo">
               <span>Peter Lindbladh</span>
               <br>
@@ -38,7 +38,7 @@
       </div>
       <div class="column is-half-mobile is-one-quarter-tablet">
         <div class="staffContainer">
-            <img class="lrStaffMember" src="../img/person.png" alt="Staff member Lr Örebro">
+            <img class="lrStaffMember" src="../img/ThomasAllard.png" alt="Staff member Lr Örebro">
             <div class="staffInfo">
               <span>Thomas Allard</span>
               <br>
@@ -77,7 +77,7 @@
       </div>
       <div class="column is-half-mobile is-one-quarter-tablet">
         <div class="staffContainer">
-            <img class="lrStaffMember" src="../img/Jens.jpg" alt="Staff member Lr Örebro">
+            <img class="lrStaffMember" src="../img/JensForneng.png" alt="Staff member Lr Örebro">
             <div class="staffInfo">
               <span>Jens Forneng</span>
               <br>
@@ -90,7 +90,7 @@
       </div>
       <div class="column is-half-mobile is-one-quarter-tablet">
         <div class="staffContainer">
-            <img class="lrStaffMember" src="../img/Eva.jpg" alt="Eva Edström Lr Örebro">
+            <img class="lrStaffMember" src="../img/EvaEdstrom.png" alt="Eva Edström Lr Örebro">
             <div class="staffInfo">
               <span>Eva Edström</span>
               <br>
@@ -103,7 +103,7 @@
       </div>
       <div class="column is-half-mobile is-one-quarter-tablet">
         <div class="staffContainer">
-            <img class="lrStaffMember" src="../img/Robert.jpg" alt="Staff member Lr Örebro">
+            <img class="lrStaffMember" src="../img/RobertLarsson.png" alt="Staff member Lr Örebro">
             <div class="staffInfo">
               <span>Robert Larsson</span>
               <br>
@@ -116,7 +116,7 @@
       </div>
       <div class="column is-half-mobile is-one-quarter-tablet">
         <div class="staffContainer">
-            <img class="lrStaffMember" src="../img/person.png" alt="Staff member Lr Örebro">
+            <img class="lrStaffMember" src="../img/ElinViitanen.png" alt="Staff member Lr Örebro">
             <div class="staffInfo">
               <span>Elin Viitanen</span>
               <br>
@@ -129,7 +129,7 @@
       </div>
       <div class="column is-half-mobile is-one-quarter-tablet">
           <div class="staffContainer">
-            <img class="lrStaffMember" src="../img/Louise.jpg" alt="Staff member Lr Örebro">
+            <img class="lrStaffMember" src="../img/LouiseHagberg.png" alt="Staff member Lr Örebro">
             <div class="staffInfo">
               <span>Louise Hagberg</span>
               <br>
@@ -142,7 +142,7 @@
       </div>
       <div class="column is-half-mobile is-one-quarter-tablet">
           <div class="staffContainer">
-              <img class="lrStaffMember" src="../img/Sandra.jpg" alt="Staff member Lr Örebro">
+              <img class="lrStaffMember" src="../img/SandraDuvdahl.png" alt="Staff member Lr Örebro">
               <div class="staffInfo">
                 <span>Sandra Duvdahl</span>
                 <br>
@@ -155,9 +155,9 @@
         </div>
       <div class="column is-half-mobile is-one-quarter-tablet">
           <div class="staffContainer">
-            <img class="lrStaffMember" src="../img/Sara.jpg" alt="Staff member Lr Örebro">
+            <img class="lrStaffMember" src="../img/SaraGustafsson.png" alt="Staff member Lr Örebro">
             <div class="staffInfo">
-              <span>Sara Gustavsson</span>
+              <span>Sara Gustafsson</span>
               <br>
               <span>Praktikant</span>
               <br>

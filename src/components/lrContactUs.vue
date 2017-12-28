@@ -21,7 +21,7 @@
                 <div class="column is-mobile is-half-tablet is-one-third-desktop"> 
                     <div class="staffContactContainer">
                         <div class="imageTitle">
-                            <img class="lrStaffMember" src="../img/Peter.jpg" alt="Staff member Lr Örebro">
+                            <img class="lrStaffMember" src="../img/PeterLindbladh.png" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
                             <div class="staffContactInfo">		
@@ -45,7 +45,7 @@
                                 <br/><strong>Auktoriserad redovisningskonsult</strong>
                                 <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 54
                                 <br/><i class="fa fa-mobile" aria-hidden="true"></i>070-231 99 59
-                                <br/><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:thomas.allard@lr-revision.se">thomas.allard@lr-revision.se</a>
+                                <br/><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:ulf.ludvigsson@lr-revision.se">thomas.allard@lr-revision.se</a>
                             </div>
                         </div>
                     </div>
@@ -53,7 +53,7 @@
                 <div class="column is-mobile is-half-tablet is-one-third-desktop">
                     <div class="staffContactContainer">
                         <div class="imageTitle">
-                            <img class="lrStaffMember" src="../img/person.png" alt="Staff member Lr Örebro">
+                            <img class="lrStaffMember" src="../img/ThomasAllard.png" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
                             <div class="staffContactInfo">
@@ -101,7 +101,7 @@
                 <div class="column is-mobile is-half-tablet is-one-third-desktop">
                     <div class="staffContactContainer">
                         <div class="imageTitle">
-                            <img class="lrStaffMember" src="../img/Jens.jpg" alt="Staff member Lr Örebro">
+                            <img class="lrStaffMember" src="../img/JensForneng.png" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
                             <div class="staffContactInfo">
@@ -117,7 +117,7 @@
                 <div class="column is-mobile is-half-tablet is-one-third-desktop">
                     <div class="staffContactContainer">
                         <div class="imageTitle">
-                            <img class="lrStaffMember" src="../img/Eva.jpg" alt="Staff member Lr Örebro">
+                            <img class="lrStaffMember" src="../img/EvaEdstrom.png" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
                             <div class="staffContactInfo">		
@@ -133,7 +133,7 @@
                 <div class="column is-mobile is-half-tablet is-one-third-desktop">
                     <div class="staffContactContainer">
                         <div class="imageTitle">
-                            <img class="lrStaffMember" src="../img/Robert.jpg" alt="Staff member Lr Örebro">
+                            <img class="lrStaffMember" src="../img/RobertLarsson.png" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
                             <div class="staffContactInfo">		
@@ -149,7 +149,7 @@
                 <div class="column is-mobile is-half-tablet is-one-third-desktop">
                     <div class="staffContactContainer">
                         <div class="imageTitle">
-                            <img class="lrStaffMember" src="../img/person.png" alt="Staff member Lr Örebro">
+                            <img class="lrStaffMember" src="../img/ElinViitanen.png" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
                             <div class="staffContactInfo">		
@@ -165,7 +165,7 @@
                 <div class="column is-mobile is-half-tablet is-one-third-desktop">
                     <div class="staffContactContainer">
                         <div class="imageTitle">
-                            <img class="lrStaffMember" src="../img/Louise.jpg" alt="Staff member Lr Örebro">
+                            <img class="lrStaffMember" src="../img/LouiseHagberg.png" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
                             <div class="staffContactInfo">		
@@ -181,7 +181,7 @@
                 <div class="column is-mobile is-half-tablet is-one-third-desktop">
                     <div class="staffContactContainer">
                         <div class="imageTitle">
-                            <img class="lrStaffMember" src="../img/Sandra.jpg" alt="Staff member Lr Örebro">
+                            <img class="lrStaffMember" src="../img/SandraDuvdahl.png" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
                             <div class="staffContactInfo">	
@@ -197,11 +197,11 @@
                 <div class="column is-mobile is-half-tablet is-one-third-desktop">
                     <div class="staffContactContainer">
                         <div class="imageTitle">
-                            <img class="lrStaffMember" src="../img/Sara.jpg" alt="Staff member Lr Örebro">
+                            <img class="lrStaffMember" src="../img/SaraGustafsson.png" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
                             <div class="staffContactInfo">		
-                                <strong><h5>Sara Gustavsson</h5></strong>
+                                <strong><h5>Sara Gustafsson</h5></strong>
                                 <br/><strong>Praktikant</strong>    
                             </div>
                         </div>
