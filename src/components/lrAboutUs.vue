@@ -13,7 +13,7 @@
                 <hr class="lrHeaderLine">
                 <br/>
                 <p class="mainText">
-                    <span class="headerMainText">I mitten av Sverige…</span>
+                    <span>I mitten av Sverige…</span>
                     <br />
                     finns vi med kontor i Örebro och Vingåker.
                     <br />
@@ -110,11 +110,11 @@ export default {
     }
     .mainText {
         text-align:left; 
-    }
-    .headerMainText {
+        span {
         font-weight: bold;
         font-size: 20px;
         padding-bottom: 5px;
+        }
     }
     /* ****************** MEDIAQUERIES ****************** */
     @media screen and (max-width: $tablet - 1px) {

@@ -54,7 +54,8 @@
                     <h3>Löneadministration</h3>
                     <hr class="lrHeaderLine"> 
                     <p class="leadText">
-                        Vi arbetar med ägarledda företag och där vet vi att delägarnas egen ekonomi är en viktig pusselbit. Vi kan hjälpa dig räkna på löneuttag och 3:12-regler för att optimera din skattesituation.
+                        Vi på LR erbjuder våra kunder samtliga tjänster inom löneadministration, som att upprätta lönespecifikationer, fylla i och lämna arbetsgivardeklarationer, skapa bankfiler för löneutbetalningar och rapportera kontrolluppgifter.
+                        För dig som vill slippa tidkort och saknade kvitton kan vi även erbjuda digitala lösningar där du och dina medarbetare registrerar era utlägg, reseräkningar och övriga ersättningar direkt i mobilen. Hör av dig så berättar vi gärna mer!
                     </p>
               </div>
             </v-tab>
