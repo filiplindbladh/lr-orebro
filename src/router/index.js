@@ -6,6 +6,7 @@ import Contact from '@/components/Contact'
 import About from '@/components/About'
 import lrOnline from '@/components/lrOnline'
 import Fortnox from '@/components/Fortnox'
+import Positions from '@/components/Positions'
 
 Vue.use(Router)
 
@@ -43,6 +44,11 @@ export default new Router({
       path: '/fortnox',
       name: 'Fortnox',
       component: Fortnox
+    },
+    {
+      path: '/ledigatjanster',
+      name: 'Lediga tjanster',
+      component: Positions
     }
   ],
   // when we change to a different page

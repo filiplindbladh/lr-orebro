@@ -10,13 +10,10 @@ import lrMenu from '@/components/lrMenu.vue'
 import lrFooter from '@/components/lrFooter.vue'
 
 export default {
-  name: 'Services',
+  name: 'Positions',
   components: {
     lrMenu,
-    lrMainServices,
-    lrFooter,
-    lrBannerSlider,
-    lrHeaderBanner
+    lrFooter
   }
 }
 </script>
