@@ -7,7 +7,7 @@
             </li>
         </ul>
         </div>
-         <div class="tabsDetails">
+        <div class="tabsDetails">
         <slot></slot>  
       </div>
   </div>
