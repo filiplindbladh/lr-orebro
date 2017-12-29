@@ -230,7 +230,7 @@ export default {
         max-width: 170px;
     }
     /* ****************** MEDIAQUERIES ****************** */
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 819px) {
         .menuItems {
             display: none;
         }
@@ -249,7 +249,7 @@ export default {
     .menuOverlay .closeBtn {
         right: 4%;
     }
-    @media screen and (min-width: $tablet) {
+    @media screen and (min-width: 820px) {
         .smallScreenMenuContainer {
             display: none;
         }
