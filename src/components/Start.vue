@@ -1,6 +1,6 @@
 <template>
   <div id="start">
-  <scale-loader :loading="loading" :color="color" :height="height" :width="width"></scale-loader>
+  <pulse-loader v-if="isLoading"></pulse-loader>
 
   <!-- meny -->
   <lrMenu></lrMenu>

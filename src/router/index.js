@@ -46,8 +46,8 @@ export default new Router({
       component: Fortnox
     },
     {
-      path: '/ledigatjanster',
-      name: 'Lediga tjanster',
+      path: '/lediga-tjanster',
+      name: 'Positions',
       component: Positions
     }
   ],
