@@ -82,8 +82,12 @@ export default {
         margin-top:20px; 
     }
     .modal {
-        height:100%; 
-        z-index:999999999; 
+        min-height:100%; 
+        z-index:9999999999; 
+    }
+    .modal-card {
+        max-width: 100%;
+        max-height: 100%;
     }
     .values {
         .control {
@@ -102,5 +106,15 @@ export default {
     .is-grouped {
         -ms-flex-wrap:wrap;
             flex-wrap:wrap; 
+    }
+    @media screen and (min-width: 779px){ 
+        .modal.is-active { 
+            display: -webkit-box; 
+            display: -ms-flexbox; 
+            display: inline-block; 
+        } 
+        .modal-card { 
+            /* margin-top: 1px;  */
+        } 
     }
 </style>
