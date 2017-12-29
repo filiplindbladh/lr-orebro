@@ -47,7 +47,7 @@ export default {
     }
     .accounting-stockphoto {
         margin-top:67px; 
-        background-image: url("../img/accounting-stockphoto.png"); 
+        background-image: url("../img/servicesHeader.png"); 
         background-repeat: no-repeat; 
         background-position:center; 
         background-size:cover; 

@@ -209,13 +209,6 @@
                 </div>
             </div>
         </div>
-        <div class="work">
-            <div class="section">
-                <i class="fa fa-briefcase" aria-hidden="true"></i>
-                <h3>Lediga Jobb</h3>
-                <p>Vi har alltid behov av kompetent personal och tar gärna emot spontanansökningar. <br />Maila din ansökan till <a href="mailto:hej@lr-orebro.se">hej@lr-orebro.se</a></p>
-            </div>
-        </div>
     </div>
 </template>
 
@@ -272,7 +265,7 @@ export default {
     }
     .contactImage {
         margin-top:67px; 
-        background-image: url("../img/lrContact.jpeg"); 
+        background-image: url("../img/contactHeader.png"); 
         background-repeat: no-repeat; 
         background-position:center; 
         background-size:cover; 
@@ -292,28 +285,6 @@ export default {
             -ms-flex-direction: column;
                 flex-direction: column;
         margin-bottom: 50px;
-    }
-    .work {
-        background-color: $grey;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        text-align: center;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        width: 100%;
-        height: 250px;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        .fa-briefcase {
-            font-size: 30px;
-        }
     }
     .fa {
         margin-right: 5px;
