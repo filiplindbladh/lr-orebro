@@ -27,6 +27,7 @@
     "vue-router": "^3.0.1",
     "vue-scrollto": "^2.8.0",
     "vue-slider-component": "^2.4.7",
+    "vue-spinner": "^1.0.3",
     "vuelidate": "^0.6.1"
   },
   "devDependencies": {
