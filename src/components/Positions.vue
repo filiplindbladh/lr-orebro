@@ -1,18 +1,19 @@
 <template>
     <div id="positions">
-    <lrMenu></lrMenu>
-    <div class="positionsHeader overlay">
-        <h3>Sök jobb hos oss!</h3>
-    </div>
-    <div class="positionsInfo">
-        <div>
-            <p class="mainText">
-                <span>Vi bryr oss om</span> vår personal och vill att alla medarbetare ska känna sig delaktiga i Byråns verksamhet och utveckling. Vill du också arbeta på en framåtsträvande byrå med en stark teamkänsla? Vi är alltid i behov av kompetent personal och tar gärna emot intresseanmälningar.
-            </p>
+        <!-- Header  -->
+        <lrMenu></lrMenu>
+        <div class="positionsHeader overlay">
+            <h3>Jobba hos oss!</h3>
         </div>
-            <img src="../img/positionsHeader.jpg" alt="">
-    </div>
-    <div class="work">
+        <div class="positionsInfo">
+            <div>
+                <p class="mainText">
+                    <span>Vi bryr oss om</span> vår personal och vill att alla medarbetare ska känna sig delaktiga i Byråns verksamhet och utveckling. Vill du också arbeta på en framåtsträvande byrå med en stark teamkänsla? Vi är alltid i behov av kompetent personal och tar gärna emot intresseanmälningar.
+                </p>
+            </div>
+            <img src="../img/LRtable.jpg" alt="Picture of LR Örebro staff">
+        </div>
+        <div class="work">
             <i class="fa fa-briefcase" aria-hidden="true"></i>
             <h3>Just nu söker vi en revisorsassistent</h3>
             <p>
@@ -22,8 +23,9 @@
             SKICKA IN ANSÖKAN 
             <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
             </a>
-    </div>
-    <lrFooter></lrFooter>
+        </div>
+        <!-- Footer here -->
+        <lrFooter></lrFooter>
     </div>
 </template>
 

@@ -19,7 +19,7 @@
             <h4>AKTUELLT</h4>
             <hr class="lrHeaderLine">
             <ul>
-              <li><a href="#">Nyhetsbrev Novemeber</a></li> 
+              <li><a href="#">Nyhetsbrev November</a></li> 
               <li><a href="#">Nyhetsbrev Oktober</a></li>
               <li><a href="#">Läs mer</a></li>
             </ul>
