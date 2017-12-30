@@ -2,7 +2,7 @@
   <div>
     <div class="accounting-stockphoto overlay">
       <div class="quote container">
-        <h3>Vi kan erbjuda ett stort utbud av tjänster <br /> inom redovisning och administration</h3>
+        <h3>Vi kan erbjuda ett stort utbud av tjänster inom redovisning och administration</h3>
       </div>
     </div>
     <div class="section servicesText">
@@ -74,7 +74,13 @@ export default {
         font-weight:800; 
       }
     }
-
-
+/* ****************** MEDIAQUERIES ****************** */
+@media screen and (max-width: $tablet - 1px) {
+    .quote {
+        h3 {
+            font-size:5vw; 
+        }
+    }
+}
 </style>
 

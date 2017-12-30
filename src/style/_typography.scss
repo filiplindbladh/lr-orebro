@@ -37,13 +37,60 @@ body {
     text-align:left; 
     line-height:30px; 
   }
-  
+
+  // styling for text and pictures on tabs services page
+  .lrServices {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .lrServicesContent {
+      max-width: 50%;
+      .leadText {
+        width: 95%;
+        margin: 0;
+      }
+      h3, .lrHeaderLine {
+        text-align: center;
+      }
+  }
+  @media screen and (max-width: 920px) {
+    .lrServices {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+    .lrServicesContent {
+        max-width: 95%;
+        .leadText {
+          margin: 0 auto;
+          // padding-bottom: 20px;
+        }
+        h3, .lrHeaderLine {
+          text-align: center;
+        }
+    }
+  }
   @media screen and (max-width: $tablet - 1px) {
     h2 {
       font-size: 5vw;
     }
     h3 {
       font-size: 5vw;
+    }
+    h4 {
+      font-size: 20px;
+    }
+    h5 {
+      font-size: 15px;
     }
     .mainText {
       width: 90%;

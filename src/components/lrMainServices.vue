@@ -3,61 +3,97 @@
         <vue-tabs active-tab-color="white" active-text-color="black" centered v-scroll-to="{ y: true }">
             <v-tab class="v-tab" title="Redovisning">
                 <div id="tabContent" class="section container tab-content">
-                    <h3>Redovisning</h3>
-                    <hr class="lrHeaderLine"> 
-                    <p class="leadText">
-                        Vill du slippa pappersfakturor och en full mejlinkorg? Vi är en modern byrå som kan hjälpa dig att digitalisera och automatisera din ekonomiska administration. Detta skapar en större trygghet för dig och frigör samtidigt mer tid som du istället kan ägna åt din kärnverksamhet. Inom ramen för begreppet redovisning ingår en rad olika ekonomiska tjänster som vi erbjuder våra kunder, däribland löpande bokföring, löneadministration, deklarationer och bokslut. Du väljer själv hur mycket du vill ha hjälp med och vi anpassar våra tjänster utifrån dina behov.
-                    </p>
-                    <!-- <p class="leadText">
-                        Inom ramen för begreppet redovisning ryms en rad återkommande ekonomiska arbetsuppgifter, som t.ex. bokföring, kontering,skatte- och momsfrågor, kund- och leverantörsreskontra, ekonomisk rapportering etc. Vi kan erbjuda ett stort utbud av tjänster inom redovisning och administration. Du väljer själv hur du vill använda oss.
-                    </p> -->
-                    <!-- <p class="leadText">
-                        Vi kan hjälpa till att införa effektiva rutiner anpassade för ditt företag. Det kan handla om att anpassa kontoplanen så att rätt beslutsunderlag kan tas fram, utnyttja teknikens möjligheter, välja rätt program och skapa rutiner för ekonomi och administration. Vi kan också hjälpa till att bygga upp system för effektiv intern kontroll i företaget, vilket minskar risken för fel.
-                    </p> -->
+
+                    <div class="lrServices">
+                        <div class="lrServicesContent">
+                            <h3>Redovisning</h3>
+                            <br />
+                            <p class="leadText">
+                                Vill du slippa pappersfakturor och en full mejlinkorg? Vi är en modern byrå som kan hjälpa dig att digitalisera och automatisera din ekonomiska administration. Detta skapar en större trygghet för dig och frigör samtidigt mer tid som du istället kan ägna åt din kärnverksamhet. Inom ramen för begreppet redovisning ingår en rad olika ekonomiska tjänster som vi erbjuder våra kunder, däribland löpande bokföring, löneadministration, deklarationer och bokslut. Du väljer själv hur mycket du vill ha hjälp med och vi anpassar våra tjänster utifrån dina behov.
+                            </p>
+                        </div>
+                            
+                        <div class="lrServicesContent">
+                            <img src="../img/desk.jpg" alt="Lr picture">
+                        </div>
+                    </div>
+
                 </div>
             </v-tab>
             <v-tab class="v-tab" title="Rådgivning">
                 <div class="section container tab-content">
-                    <h3>Rådgivning</h3>
-                    <hr class="lrHeaderLine"> 
-                    <p class="leadText">
-                        Vår verksamhet är så mycket mer än ”bara siffror”. Vi kan fungera som ditt bollplank i frågor som rör affärsutveckling, skatter eller personalfrågor. Vi kan analysera tidigare år men även blicka framåt i tiden. Genom att se hur omvärlden ser ut, analysera trender i din bransch och se på vilka konsekvenser ett beslut kan få på lång respektive kort sikt, kan vi ta fram de rätta beslutsunderlagen som är viktiga för dig för att kunna driva ditt företag i rätt riktning.     
-                    </p>
-                    <p class="leadText">
-                        Vi arbetar med ägarledda företag och där vet vi att delägarnas egen ekonomi är en viktig pusselbit. Vi kan hjälpa dig räkna på löneuttag och 3:12-regler för att optimera din skattesituation.    
-                    </p>
+                    <div class="lrServices">
+                        <div class="lrServicesContent">
+                            <h3>Rådgivning</h3>
+                            <br />
+                            <p class="leadText">
+                                Vår verksamhet är så mycket mer än ”bara siffror”. Vi kan fungera som ditt bollplank i frågor som rör affärsutveckling, skatter eller personalfrågor. Vi kan analysera tidigare år men även blicka framåt i tiden. Genom att se hur omvärlden ser ut, analysera trender i din bransch och se på vilka konsekvenser ett beslut kan få på lång respektive kort sikt, kan vi ta fram de rätta beslutsunderlagen som är viktiga för dig för att kunna driva ditt företag i rätt riktning.     
+                            </p>
+                            <p class="leadText">
+                                Vi arbetar med ägarledda företag och där vet vi att delägarnas egen ekonomi är en viktig pusselbit. Vi kan hjälpa dig räkna på löneuttag och 3:12-regler för att optimera din skattesituation.    
+                            </p>
+                        </div>
+                            
+                        <div class="lrServicesContent">
+                            <img src="../img/talk.jpg" alt="Lr picture">
+                        </div>
+                    </div>
                 </div>
             </v-tab>
             <v-tab class="v-tab" title="Revision">
                 <div class="section container tab-content">
-                    <h3>Revision</h3>
-                    <hr class="lrHeaderLine"> 
-                    <p class="leadText">
-                        Aktiebolag som omsätter över 3 miljoner kronor* behöver en auktoriserad revisor, men även för mindre företag kan det vara nyttigt att anlita en revisor. Hos oss arbetar flera auktoriserade revisorer med lång erfarenhet. Revisorn utför en oberoende granskning vilken dokumenteras och rapporteras till dig som företagare och i den offentliga revisionsberättelsen. Revisorns viktigaste funktion är att ge trovärdighet åt företagets finansiella information.     
-                    </p>
-                    <p class="leadText">
+                    <div class="lrServices">
+                        <div class="lrServicesContent">
+                            <h3>Revision</h3>
+                            <br />
+                            <p class="leadText">
+                                Aktiebolag som omsätter över 3 miljoner kronor* behöver en auktoriserad revisor, men även för mindre företag kan det vara nyttigt att anlita en revisor. Hos oss arbetar flera auktoriserade revisorer med lång erfarenhet. Revisorn utför en oberoende granskning vilken dokumenteras och rapporteras till dig som företagare och i den offentliga revisionsberättelsen. Revisorns viktigaste funktion är att ge trovärdighet åt företagets finansiella information.     
+                            </p>
+                        </div>
+                                
+                        <div class="lrServicesContent">
+                            <img src="../img/laptop.jpg" alt="Lr picture">
+                        </div>
+                    </div>
+                    <p class="textUnder">
                         Årsredovisningen och revisionsberättelsen är tillsammans beslutsunderlag för företagets intressenter (banker, kreditbedömare, leasinggivare, leverantörer m.fl), och de måste kunna lita på den information som lämnas i årsredovisningen. Revisorn har lagstadgad tystnadsplikt. Vi vill inte att vår revision endast ska utmynna i revisionsberättelse, utan vi vill bidra med våra erfarenheter för att förbättra våra kunders verksamhet. Exempel på sådana områden är den interna kontrollen och risker för oegentligheter samt uppläggning av ekonomisystem och rutiner.    
                     </p>
                 </div>
             </v-tab>
             <v-tab class="v-tab" title="Bokslut">
               <div class="section container tab-content">
-                  <h3>Bokslut</h3>
-                  <hr class="lrHeaderLine"> 
-                  <p class="leadText">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
-              </div>
+                    <div class="lrServices">
+                        <div class="lrServicesContent">
+                            <h3>Bokslut</h3>
+                            <br />
+                            <p class="leadText">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                                
+                        <div class="lrServicesContent">
+                            <img src="../img/LRtable.jpg" alt="Lr picture">
+                        </div>
+                    </div>
+                </div>
             </v-tab>
             <v-tab class="v-tab" title="Löneradministration">
               <div class="section container tab-content">
-                    <h3>Löneadministration</h3>
-                    <hr class="lrHeaderLine"> 
-                    <p class="leadText">
-                        Vi på LR erbjuder våra kunder samtliga tjänster inom löneadministration, som att upprätta lönespecifikationer, fylla i och lämna arbetsgivardeklarationer, skapa bankfiler för löneutbetalningar och rapportera kontrolluppgifter.
-                        För dig som vill slippa tidkort och saknade kvitton kan vi även erbjuda digitala lösningar där du och dina medarbetare registrerar era utlägg, reseräkningar och övriga ersättningar direkt i mobilen. Hör av dig så berättar vi gärna mer!
-                    </p>
-              </div>
+                    <div class="lrServices">
+                        <div class="lrServicesContent">
+                            <h3>Löneadministration</h3>
+                            <br />
+                            <p class="leadText">
+                                Vi på LR erbjuder våra kunder samtliga tjänster inom löneadministration, som att upprätta lönespecifikationer, fylla i och lämna arbetsgivardeklarationer, skapa bankfiler för löneutbetalningar och rapportera kontrolluppgifter.
+                                För dig som vill slippa tidkort och saknade kvitton kan vi även erbjuda digitala lösningar där du och dina medarbetare registrerar era utlägg, reseräkningar och övriga ersättningar direkt i mobilen. Hör av dig så berättar vi gärna mer!
+                            </p>
+                        </div>
+                                
+                        <div class="lrServicesContent">
+                            <img src="../img/copy.jpg" alt="Lr picture">
+                        </div>
+                    </div>
+                </div>
             </v-tab>
         </vue-tabs>
     </div>
@@ -96,6 +132,12 @@ export default {
 
 <style lang="scss">
     @import '../style/main.scss';
+    .textUnder {
+        max-width: 100%;
+        font-size: 18px;
+        line-height:30px; 
+        margin-top: 25px;
+    }
     .vue-tabs .nav > li span.title {
         font-size:15px; 
     }
@@ -109,7 +151,7 @@ export default {
     }
     .tab {
         background-color:$blue; 
-        transition: all .3s ease-in-out;
+        /* transition: all .3s ease-in-out; */
         border-right: 1px solid white;
         /* transition: all 1s ease-out; */
         .title {
@@ -117,7 +159,7 @@ export default {
         }
     }
     li.tab:hover {
-        transition: all .3s ease-in-out;
+        /* transition: all .3s ease-in-out; */
         background-color: #eeeeee;
     }
     li.tab:hover .title {
