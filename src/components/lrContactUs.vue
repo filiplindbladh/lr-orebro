@@ -156,7 +156,7 @@
                                 <strong><h5>Elin Viitanen</h5></strong>
                                 <br/><strong>Revisorsassistent</strong>
                                 <br/><i class="fa fa-phone" aria-hidden="true"></i>019-765 23 22
-                                <!-- <br/><i class="fa fa-mobile" aria-hidden="true"></i>070-697 79 99 -->
+                                <br/><i class="fa fa-mobile" aria-hidden="true"></i>070-222 94 73
                                 <br/><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:elin.viitanen@lr-revision.se">elin.viitanen@lr-revision.se</a>
                             </div>
                         </div>
@@ -289,7 +289,7 @@ export default {
     .fa {
         margin-right: 5px;
     }
-    .staffInfo > .fa-mobile {
+    .staffContactInfo .fa-mobile {
         font-size: 22px;
     }
     .lrContactPictures {
