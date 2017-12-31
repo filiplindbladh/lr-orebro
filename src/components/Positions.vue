@@ -108,4 +108,13 @@ export default {
             margin-left:5px; 
         }
     }
+    @media screen and (max-width: $tablet - 1px) {
+        .positionsInfo {
+        flex-direction:column;
+        img {
+            width:100%;
+            margin-top:20px;  
+            } 
+        }
+    }
 </style>
