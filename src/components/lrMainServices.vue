@@ -14,7 +14,9 @@
                         </div>
                             
                         <div class="lrServicesContent">
-                            <img src="../img/desk.jpg" alt="Lr picture">
+                            <div class="lrServicesImg">
+                                <img src="../img/desk.jpg" alt="Lr picture">
+                            </div>
                         </div>
                     </div>
 
@@ -35,7 +37,9 @@
                         </div>
                             
                         <div class="lrServicesContent">
-                            <img src="../img/talk.jpg" alt="Lr picture">
+                            <div class="lrServicesImg">
+                                <img src="../img/talk.jpg" alt="Lr picture">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -52,7 +56,9 @@
                         </div>
                                 
                         <div class="lrServicesContent">
-                            <img src="../img/laptop.jpg" alt="Lr picture">
+                            <div class="lrServicesImg">
+                                <img src="../img/laptop.jpg" alt="Lr picture">
+                            </div>
                         </div>
                     </div>
                     <p class="textUnder">
@@ -72,7 +78,9 @@
                         </div>
                                 
                         <div class="lrServicesContent">
-                            <img src="../img/LRtable.jpg" alt="Lr picture">
+                            <div class="lrServicesImg">
+                                <img src="../img/LRtable.jpg" alt="Lr picture">
+                            </div>  
                         </div>
                     </div>
                 </div>
@@ -90,7 +98,9 @@
                         </div>
                                 
                         <div class="lrServicesContent">
-                            <img src="../img/copy.jpg" alt="Lr picture">
+                            <div class="lrServicesImg">
+                                <img src="../img/copy.jpg" alt="Lr picture">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -132,6 +142,15 @@ export default {
 
 <style lang="scss">
     @import '../style/main.scss';
+    .lrServicesImg {
+        height: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
     .textUnder {
         max-width: 100%;
         font-size: 18px;

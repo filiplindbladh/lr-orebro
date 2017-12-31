@@ -1,6 +1,6 @@
 <template>
   <div id="start">
-  <pulse-loader v-if="isLoading"></pulse-loader>
+  <pulse-loader></pulse-loader>
 
   <!-- meny -->
   <lrMenu></lrMenu>
