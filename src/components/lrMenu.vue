@@ -223,7 +223,7 @@ export default {
     .overlay-content {
         position: relative;
         text-align: center;
-        top: 22%;
+        top: 15%;
         width: 100%;
     }
     .overlay-content .hoverFortnox {

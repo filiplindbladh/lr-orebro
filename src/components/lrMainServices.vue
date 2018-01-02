@@ -150,6 +150,9 @@ export default {
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
+        img {
+            margin-top: 20px;
+        }
     }
     .textUnder {
         max-width: 100%;
