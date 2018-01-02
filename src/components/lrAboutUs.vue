@@ -84,7 +84,7 @@ export default {
     }
     .aboutUsImage {
         margin-top:67px; 
-        background-image: url("../img/lrImage.jpg"); 
+        background-image: url("../img/aboutHeader.png"); 
         background-repeat: no-repeat; 
         background-position:top; 
         background-size:cover; 

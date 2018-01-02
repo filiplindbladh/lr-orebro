@@ -1,6 +1,11 @@
 <template>
   <div id="app">
-    <router-view/>
+    <div class="loading" v-if="!$data">
+      Loading..... (spinner)
+    </div>
+    <div v-cloak>
+      <router-view/>
+    </div>
   </div>
 </template>
 
@@ -15,5 +20,11 @@ export default {
     body {
       font-family: Oxygen; 
     } 
-
+    [v-cloak] {
+      display:none; 
+    }
+    .loading {
+      position:relative; 
+      z-index:99999999999; 
+    }
 </style>
