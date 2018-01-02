@@ -2,7 +2,7 @@
       <!-- swiper -->
       <swiper :options="swiperOption">
         <swiper-slide>
-            <div class="section header overlay">
+            <div class="section headerOne overlay">
                 <div class="lrHeader container">
                     <h1> VÄLKOMMEN TILL <br /> DIN FRAMTIDSBYRÅ </h1>
                     <hr class="lrHeaderLineHeader">
@@ -11,7 +11,7 @@
             </div>
         </swiper-slide>
         <swiper-slide>
-          <div class="section header overlay">
+          <div class="section headerTwo overlay">
                 <div class="lrHeader container">
                     <h2>REGISTRERAT VERKLIG HUVUDMAN <br> HOS BOLAGSVERKET?</h2>
                     <h4>– Sista dagen 30 Januari.</h4>
@@ -21,7 +21,7 @@
             </div>
         </swiper-slide>
         <swiper-slide>
-          <div class="section header overlay">
+          <div class="section headerThree overlay">
               <div class="lrHeader container">
                   <h2>HÅLL KOLL PÅ DIN<br> EKONOMI MED LR-ONLINE</h2>
                   <hr class="lrHeaderLineHeader">
@@ -72,8 +72,56 @@ export default {
     .swiper-slide {
       max-height:100vh;
     }
-    .header {
+    .headerOne {
         background-image: url("../img/redovisning_ed.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-color: $blue;
+        position: relative;
+        padding: 80px 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        height: calc(100vh - 67px);
+        margin-top: 30px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .headerTwo {
+        background-image: url("../img/headerTwo.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-color: $blue;
+        position: relative;
+        padding: 80px 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        height: calc(100vh - 67px);
+        margin-top: 30px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .headerThree {
+        background-image: url("../img/headerThree.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
