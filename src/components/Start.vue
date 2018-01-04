@@ -1,7 +1,5 @@
 <template>
   <div id="start">
-  <pulse-loader></pulse-loader>
-
   <!-- meny -->
   <lrMenu></lrMenu>
   <lrHeader></lrHeader>
@@ -45,7 +43,6 @@ import lrReviews from '@/components/lrReviews.vue'
 import lrMaps from '@/components/lrMaps.vue'
 import lrFooter from '@/components/lrFooter.vue'
 import VueImgLoader from 'vue-img-loader'
-import PulseLoader from 'vue-spinner/src/PulseLoader.vue'
 
 export default {
   name: 'Start',
@@ -59,18 +56,7 @@ export default {
     lrReviews,
     lrMaps,
     lrFooter,
-    'vue-img-loader': VueImgLoader,
-    PulseLoader
-  },
-  data () {
-    return {
-      isLoading: true
-    }
-  },
-  mounted () {
-    setTimeout(() => {
-      this.isLoading = false
-    }, 3000)
+    'vue-img-loader': VueImgLoader
   }
 }
 </script>
