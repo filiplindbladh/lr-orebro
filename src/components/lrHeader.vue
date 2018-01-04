@@ -6,7 +6,7 @@
                 <div class="lrHeader container">
                     <h1> VÄLKOMMEN TILL <br /> DIN FRAMTIDSBYRÅ </h1>
                     <hr class="lrHeaderLineHeader">
-                    <a v-scroll-to="'#sectionServices'" id="lr-button-more" class="button is-info is-outlined">LÄS MER</a>
+                    <a href="/tjanster" id="lr-button-more" class="button is-info is-outlined">LÄS MER</a>
                 </div>
             </div>
         </swiper-slide>
@@ -14,7 +14,7 @@
           <div class="section headerTwo overlay">
                 <div class="lrHeader container">
                     <h2>REGISTRERAT VERKLIG HUVUDMAN <br> HOS BOLAGSVERKET?</h2>
-                    <h4>– Sista dagen 30 Januari.</h4>
+                    <h4>– Sista dagen 1 Februari.</h4>
                     <hr class="lrHeaderLineHeader">
                     <a v-scroll-to="'.facebookBanner'" id="lr-button-more" class="button is-info is-outlined">LÄS MER</a>
                 </div>
@@ -73,7 +73,7 @@ export default {
       max-height:100vh;
     }
     .headerOne {
-        background-image: url("../img/redovisning_ed.png");
+        background-image: url("../img/headerOne.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
