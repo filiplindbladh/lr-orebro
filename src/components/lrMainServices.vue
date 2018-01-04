@@ -161,6 +161,7 @@ export default {
                 align-items: center;
         img {
             margin-top: 20px;
+            margin-bottom:20px; 
         }
     }
     .textUnder {
@@ -246,11 +247,8 @@ export default {
                 font-size: 5vw;
             }
         }
-        .lrServicesContent {
-            .leadText { 
-                width:100% !important;
-                margin: 0 !important;
-            }
+        .leadText { 
+            width:100%;
         }
     }
     @media screen and (max-width: 920px ) {
