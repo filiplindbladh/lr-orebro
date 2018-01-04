@@ -28,8 +28,8 @@
             </a>
         </div>
         <p class="mainText">
-            <strong>Vad behöver du och ditt företag hjälp med?</strong> <br /> Vi på LR Revision & Redovisning i Örebro har en stor kunskapsbredd och erfarenhet från en mängd olika branscher. 
-            Hos oss får du ett personligt och professionellt bemötande när vi hjälper dig att förvalta och utveckla ditt företag.
+            <strong>Vad behöver du och ditt företag hjälp med?</strong> <br /> 
+            Vi på LR Revision & Redovisning i Örebro har stor kunskap och lång erfarenhet från en mängd olika branscher. Hos oss får du ett personligt och professionellt bemötande när vi hjälper dig att förvalta och utveckla ditt företag.
         </p>
     </div>
     
