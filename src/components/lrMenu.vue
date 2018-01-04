@@ -10,7 +10,7 @@
                 <router-link to="/tjanster">TJÄNSTER</router-link>
                 <router-link to="/om-oss">OM OSS</router-link>
                 <router-link to="/kontakta-oss">KONTAKT</router-link>
-                <router-link to="/lediga-tjanster">LEDIGA TJÄNSTER</router-link>
+                <router-link to="/lediga-jobb">LEDIGA JOBB</router-link>
                 <router-link to="/online">LR-ONLINE</router-link>
                 <router-link to="/fortnox">FORTNOX</router-link>
             </div>
@@ -32,7 +32,7 @@
                     <li><router-link to="/tjanster">TJÄNSTER</router-link></li>
                     <li><router-link to="/om-oss">OM OSS</router-link></li>
                     <li><router-link to="/kontakta-oss">KONTAKT</router-link></li>
-                    <li><router-link to="/lediga-tjanster">LEDIGA TJÄNSTER</router-link></li>
+                    <li><router-link to="/lediga-jobb">LEDIGA JOBB</router-link></li>
                     <li><router-link to="/online">LR-ONLINE</router-link></li>
                     <li><router-link to="/fortnox">FORTNOX</router-link></li>
                 </ul> 
