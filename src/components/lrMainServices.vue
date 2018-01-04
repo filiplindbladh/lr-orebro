@@ -9,7 +9,10 @@
                             <h3>Redovisning</h3>
                             <br />
                             <p class="leadText">
-                                Vill du slippa pappersfakturor och en full mejlinkorg? Vi är en modern byrå som kan hjälpa dig att digitalisera och automatisera din ekonomiska administration. Detta skapar en större trygghet för dig och frigör samtidigt mer tid som du istället kan ägna åt din kärnverksamhet. Inom ramen för begreppet redovisning ingår en rad olika ekonomiska tjänster som vi erbjuder våra kunder, däribland löpande bokföring, löneadministration, deklarationer och bokslut. Du väljer själv hur mycket du vill ha hjälp med och vi anpassar våra tjänster utifrån dina behov.
+                                Vill du slippa pappersfakturor och en full mejlinkorg? Vi är en modern byrå som kan hjälpa dig att digitalisera och automatisera din ekonomiska administration. Detta skapar en större trygghet för dig och frigör samtidigt mer tid som du istället kan ägna åt din kärnverksamhet. Inom ramen för begreppet redovisning ingår en rad olika ekonomiska tjänster som vi erbjuder våra kunder, däribland löpande bokföring, löneadministration, skattedeklarationer och bokslut. Du väljer själv hur mycket du vill ha hjälp med och vi anpassar våra tjänster utifrån dina behov.
+                                <br />
+                                <br />
+                                Vi arbetar med digital rapportering där du som företagare inte själv behöver utläsa krångliga balans- och resultatrapporter. Som kund hos oss får du en användare på LR-Online, vilket ger dig en ökad förståelse över hur din verksamhet mår. Du får en tydlig överblick över ditt företags ekonomi, men har även möjlighet att gå ner på djupet och analysera enskilda nyckeltal tillsammans med din revisor eller redovisningskonsult. För att använda dig av LR Online räcker det med att du har en fungerande internetuppkoppling. Oavsett om du använder en dator, en mobiltelefon eller läsplatta så fungerar tjänsten lika bra.
                             </p>
                         </div>
                             
@@ -29,10 +32,10 @@
                             <h3>Rådgivning</h3>
                             <br />
                             <p class="leadText">
-                                Vår verksamhet är så mycket mer än ”bara siffror”. Vi kan fungera som ditt bollplank i frågor som rör affärsutveckling, skatter eller personalfrågor. Vi kan analysera tidigare år men även blicka framåt i tiden. Genom att se hur omvärlden ser ut, analysera trender i din bransch och se på vilka konsekvenser ett beslut kan få på lång respektive kort sikt, kan vi ta fram de rätta beslutsunderlagen som är viktiga för dig för att kunna driva ditt företag i rätt riktning.     
-                            </p>
-                            <p class="leadText">
-                                Vi arbetar med ägarledda företag och där vet vi att delägarnas egen ekonomi är en viktig pusselbit. Vi kan hjälpa dig räkna på löneuttag och 3:12-regler för att optimera din skattesituation.    
+                                Vår verksamhet är så mycket mer än ”bara siffror”. Vi kan fungera som ditt bollplank i frågor som rör affärsutveckling, skatter eller personalfrågor. Tillsammans med dig kan vi analysera tidigare år men även blicka framåt i tiden. Genom att se hur omvärlden ser ut, analysera trender i din bransch och se på vilka konsekvenser ett beslut kan få på lång respektive kort sikt, kan vi ta fram de rätta beslutsunderlagen som är viktiga för dig för att kunna driva ditt företag i rätt riktning.
+                                <br />
+                                <br />
+                                På LR arbetar vi främst med ägarledda företag, och där vet vi att delägarnas egen ekonomi är en viktig pusselbit. Vi kan hjälpa dig räkna på löneuttag och 3:12-regler för att optimera din skattesituation. Många av våra kunder hamnar även ibland i ett läge där de behöver juridisk rådgivning, det kan röra sig upprättande av aktieägaravtal eller köp av bolag. För att möta detta behov av främst familje-, avtals- och bolagsjuridisk rådgivning samarbetar vi med Lena Molnar, från LK Juridiska Byrå AB.                                   
                             </p>
                         </div>
                             
@@ -51,7 +54,7 @@
                             <h3>Revision</h3>
                             <br />
                             <p class="leadText">
-                                Aktiebolag som omsätter över 3 miljoner kronor* behöver en auktoriserad revisor, men även för mindre företag kan det vara nyttigt att anlita en revisor. Hos oss arbetar flera auktoriserade revisorer med lång erfarenhet. Revisorn utför en oberoende granskning vilken dokumenteras och rapporteras till dig som företagare och i den offentliga revisionsberättelsen. Revisorns viktigaste funktion är att ge trovärdighet åt företagets finansiella information.     
+                                Aktiebolag som omsätter över 3 miljoner kronor, har fler än 3 anställda och/eller har en balansomslutning som överstiger 1,5 miljon behöver en auktoriserad revisor, men även för mindre företag kan det vara nyttigt att anlita en revisor. En ny undersökning från Riksrevisionen visar att bolag som haft kvar sin revisor efter den slopade revisionsplikten både har högre tillväxt och bättre lönsamhet än företag som valt bort revisorn.
                             </p>
                         </div>
                                 
@@ -62,7 +65,7 @@
                         </div>
                     </div>
                     <p class="textUnder">
-                        Årsredovisningen och revisionsberättelsen är tillsammans beslutsunderlag för företagets intressenter (banker, kreditbedömare, leasinggivare, leverantörer m.fl), och de måste kunna lita på den information som lämnas i årsredovisningen. Revisorn har lagstadgad tystnadsplikt. Vi vill inte att vår revision endast ska utmynna i revisionsberättelse, utan vi vill bidra med våra erfarenheter för att förbättra våra kunders verksamhet. Exempel på sådana områden är den interna kontrollen och risker för oegentligheter samt uppläggning av ekonomisystem och rutiner.    
+                        Hos oss arbetar flera auktoriserade revisorer med lång erfarenhet. Revisorn utför en oberoende granskning vilken dokumenteras och rapporteras till dig som företagare samt i den offentliga revisionsberättelsen. Revisorns viktigaste funktion är att ge trovärdighet åt företagets finansiella information. Årsredovisningen och revisionsberättelsen är tillsammans beslutsunderlag för företagets intressenter (banker, kreditbedömare, leasinggivare, leverantörer m.fl), och de måste kunna lita på den information som lämnas i årsredovisningen. Revisorn har lagstadgad tystnadsplikt. Vi vill inte att vår revision endast ska utmynna i revisionsberättelse, utan vi vill bidra med våra erfarenheter för att förbättra våra kunders verksamhet. Exempel på sådana områden där vi kan förbättra våra kunders verksamhet är den interna kontrollen och risker för oegentligheter samt uppläggning av ekonomisystem och rutiner. Vi alltid vara ett bollplank för våra kunder och därför kan våra kunder kontakta oss utan att riskera att bli extra debiterad.    
                     </p>
                 </div>
             </v-tab>
@@ -93,7 +96,9 @@
                             <br />
                             <p class="leadText">
                                 Vi på LR erbjuder våra kunder samtliga tjänster inom löneadministration, som att upprätta lönespecifikationer, fylla i och lämna arbetsgivardeklarationer, skapa bankfiler för löneutbetalningar och rapportera kontrolluppgifter.
-                                För dig som vill slippa tidkort och saknade kvitton kan vi även erbjuda digitala lösningar där du och dina medarbetare registrerar era utlägg, reseräkningar och övriga ersättningar direkt i mobilen. Hör av dig så berättar vi gärna mer!
+                                <br />
+                                <br />
+                                För dig som vill slippa tidkort och saknade kvitton kan vi även erbjuda digitala lösningar där du och dina medarbetare registrerar era utlägg, reseräkningar och övriga ersättningar direkt i mobilen. Hör av dig så berättar vi gärna mer!                                 
                             </p>
                         </div>
                                 

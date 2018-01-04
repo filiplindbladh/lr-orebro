@@ -100,7 +100,7 @@ export default {
         }
         .leadText {
             width:70%; 
-            text-align:left; 
+            text-align:center; 
             margin:20px 0 20px 0;  
         }
         span {

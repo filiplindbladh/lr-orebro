@@ -13,21 +13,13 @@
                 <hr class="lrHeaderLine">
                 <br/>
                 <p class="mainText">
-                    <span>I mitten av Sverige…</span>
-                    <br />
-                    finns vi med kontor i Örebro och Vingåker.
-                    <br />
-                    <br />
-                    Vi på LR Revision & Redovisning Örebro/Vingåker AB är som de flesta av våra kunder – hårt arbetande småföretagare. Som revisor, rådgivare och bollplank träffar vi olika typer av företag från en mängd olika branscher. Det ger oss en bredd och ett djup i vår erfarenhet som alla våra kunder har glädje av.
+                    <!-- <span>I mitten av Sverige…</span> -->
+                    <!-- <br /> -->
+                    <span>I mitten av Sverige</span> finns vi med kontor beläget i Örebro, och vi är som de flesta av våra kunder – hårt arbetande småföretagare. Som revisor, rådgivare och bollplank träffar vi olika typer av företag från en mängd olika branscher. Det ger oss en bredd och ett djup i vår erfarenhet som alla våra kunder har glädje av.
                     <br />
                     <br />
-                    Det viktigaste för oss är att du som kund får ett personligt och professionellt bemötande, och att vi kan hjälpa dig att förvalta och utveckla ditt företag.
-                    <br /> 
-                    <br />
-                    Vi är en del av LR Revision & Redovisning med 70 lokalkontor runt om i Sverige, ett nätverk av revisorer och redovisningskonsulter som ger oss tillgång till specialistkompetens, utbildning och ett internationellt nätverk.
-                    <br />
-                    <br />
-                    Vi samarbetar även med jurist Lena Koss, från LK Juridiska Byrå AB, för att möta våra kunders behov av familje-, avtals- och bolagsjuridisk rådgivning mm.
+                    Genom att vi är en del av LR Revision & Redovisning med 70 lokalkontor runt om i Sverige, har vi ett nätverk av revisorer, redovisningskonsulter och skatteexperter som ger oss tillgång till specialistkompetens, utbildning och ett internationellt nätverk. På detta sätt ger vi våra kunder det bästa av två världar, den personliga lilla byrån men med stora resurser att lösa komplicerade problemställningar.
+                    Vi samarbetar även med jurist Lena Molner, från LK Juridiska Byrå AB, för att möta våra kunders behov av familje-, avtals- och bolagsjuridisk rådgivning mm.
                 </p>
             </div>
         </div>
