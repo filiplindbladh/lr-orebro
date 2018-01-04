@@ -19,9 +19,14 @@
                             </div>
                         </div>
                     </div>
-                    <p class="textUnder">
-                        Vi arbetar med digital rapportering där du som företagare inte själv behöver utläsa krångliga balans- och resultatrapporter. Som kund hos oss får du en användare på LR-Online, vilket ger dig en ökad förståelse över hur din verksamhet mår. Du får en tydlig överblick över ditt företags ekonomi, men har även möjlighet att gå ner på djupet och analysera enskilda nyckeltal tillsammans med din revisor eller redovisningskonsult. För att använda dig av LR Online räcker det med att du har en fungerande internetuppkoppling. Oavsett om du använder en dator, en mobiltelefon eller läsplatta så fungerar tjänsten lika bra.   
-                    </p>
+                    <div class="paragraphContainer">
+                        <p class="leadText paragraph">
+                            Vi arbetar med digital rapportering där du som företagare inte själv behöver utläsa krångliga balans- och resultatrapporter. Som kund hos oss får du en användare på LR-Online, vilket ger dig en ökad förståelse över hur din verksamhet mår. Du får en tydlig överblick över ditt företags ekonomi, men har även möjlighet att gå ner på djupet och analysera enskilda nyckeltal tillsammans med din revisor eller redovisningskonsult. 
+                        </p>
+                        <p class="leadText paragraph">
+                            För att använda dig av LR Online räcker det med att du har en fungerande internetuppkoppling. Oavsett om du använder en dator, en mobiltelefon eller läsplatta så fungerar tjänsten lika bra.   
+                        </p>
+                    </div>
                 </div>
             </v-tab>
             <v-tab class="v-tab" title="Rådgivning">
@@ -227,6 +232,13 @@ export default {
     .lrHeaderLine {
         background-color: $red;
     }
+    .paragraphContainer {
+        display:flex; 
+        flex-direction:row; 
+    }
+    .paragraph {
+        width:50%; 
+    }
     /* ****************** MEDIAQUERIES ****************** */
     @media screen and (max-width: $tablet - 1px) {
         .quote {
@@ -236,6 +248,14 @@ export default {
         }
         .leadText { 
             width:100%;
+        }
+    }
+    @media screen and (max-width: 920px ) {
+         .paragraphContainer {
+            flex-direction:column; 
+        }
+        .paragraph {
+            width:95%; 
         }
     }
 </style>
