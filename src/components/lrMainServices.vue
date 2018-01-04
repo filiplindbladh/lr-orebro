@@ -234,8 +234,11 @@ export default {
                 font-size: 5vw;
             }
         }
-        .leadText { 
-            width:100%;
+        .lrServicesContent {
+            .leadText { 
+                width:100% !important;
+                margin: 0 !important;
+            }
         }
     }
 </style>
