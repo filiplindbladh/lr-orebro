@@ -10,9 +10,6 @@
                             <br />
                             <p class="leadText">
                                 Vill du slippa pappersfakturor och en full mejlinkorg? Vi är en modern byrå som kan hjälpa dig att digitalisera och automatisera din ekonomiska administration. Detta skapar en större trygghet för dig och frigör samtidigt mer tid som du istället kan ägna åt din kärnverksamhet. Inom ramen för begreppet redovisning ingår en rad olika ekonomiska tjänster som vi erbjuder våra kunder, däribland löpande bokföring, löneadministration, skattedeklarationer och bokslut. Du väljer själv hur mycket du vill ha hjälp med och vi anpassar våra tjänster utifrån dina behov.
-                                <br />
-                                <br />
-                                Vi arbetar med digital rapportering där du som företagare inte själv behöver utläsa krångliga balans- och resultatrapporter. Som kund hos oss får du en användare på LR-Online, vilket ger dig en ökad förståelse över hur din verksamhet mår. Du får en tydlig överblick över ditt företags ekonomi, men har även möjlighet att gå ner på djupet och analysera enskilda nyckeltal tillsammans med din revisor eller redovisningskonsult. För att använda dig av LR Online räcker det med att du har en fungerande internetuppkoppling. Oavsett om du använder en dator, en mobiltelefon eller läsplatta så fungerar tjänsten lika bra.
                             </p>
                         </div>
                             
@@ -22,7 +19,9 @@
                             </div>
                         </div>
                     </div>
-
+                    <p class="textUnder">
+                        Vi arbetar med digital rapportering där du som företagare inte själv behöver utläsa krångliga balans- och resultatrapporter. Som kund hos oss får du en användare på LR-Online, vilket ger dig en ökad förståelse över hur din verksamhet mår. Du får en tydlig överblick över ditt företags ekonomi, men har även möjlighet att gå ner på djupet och analysera enskilda nyckeltal tillsammans med din revisor eller redovisningskonsult. För att använda dig av LR Online räcker det med att du har en fungerande internetuppkoppling. Oavsett om du använder en dator, en mobiltelefon eller läsplatta så fungerar tjänsten lika bra.   
+                    </p>
                 </div>
             </v-tab>
             <v-tab class="v-tab" title="Rådgivning">
@@ -33,9 +32,6 @@
                             <br />
                             <p class="leadText">
                                 Vår verksamhet är så mycket mer än ”bara siffror”. Vi kan fungera som ditt bollplank i frågor som rör affärsutveckling, skatter eller personalfrågor. Tillsammans med dig kan vi analysera tidigare år men även blicka framåt i tiden. Genom att se hur omvärlden ser ut, analysera trender i din bransch och se på vilka konsekvenser ett beslut kan få på lång respektive kort sikt, kan vi ta fram de rätta beslutsunderlagen som är viktiga för dig för att kunna driva ditt företag i rätt riktning.
-                                <br />
-                                <br />
-                                På LR arbetar vi främst med ägarledda företag, och där vet vi att delägarnas egen ekonomi är en viktig pusselbit. Vi kan hjälpa dig räkna på löneuttag och 3:12-regler för att optimera din skattesituation. Många av våra kunder hamnar även ibland i ett läge där de behöver juridisk rådgivning, det kan röra sig upprättande av aktieägaravtal eller köp av bolag. För att möta detta behov av främst familje-, avtals- och bolagsjuridisk rådgivning samarbetar vi med Lena Molnar, från LK Juridiska Byrå AB.                                   
                             </p>
                         </div>
                             
@@ -45,6 +41,9 @@
                             </div>
                         </div>
                     </div>
+                    <p class="textUnder">
+                        På LR arbetar vi främst med ägarledda företag, och där vet vi att delägarnas egen ekonomi är en viktig pusselbit. Vi kan hjälpa dig räkna på löneuttag och 3:12-regler för att optimera din skattesituation. Många av våra kunder hamnar även ibland i ett läge där de behöver juridisk rådgivning, det kan röra sig upprättande av aktieägaravtal eller köp av bolag. För att möta detta behov av främst familje-, avtals- och bolagsjuridisk rådgivning samarbetar vi med Lena Molnar, från LK Juridiska Byrå AB.                                   
+                    </p>
                 </div>
             </v-tab>
             <v-tab class="v-tab" title="Revision">
