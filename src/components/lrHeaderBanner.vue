@@ -7,7 +7,9 @@
     </div>
     <div class="section servicesText">
       <p class="leadText">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Vad behöver du och ditt företag hjälp med? <br /> 
+        Vi på LR Revision & Redovisning i Örebro har en stor kunskapsbredd och erfarenhet från en mängd olika branscher. 
+        Hos oss får du ett personligt och professionellt bemötande när vi hjälper dig att förvalta och utveckla ditt företag.
       </p>
     </div>
   </div>

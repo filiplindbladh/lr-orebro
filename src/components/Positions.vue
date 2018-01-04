@@ -5,7 +5,7 @@
         <div class="positionsHeader overlay">
             <h3>Jobba hos oss!</h3>
         </div>
-        <div class="positionsInfo">
+        <div class="positionsInfo section container">
             <div>
                 <p class="mainText">
                     <span>Vi bryr oss om</span> vår personal och vill att alla medarbetare ska känna sig delaktiga i Byråns verksamhet och utveckling. Vill du också arbeta på en framåtsträvande byrå med en stark teamkänsla? Vi är alltid i behov av kompetent personal och tar gärna emot intresseanmälningar.
@@ -16,7 +16,7 @@
         <div class="work">
             <i class="fa fa-briefcase" aria-hidden="true"></i>
             <h3>Just nu söker vi en revisorsassistent</h3>
-            <p>
+            <p class="leadText">
                 Som revisorsassistent hos oss får du en aktiv roll i ditt arbete där du får arbeta med samtliga delar i en revision, som planering, revidering och rapportering. Våra kunder är främst små- och medelstora ägarledda bolag i en mängd olika branscher vilket ger ett omväxlande och intressant arbete. Vi söker främst dig som arbetat på en revisionsbyrå och har några års erfarenhet men nu söker en ny utmaning!
             </p>
             <a class="button is-primary is-outlined">
@@ -71,7 +71,7 @@ export default {
         align-items:center;
         margin:40px;  
         .mainText {
-            width:100%; 
+            width:95%; 
             text-align:left; 
         }
         .lrHeaderLine {
@@ -98,9 +98,9 @@ export default {
         .fa-briefcase {
             font-size: 30px;
         }
-        p {
+        .leadText {
             width:70%; 
-            text-align:center; 
+            text-align:left; 
             margin:20px 0 20px 0;  
         }
         span {

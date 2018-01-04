@@ -1,10 +1,10 @@
 <template>
     <div>
-    <lrMenu></lrMenu>
-    <lrHeaderBanner></lrHeaderBanner>
-    <lrMainServices></lrMainServices>
-    <lrBannerSlider></lrBannerSlider>
-    <lrFooter></lrFooter>
+      <lrMenu></lrMenu>
+      <lrHeaderBanner></lrHeaderBanner>
+      <lrMainServices></lrMainServices>
+      <lrBannerSlider></lrBannerSlider>
+      <lrFooter></lrFooter>
     </div>
 </template>
 

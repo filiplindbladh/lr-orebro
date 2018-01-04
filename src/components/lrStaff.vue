@@ -26,21 +26,6 @@
           </div>
       </div>
       <div class="column is-half-tablet is-one-quarter-desktop">
-          <div class="staffContainer">
-            <img class="lrStaffMember" src="../img/person.png" alt="Staff member Lr Örebro">
-            <div class="staffInfo">
-              <div class="transparentBox">
-                <span>Ulf Ludvigsson</span>
-                <br>
-                <span>Auktoriserad <br /> redovisningskonsult</span>
-                <br>
-                <a href="tel:019183854"><i class="fa fa-phone" aria-hidden="true"></i></a>
-                <a href="mailto:ulf.ludvigsson@lr-revision.se"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
-              </div>
-            </div>
-          </div>
-      </div>
-      <div class="column is-half-tablet is-one-quarter-desktop">
         <div class="staffContainer">
             <img class="lrStaffMember" src="../img/ThomasAllard.png" alt="Staff member Lr Örebro">
             <div class="staffInfo">
@@ -54,21 +39,6 @@
               </div>
             </div>
           </div>
-      </div>
-      <div class="column is-half-tablet is-one-quarter-desktop">
-        <div class="staffContainer">
-          <img class="lrStaffMember" src="../img/person.png" alt="Staff member Lr Örebro">
-          <div class="staffInfo">
-            <div class="transparentBox">
-              <span>Lena Lundberg</span>
-              <br>
-              <span>Godkänd revisor</span>
-              <br>
-              <a href="tel:019183851"><i class="fa fa-phone" aria-hidden="true"></i></a>
-              <a href="mailto:lena.lundberg@lr-revision.se"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
-            </div>
-          </div>
-        </div>
       </div>
       <div class="column is-half-tablet is-one-quarter-desktop">
           <div class="staffContainer">
