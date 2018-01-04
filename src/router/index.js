@@ -46,7 +46,7 @@ export default new Router({
       component: Fortnox
     },
     {
-      path: '/lediga-tjanster',
+      path: '/lediga-jobb',
       name: 'Positions',
       component: Positions
     }
