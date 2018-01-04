@@ -13,7 +13,7 @@
                 <hr class="lrHeaderLine">
                 <br/>
                 <p class="mainText">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quisquam iste ipsam qui laboriosam doloremque voluptatum, consequatur veritatis rem voluptatibus. Ex quaerat voluptate odit fugit qui at accusamus quibusdam maiores.
+                    Vår byrå består av kompetent och engagerad personal. Vi gör vårt yttersta för att hjälpa Er företagare med vår kunskap och erfarenhet. På LR tycker vi att det är viktigt att bygga en långsiktig affärsmässig relation med våra kunder, där trygghet och förståelse för kundens verksamhet står i centrum. Därför får alla våra kunder en personlig kontakt att vända sig till.  
                 </p>
             </div>
             <!-- Pictures and info about the staff on LR Örebro -->
@@ -36,22 +36,6 @@
                 </div>
                 <div class="column is-mobile is-half-tablet is-one-third-desktop">
                     <div class="staffContactContainer">
-                       <div class="imageTitle">
-                            <img class="lrStaffMember" src="../img/person.png" alt="Staff member Lr Örebro">
-                        </div>
-                        <div class="imageInfo">
-                            <div class="staffContactInfo">
-                                <strong><h5>Ulf Ludvigsson</h5></strong>		
-                                <br/><strong>Auktoriserad redovisningskonsult</strong>
-                                <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 54
-                                <br/><i class="fa fa-mobile" aria-hidden="true"></i>070-231 99 59
-                                <br/><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:ulf.ludvigsson@lr-revision.se">thomas.allard@lr-revision.se</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="column is-mobile is-half-tablet is-one-third-desktop">
-                    <div class="staffContactContainer">
                         <div class="imageTitle">
                             <img class="lrStaffMember" src="../img/ThomasAllard.png" alt="Staff member Lr Örebro">
                         </div>
@@ -62,22 +46,6 @@
                                 <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 53
                                 <br/><i class="fa fa-mobile" aria-hidden="true"></i>073-545 33 79
                                 <br/><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:thomas.allard@lr-revision.se">thomas.allard@lr-revision.se</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="column is-mobile is-half-tablet is-one-third-desktop">
-                    <div class="staffContactContainer">
-                        <div class="imageTitle">
-                            <img class="lrStaffMember" src="../img/person.png" alt="Staff member Lr Örebro">
-                        </div>
-                        <div class="imageInfo">
-                            <div class="staffContactInfo">
-                                <strong><h5>Lena Lundberg</h5></strong>		
-                                <br/><strong>Godkänd revisor</strong>
-                                <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 51
-                                <br/><i class="fa fa-mobile" aria-hidden="true"></i>070-848 85 13
-                                <br/><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:lena.lundberg@lr-revision.se">lena.lundberg@lr-revision.se</a>
                             </div>
                         </div>
                     </div>

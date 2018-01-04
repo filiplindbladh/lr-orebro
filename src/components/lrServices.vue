@@ -27,11 +27,12 @@
                 </div>
             </a>
         </div>
-            <p class="mainText">
-                <strong>Vad behöver du och ditt företag hjälp med?</strong> <br /> Vi på LR Revision & Redovisning i Örebro har en stor kunskapsbredd och erfarenhet från en mängd olika branscher. 
-                Hos oss får du ett personligt och professionellt bemötande när vi hjälper dig att förvalta och utveckla ditt företag.
-            </p>
+        <p class="mainText">
+            <strong>Vad behöver du och ditt företag hjälp med?</strong> <br /> Vi på LR Revision & Redovisning i Örebro har en stor kunskapsbredd och erfarenhet från en mängd olika branscher. 
+            Hos oss får du ett personligt och professionellt bemötande när vi hjälper dig att förvalta och utveckla ditt företag.
+        </p>
     </div>
+    
     <div class="facebookBannerContainer">
          <div class="facebookBanner">
              <iframe id="iframe" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F20531316728%2Fposts%2F10154009990506729%2F&width=auto&show_text=true&appId=310732159388781&height=290" width="500" height="290" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
