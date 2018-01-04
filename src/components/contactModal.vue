@@ -27,11 +27,11 @@
                     <div class="values">
                     <div class="field is-grouped is-expanded">
                         <div class="control">
-                            <label class="label">Anställda:</label>
+                            <label class="label">Årsomsättning (mKr):</label>
                             <input class="input valueOne" type="number" v-model="valueOne">
                         </div>
                         <div class="control">
-                            <label class="label">Fakturor per månad:</label>
+                            <label class="label">Anställda:</label>
                             <input class="input valueTwo" type="number" v-model="valueTwo">
                         </div>
                         <div class="control">

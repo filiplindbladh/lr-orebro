@@ -2,8 +2,8 @@
 <div class="bannerSliderContainer">
   <div class="bannerSlider section">
       <div class="bannerItem">
-        <vue-slider ref="slider" v-model="valueOne"></vue-slider>
-        <h5>Hur många fakturor har ni?</h5>
+        <vue-slider ref="slider" min="1000000" interval="1000000" max="50000000" v-model="valueOne"></vue-slider>
+        <h5>Hur stor årsomsättning har ni? (mKr)</h5>
       </div> 
       <div class="bannerItem">
         <vue-slider ref="slider" v-model="valueTwo"></vue-slider>
@@ -31,7 +31,7 @@ export default {
     return {
       isOpen: false,
       addActive: '',
-      valueOne: 50,
+      valueOne: 25000000,
       valueTwo: 50,
       value: false
     }
