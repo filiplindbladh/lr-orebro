@@ -36,7 +36,10 @@
                             <h3>Rådgivning</h3>
                             <br />
                             <p class="leadText">
-                                Vår verksamhet är så mycket mer än ”bara siffror”. Vi kan fungera som ditt bollplank i frågor som rör affärsutveckling, skatter eller personalfrågor. Tillsammans med dig kan vi analysera tidigare år men även blicka framåt i tiden. Genom att se hur omvärlden ser ut, analysera trender i din bransch och se på vilka konsekvenser ett beslut kan få på lång respektive kort sikt, kan vi ta fram de rätta beslutsunderlagen som är viktiga för dig för att kunna driva ditt företag i rätt riktning.
+                                Vår verksamhet är så mycket mer än ”bara siffror”. Vi kan fungera som ditt bollplank i frågor som rör affärsutveckling, skatter eller personalfrågor. Tillsammans med dig kan vi analysera tidigare år men även blicka framåt i tiden. Genom att analysera omvärlden och trender i din bransch kan vi hjälpa dig att ta fram de rätta beslutsunderlagen för att driva ditt företag i rätt riktning.     
+                                <br />
+                                <br />
+                                På LR arbetar vi främst med ägarledda företag, och där vet vi att delägarnas egen ekonomi är en viktig pusselbit. Vi kan hjälpa dig räkna på löneuttag och 3:12-regler för att optimera din skattesituation. Många företag hamnar i ett läge där de behöver juridisk rådgivning, det kan röra sig upprättande av aktieägaravtal eller köp av bolag. Där kan vi finnas som ett oberoende stöd som kan både de ekonomiska och de juridiska frågorna. För att möta detta behov av främst familje-, avtals- och bolagsjuridisk rådgivning samarbetar vi med Lena Molnar, från LK Juridiska Byrå AB.        
                             </p>
                         </div>
                             
@@ -46,9 +49,6 @@
                             </div>
                         </div>
                     </div>
-                    <p class="textUnder">
-                        På LR arbetar vi främst med ägarledda företag, och där vet vi att delägarnas egen ekonomi är en viktig pusselbit. Vi kan hjälpa dig räkna på löneuttag och 3:12-regler för att optimera din skattesituation. Många av våra kunder hamnar även ibland i ett läge där de behöver juridisk rådgivning, det kan röra sig upprättande av aktieägaravtal eller köp av bolag. För att möta detta behov av främst familje-, avtals- och bolagsjuridisk rådgivning samarbetar vi med Lena Molnar, från LK Juridiska Byrå AB.                                   
-                    </p>
                 </div>
             </v-tab>
             <v-tab class="v-tab" title="Revision">
@@ -58,7 +58,7 @@
                             <h3>Revision</h3>
                             <br />
                             <p class="leadText">
-                                Aktiebolag som omsätter över 3 miljoner kronor, har fler än 3 anställda och/eller har en balansomslutning som överstiger 1,5 miljon behöver en auktoriserad revisor, men även för mindre företag kan det vara nyttigt att anlita en revisor. En ny undersökning från Riksrevisionen visar att bolag som haft kvar sin revisor efter den slopade revisionsplikten både har högre tillväxt och bättre lönsamhet än företag som valt bort revisorn.
+                                Aktiebolag som omsätter över 3 miljoner kronor, har fler än 3 anställda och/eller har en balansomslutning som överstiger 1,5 miljon behöver en auktoriserad revisor, men även för mindre företag kan det vara nyttigt att anlita en revisor. En ny undersökning från Riksrevisionen visar att bolag som valt att ha kvar sin revisor efter den slopade revisionsplikten både har högre tillväxt och bättre lönsamhet än företag som valt bort revisorn.    
                             </p>
                         </div>
                                 
@@ -68,9 +68,14 @@
                             </div>
                         </div>
                     </div>
-                    <p class="textUnder">
-                        Hos oss arbetar flera auktoriserade revisorer med lång erfarenhet. Revisorn utför en oberoende granskning vilken dokumenteras och rapporteras till dig som företagare samt i den offentliga revisionsberättelsen. Revisorns viktigaste funktion är att ge trovärdighet åt företagets finansiella information. Årsredovisningen och revisionsberättelsen är tillsammans beslutsunderlag för företagets intressenter (banker, kreditbedömare, leasinggivare, leverantörer m.fl), och de måste kunna lita på den information som lämnas i årsredovisningen. Revisorn har lagstadgad tystnadsplikt. Vi vill inte att vår revision endast ska utmynna i revisionsberättelse, utan vi vill bidra med våra erfarenheter för att förbättra våra kunders verksamhet. Exempel på sådana områden där vi kan förbättra våra kunders verksamhet är den interna kontrollen och risker för oegentligheter samt uppläggning av ekonomisystem och rutiner. Vi alltid vara ett bollplank för våra kunder och därför kan våra kunder kontakta oss utan att riskera att bli extra debiterad.    
-                    </p>
+                    <div class="paragraphContainer">
+                        <p class="leadText paragraph">
+                            Hos oss arbetar flera auktoriserade revisorer med lång erfarenhet. Revisorn utför en oberoende granskning vilken dokumenteras och rapporteras i den offentliga revisionsberättelsen. Revisorns viktigaste funktion är att ge trovärdighet åt företagets finansiella information. Årsredovisningen och revisionsberättelsen är tillsammans beslutsunderlag för företagets intressenter (banker, kreditbedömare, leasinggivare, leverantörer m.fl), och de måste kunna lita på den information som lämnas i årsredovisningen. Revisorn har lagstadgad tystnadsplikt.     
+                        </p>
+                        <p class="leadText paragraph">
+                            Vi vill inte att vår revision endast ska utmynna i revisionsberättelse, utan vi vill bidra med våra erfarenheter för att förbättra våra kunders verksamhet. Exempel på sådana områden där vi kan hjälpa till att förbättra verksamheten är den interna kontrollen, risker för oegentligheter samt uppläggning av ekonomisystem och rutiner. Vi är ett bollplank för våra kunder och därför kan våra kunder kontakta oss utan att riskera att bli extra debiterad.    
+                        </p>
+                    </div>
                 </div>
             </v-tab>
             <v-tab class="v-tab" title="Bokslut">
@@ -80,7 +85,10 @@
                             <h3>Bokslut</h3>
                             <br />
                             <p class="leadText">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                Ett företags räkenskapsår avslutas alltid med ett bokslut och en årsredovisning. Årsbokslutet ligger sedan till grund för inkomstdeklarationen som redovisas till Skatteverket årligen. För aktiebolag blir årsredovisningen offentlig för alla intressenter att ta del av i samband med att den lämnas in till Bolagsverket. Det är därför av största vikt att ditt företags bokslut och årsredovisning är upprättade på korrekt sätt enligt gällande skatteregler. Om du har en enskild firma har vi stor erfarenhet av att upprätta näringsbilagor och inkomstdeklarationer. Våra redovisningskonsulter har stor kunskap i gällande bokförings- och skatteregler för att upprätta korrekta bokslut, skatteoptimera och skapa mervärde för dig som kund. 
+                                <br />
+                                <br />
+                                Behöver ditt företag även en revisor? Vi åtar oss även så kallade kombiuppdrag där vi erbjuder våra kunder en helhetslösning med både bokslut och revision.
                             </p>
                         </div>
                                 
