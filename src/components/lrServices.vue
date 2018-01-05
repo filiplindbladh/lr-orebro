@@ -27,16 +27,14 @@
                 </div>
             </a>
         </div>
-        <p class="mainText">
-            <strong>Vad behöver du och ditt företag hjälp med?</strong> <br /> 
-            Vi på LR Revision & Redovisning i Örebro har stor kunskap och lång erfarenhet från en mängd olika branscher. Hos oss får du ett personligt och professionellt bemötande när vi hjälper dig att förvalta och utveckla ditt företag.
-        </p>
+            <p class="mainText">
+                <strong>Vad behöver du och ditt företag hjälp med?</strong><br/>Vi på LR Revision & Redovisning i Örebro har stor kunskap och lång erfarenhet från en mängd olika branscher. Hos oss får du ett personligt och professionellt bemötande när vi hjälper dig att förvalta och utveckla ditt företag.
+            </p>
     </div>
-    
     <div class="facebookBannerContainer">
          <div class="facebookBanner">
-             <iframe id="iframe" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F20531316728%2Fposts%2F10154009990506729%2F&width=auto&show_text=true&appId=310732159388781&height=290" width="500" height="290" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-             <!-- <div class="fb-post" data-href="https://www.facebook.com/20531316728/posts/10154009990506729/" data-width="100%" data-show-text="true">
+             <iframe id="iframe" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2F20531316728%2Fposts%2F10154009990506729%2F&width=500&show_text=true&appId=310732159388781&height=290" width="500" height="290" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+             <div class="fb-post" data-href="https://www.facebook.com/20531316728/posts/10154009990506729/" data-width="100%" data-show-text="true">
                 <blockquote cite="https://www.facebook.com/20531316728/posts/10154009990506729/" class="fb-xfbml-parse-ignore">
                     Publicerat av 
                     <a href="https://www.facebook.com/facebook/">Facebook</a>&nbsp;
@@ -45,7 +43,7 @@
                     </a>
                 </blockquote>
                 <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
-            </div> -->
+            </div>
         </div>
     </div>
 </div>
@@ -153,15 +151,18 @@ export default {
         height: 211px;
         max-width: 100%;
     }
-    .facebookBannerContainer {
-        overflow: hidden;
-    }
     .facebookBanner {
         width:100%; 
         height:auto; 
+        display:-webkit-box; 
+        display:-ms-flexbox; 
         display:flex; 
-        justify-content:center; 
-        align-items:center; 
+        -webkit-box-pack:center; 
+            -ms-flex-pack:center; 
+                justify-content:center; 
+        -webkit-box-align:center; 
+            -ms-flex-align:center; 
+                align-items:center; 
         background-color:$grey;
         #iframe {
             margin:40px; 
@@ -170,11 +171,7 @@ export default {
             display:none; 
         }
     }
-    .fb-like {
-        z-index:999; 
-        margin-top:40px; 
-    }
-   
+
     /* ****************** MEDIAQUERIES ****************** */
     @media screen and (max-width: $tablet - 1px) {
         .services {
@@ -209,8 +206,7 @@ export default {
                 margin:20px; 
             }
             #iframe {
-                /* display:none;  */
-                height: 345px !important;
+                display:none; 
             }
         }
     }
