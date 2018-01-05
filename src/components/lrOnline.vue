@@ -36,6 +36,14 @@
                 </div>
             </div>
         </div>
+        <div class="section container lrOnlineText">
+            <p class="mainText">
+                Som kund hos oss får du din ekonomiska rapportering via LR-Online. 
+            </p>
+            <p class="mainText">
+                Med denna rapportering förvandlar vi er bokföringsdata till enkla visuella rapporter. Genom LR-Online har du tillgång till ditt företags ekonomi när du vill och var du vill. Du får snabbt en övergripande bild över din verksamhet men kan även analysera på detaljnivå och följa dina kostnader och intäkter dag för dag. Du får även med ett dokumentarkiv där rapporteringen sparas för varje månad, men även möjlighet att själv lagra viktiga dokument och avtal på ett säkert sätt. 
+            </p>
+        </div>
         <!-- Footer here -->
         <lrFooter></lrFooter>
     </div>
@@ -110,6 +118,7 @@ export default {
     }
     .flex {
         height:100%; 
+        padding-bottom: 0;
         display:-webkit-box; 
         display:-ms-flexbox; 
         display:flex;
@@ -146,6 +155,22 @@ export default {
     }
     button, p  {
         margin-top:20px; 
+    }
+    .lrOnlineText {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+                align-items: center;
+        padding-top: 0;
     }
     /* ****************** MEDIAQUERIES ****************** */
     @media screen and (max-width: $tablet - 1px) {
