@@ -15,6 +15,11 @@
                 <p class="mainText">
                     Vår byrå består av kompetent och engagerad personal. Vi gör vårt yttersta för att hjälpa Er företagare med vår kunskap och erfarenhet. På LR tycker vi att det är viktigt att bygga en långsiktig affärsmässig relation med våra kunder, där trygghet och förståelse för kundens verksamhet står i centrum. Därför får alla våra kunder en personlig kontakt att vända sig till.    
                 </p>
+                <p class="mainText adress">
+                    <strong>Adress:</strong> Bettorpsgatan 12 C, 703 69 Örebro <br/>
+                    <strong>E-post:</strong> <a href="mailto:hej@lr-orebro.se">hej@lr-orebro.se</a> <br/>
+                    <strong>Växel:</strong> <a href="tel:019183850">019 18 38 50</a> 
+                </p>
             </div>
             <!-- Pictures and info about the staff on LR Örebro -->
             <div class="columns is-mobile is-multiline lrContactPictures">
@@ -282,6 +287,9 @@ export default {
     }
      .mainText {
         text-align:left; 
+    }
+    .adress {
+        margin-top:10px; 
     }
     /* ****************** MEDIAQUERIES ****************** */
     @media screen and (max-width: $tablet - 1px) {
