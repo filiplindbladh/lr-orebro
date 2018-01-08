@@ -19,7 +19,7 @@
             <p class="leadText">
                 Som revisorsassistent hos oss får du en aktiv roll i ditt arbete där du får arbeta med samtliga delar i en revision, som planering, revidering och rapportering. Våra kunder är främst små- och medelstora ägarledda bolag i en mängd olika branscher vilket ger ett omväxlande och intressant arbete. Vi söker främst dig som arbetat på en revisionsbyrå och har några års erfarenhet men nu söker en ny utmaning!
             </p>
-            <a class="button is-primary is-outlined">
+            <a href="mailto:hej@lr-orebro.se" class="button is-primary is-outlined">
             SKICKA IN ANSÖKAN 
             <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
             </a>
