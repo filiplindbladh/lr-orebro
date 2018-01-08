@@ -198,8 +198,11 @@ export default {
         margin-bottom:40px; 
         width:70%;
     }
-    .tab-content {
+    .v-tab {
         min-height: 100%;
+    }
+    .tab-content {
+        max-height: 100%;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
