@@ -5,7 +5,7 @@
         <div class="positionsHeader overlay">
             <h3>Jobba hos oss!</h3>
         </div>
-        <div class="positionsInfo section container">
+        <div class="positionsInfo container">
             <div>
                 <p class="mainText">
                     <span>Vi bryr oss om</span> vår personal och vill att alla medarbetare ska känna sig delaktiga i Byråns verksamhet och utveckling. Vill du också arbeta på en framåtsträvande byrå med en stark teamkänsla? Vi är alltid i behov av kompetent personal och tar gärna emot intresseanmälningar.
@@ -91,6 +91,9 @@ export default {
             width: 50%;
             -ms-flex-preferred-size: 50%;
                 flex-basis: 50%;
+            img {
+                margin-top: 20px;
+            }
         }
         .mainText {
             width:95%; 
@@ -99,10 +102,6 @@ export default {
         .lrHeaderLine {
             background-color: $red; 
         } 
-        img {
-            /* width:50%; */
-            margin:0;  
-        }
         span {
             font-weight: bold;
             font-size: 20px; 
