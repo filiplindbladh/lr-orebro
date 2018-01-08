@@ -9,6 +9,9 @@
   </div>  -->
   <!-- services -->
   <lrServices></lrServices>
+  
+  <!--Facebook post-->
+  <!--lrFacebookPost></lrFacebookPost-->
 
   <!-- first contact banner -->
   <lrContactBanner bannerText="Långsiktiga lösningar för traditionella eller digitala företag" :backgroundImage="'/static/img/lrImage.dce68b6.jpg'"></lrContactBanner>
@@ -17,7 +20,7 @@
   <lrStaff></lrStaff>
 
   <!-- review carousell -->
-  <lrReviews></lrReviews>
+  <!--lrReviews></lrReviews-->
 
  <!-- second contact banner -->
  <lrContactBanner bannerText="Behöver ni hjälp att utveckla ert företag?":backgroundImage ="'/static/img/lrContact.2a58653.jpeg'"></lrContactBanner>
@@ -43,6 +46,7 @@ import lrReviews from '@/components/lrReviews.vue'
 import lrMaps from '@/components/lrMaps.vue'
 import lrFooter from '@/components/lrFooter.vue'
 import VueImgLoader from 'vue-img-loader'
+import lrFacebookPost from '@/components/lrFacebookPost.vue'
 
 export default {
   name: 'Start',
@@ -56,6 +60,7 @@ export default {
     lrReviews,
     lrMaps,
     lrFooter,
+    lrFacebookPost,
     'vue-img-loader': VueImgLoader
   }
 }
