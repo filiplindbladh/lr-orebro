@@ -3,7 +3,6 @@
         <vue-tabs active-tab-color="white" active-text-color="black" centered v-scroll-to="{ y: true }">
             <v-tab class="v-tab" title="Redovisning">
                 <div id="tabContent" class="section container tab-content">
-
                     <div class="lrServices">
                         <div class="lrServicesContent">
                             <h3>Redovisning</h3>
@@ -79,7 +78,7 @@
                 </div>
             </v-tab>
             <v-tab class="v-tab" title="Bokslut">
-              <div class="section container tab-content">
+                <div class="section container tab-content">
                     <div class="lrServices">
                         <div class="lrServicesContent">
                             <h3>Bokslut</h3>
@@ -101,7 +100,7 @@
                 </div>
             </v-tab>
             <v-tab class="v-tab" title="Löneradministration">
-              <div class="section container tab-content">
+                <div class="section container tab-content">
                     <div class="lrServices">
                         <div class="lrServicesContent">
                             <h3>Löneadministration</h3>
@@ -159,25 +158,12 @@ export default {
 
 <style lang="scss">
     @import '../style/main.scss';
-    .lrServicesImg {
-        max-height: 100%;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        img {
-            margin-top: 20px;
-            margin-bottom:20px; 
-        }
-    }
-    .textUnder {
+    /* .textUnder {
         min-width: 100%;
         font-size: 18px;
         line-height:30px; 
         margin-top: 25px;
-    }
+    } */
     .vue-tabs .nav > li span.title {
         font-size:15px; 
     }
@@ -191,15 +177,12 @@ export default {
     }
     .tab {
         background-color:$blue; 
-        /* transition: all .3s ease-in-out; */
         border-right: 1px solid white;
-        /* transition: all 1s ease-out; */
         .title {
             color:white; 
         }
     }
     li.tab:hover {
-        /* transition: all .3s ease-in-out; */
         background-color: #eeeeee;
     }
     li.tab:hover .title {
@@ -216,6 +199,7 @@ export default {
         width:70%;
     }
     .tab-content {
+        min-height: 100%;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -242,6 +226,8 @@ export default {
         background-color: $red;
     }
     .paragraphContainer {
+        max-width: 100%;
+        height: 100%;
         display:-webkit-box;
         display:-ms-flexbox;
         display:flex; 
@@ -265,8 +251,11 @@ export default {
         }
     }
     @media screen and (max-width: 920px ) {
-         .paragraphContainer {
-            flex-direction:column; 
+        .paragraphContainer {
+            -webkit-box-orient:vertical;
+            -webkit-box-direction:normal;
+                -ms-flex-direction:column;
+                    flex-direction:column; 
         }
         .paragraph {
             width:95%; 
