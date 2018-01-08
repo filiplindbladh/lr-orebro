@@ -242,8 +242,13 @@ export default {
         background-color: $red;
     }
     .paragraphContainer {
+        display:-webkit-box;
+        display:-ms-flexbox;
         display:flex; 
-        flex-direction:row; 
+        -webkit-box-orient:horizontal; 
+        -webkit-box-direction:normal; 
+            -ms-flex-direction:row; 
+                flex-direction:row; 
     }
     .paragraph {
         width:50%; 
