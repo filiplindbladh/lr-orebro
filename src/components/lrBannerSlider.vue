@@ -2,7 +2,7 @@
 <div class="bannerSliderContainer">
   <div class="bannerSlider section">
       <div class="bannerItem">
-        <vue-slider ref="slider" min="1000000" interval="1000000" max="50000000" v-model="valueOne"></vue-slider>
+        <vue-slider ref="slider" :min="1000000" :interval="1000000" :max="50000000" v-model="valueOne"></vue-slider>
         <h5>Hur stor årsomsättning har ni? (mKr)</h5>
       </div> 
       <div class="bannerItem">
@@ -16,7 +16,7 @@
       <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
     </a>
   </div> 
-  <contactModal :activate="addActive" @closeRequest='close' :valueOne="valueOne" :valueTwo="valueTwo" ></contactModal>
+  <contactModal :activate="addActive" @closeRequest="close" :valueOne="valueOne" :valueTwo="valueTwo" ></contactModal>
 </div>
 </template>
 

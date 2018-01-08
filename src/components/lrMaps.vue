@@ -13,11 +13,11 @@
   <!-- the social media icons for lr-orebro -->
     <div class="lrSocialMedia">
       <div class="lrMediaItem">
-        <a href="http://lr-revision.se/" target="_blank"> <img src="../img/LR-sverige.png" alt="Logo LR Sverige"></a>
+        <a class="lrMediaIcon" href="http://lr-revision.se/" target="_blank"> <img src="../img/LR-sverige.png" alt="Logo LR Sverige"></a>
       </div>
       <div class="lrMediaItem">
-        <a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook-square" aria-hidden="true"></i> </a>
-        <a href="https://www.linkedin.com/" target="_blank"> </a><i class="fa fa-linkedin-square" aria-hidden="true"></i> </a>
+        <a class="lrMediaIcon" href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook-square" aria-hidden="true"></i> </a>
+        <a class="lrMediaIcon" href="https://www.linkedin.com/" target="_blank"> <i class="fa fa-linkedin-square" aria-hidden="true"></i> </a>
       </div>
     </div>
 </div> <!-- / section container -->
@@ -79,6 +79,24 @@ export default {
     img {
       width: 216px;
       height: auto;
+    }
+    .lrMediaIcon {
+      -webkit-transition: all 0.3s ease-in-out;
+      -webkit-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
+      transition: all .3s ease-in-out;
+      -webkit-transform: scale(0);
+            -ms-transform: scale(0);
+                transform: scale(0);
+      :hover {
+        -webkit-transition: all 0.3s ease-in-out;
+        -webkit-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+        -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+                transform: scale(1.1);
+      }
     }
   }
   /* styles for the map */
