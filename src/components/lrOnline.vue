@@ -13,6 +13,7 @@
             <div class="card">
                 <div class="card-content">
                     <img src="../img/lr-online.png" alt="lr-online">
+                        <strong>Som kund hos oss får du din ekonomiska rapportering via LR-Online.</strong> 
                 </div>
             </div> 
             <div class="card">
@@ -37,9 +38,6 @@
             </div>
         </div>
         <div class="section container lrOnlineText">
-            <p class="mainText">
-                Som kund hos oss får du din ekonomiska rapportering via LR-Online. 
-            </p>
             <p class="mainText">
                 Med denna rapportering förvandlar vi er bokföringsdata till enkla visuella rapporter. Genom LR-Online har du tillgång till ditt företags ekonomi när du vill och var du vill. Du får snabbt en övergripande bild över din verksamhet men kan även analysera på detaljnivå och följa dina kostnader och intäkter dag för dag. Du får även med ett dokumentarkiv där rapporteringen sparas för varje månad, men även möjlighet att själv lagra viktiga dokument och avtal på ett säkert sätt. 
             </p>
