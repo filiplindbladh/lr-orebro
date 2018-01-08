@@ -11,7 +11,9 @@
                     <span>Vi bryr oss om</span> vår personal och vill att alla medarbetare ska känna sig delaktiga i Byråns verksamhet och utveckling. Vill du också arbeta på en framåtsträvande byrå med en stark teamkänsla? Vi är alltid i behov av kompetent personal och tar gärna emot intresseanmälningar.
                 </p>
             </div>
-            <img src="../img/LRtable.jpg" alt="Picture of LR Örebro staff">
+            <div>
+                <img src="../img/LRtable.jpg" alt="Picture of LR Örebro staff">
+            </div>
         </div>
         <div class="work">
             <i class="fa fa-briefcase" aria-hidden="true"></i>
@@ -54,9 +56,15 @@ export default {
         height:250px; 
         position:relative;
         z-index:-1; 
+        display:-webkit-box; 
+        display:-ms-flexbox; 
         display:flex; 
-        justify-content:center; 
-        align-items:center; 
+        -webkit-box-pack:center; 
+            -ms-flex-pack:center; 
+                justify-content:center; 
+        -webkit-box-align:center; 
+            -ms-flex-align:center; 
+                align-items:center; 
         h3 {
             position:relative;
             color:$white; 
@@ -65,11 +73,25 @@ export default {
         } 
     }
     .positionsInfo {
+        display:-webkit-box; 
+        display:-ms-flexbox; 
         display:flex; 
-        flex-direction:row; 
-        justify-content: center; 
-        align-items:center;
+        -webkit-box-orient:horizontal; 
+        -webkit-box-direction:normal; 
+        -ms-flex-direction:row; 
+                flex-direction:row; 
+        -webkit-box-pack: center; 
+        -ms-flex-pack: center; 
+                justify-content: center; 
+        -webkit-box-align:center; 
+        -ms-flex-align:center; 
+                align-items:center;
         margin:40px;  
+        div {
+            width: 50%;
+            -ms-flex-preferred-size: 50%;
+                flex-basis: 50%;
+        }
         .mainText {
             width:95%; 
             text-align:left; 
@@ -77,9 +99,9 @@ export default {
         .lrHeaderLine {
             background-color: $red; 
         } 
-         img {
-         width:50%;
-         margin:0;  
+        img {
+            /* width:50%; */
+            margin:0;  
         }
         span {
             font-weight: bold;
@@ -87,10 +109,19 @@ export default {
         }
     }
     .work {
+        display:-webkit-box;
+        display:-ms-flexbox;
         display:flex; 
-        flex-direction:column; 
-        justify-content:center; 
-        align-items:center; 
+        -webkit-box-orient:vertical; 
+        -webkit-box-direction:normal; 
+            -ms-flex-direction:column; 
+                flex-direction:column; 
+        -webkit-box-pack:center; 
+            -ms-flex-pack:center; 
+                justify-content:center; 
+        -webkit-box-align:center; 
+            -ms-flex-align:center; 
+                align-items:center; 
         background-color: $grey;
         width: 100%;
         height: auto;
@@ -111,12 +142,22 @@ export default {
         }
     }
     @media screen and (max-width: $tablet - 1px) {
-        .positionsInfo {
-        flex-direction:column;
-        img {
-            width:100%;
-            margin-top:20px;  
-            } 
+    .positionsInfo {
+        -webkit-box-orient:vertical;
+        -webkit-box-direction:normal;
+            -ms-flex-direction:column;
+                flex-direction:column;
+            div {
+                width: 100%;
+                /* margin-top:20px;   */
+                -ms-flex-preferred-size: 50%;
+                    flex-basis: 50%;
+            }
+        }
+        .work {
+            .leadText {
+                width:100%; 
+            }
         }
     }
 </style>

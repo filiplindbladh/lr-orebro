@@ -12,7 +12,9 @@
         <div class="section flex">
             <div class="card">
                 <div class="card-content">
-                    <img src="../img/fortnox_img.png" alt="fortnox">
+                    <div class="cardImage">
+                        <img src="../img/fortnox_img.png" alt="fortnox">
+                    </div>
                 </div>
             </div> 
             <div class="card">
@@ -126,16 +128,16 @@ export default {
         -webkit-box-pack:center;  
             -ms-flex-pack:center;  
                 justify-content:center; 
-        -webkit-box-align:center; 
-            -ms-flex-align:center; 
-                align-items:center; 
+                align-items: stretch;
+                -webkit-box-align: stretch;        
+                -ms-flex-align: stretch;        
+                align-items: stretch;
     }
     .card { 
         width:50%;
-        height:410px; 
     }
     .card-content {
-        max-height: 100%;
+        /* max-height: 100%; */
         display:-webkit-box;
         display:-ms-flexbox;
         display:flex; 
@@ -146,9 +148,9 @@ export default {
         -webkit-box-direction:normal; 
             -ms-flex-direction:column; 
                 flex-direction:column; 
-        img {
+        .cardImage {
             height: auto;
-            max-width: 100%;
+            text-align: center;
         }
     }
     button, p  {

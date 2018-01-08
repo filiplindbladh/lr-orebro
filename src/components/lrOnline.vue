@@ -13,7 +13,7 @@
             <div class="card">
                 <div class="card-content">
                     <img src="../img/lr-online.png" alt="lr-online">
-                        <strong>Som kund hos oss får du din ekonomiska rapportering via LR-Online.</strong> 
+                    <strong>Som kund hos oss får du din ekonomiska rapportering via LR-Online.</strong> 
                 </div>
             </div> 
             <div class="card">
@@ -120,6 +120,10 @@ export default {
         display:-webkit-box; 
         display:-ms-flexbox; 
         display:flex;
+        align-items: stretch;
+        -webkit-box-align: stretch;        
+        -ms-flex-align: stretch;        
+        align-items: stretch;
         -webkit-box-orient:horizontal;
         -webkit-box-direction:normal;
             -ms-flex-direction:row;
@@ -127,13 +131,13 @@ export default {
         -webkit-box-pack:center;  
             -ms-flex-pack:center;  
                 justify-content:center; 
-        -webkit-box-align:center; 
+        /* -webkit-box-align:center; 
             -ms-flex-align:center; 
-                align-items:center; 
+                align-items:center;  */
     }
     .card { 
         width:50%;
-        height:410px; 
+        /* height:410px;  */
     }
     .card-content {
         display:-webkit-box;
