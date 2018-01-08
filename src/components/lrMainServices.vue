@@ -160,7 +160,7 @@ export default {
 <style lang="scss">
     @import '../style/main.scss';
     .lrServicesImg {
-        height: 100%;
+        max-height: 100%;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -173,7 +173,7 @@ export default {
         }
     }
     .textUnder {
-        max-width: 100%;
+        min-width: 100%;
         font-size: 18px;
         line-height:30px; 
         margin-top: 25px;
