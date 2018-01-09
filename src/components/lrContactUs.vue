@@ -11,10 +11,6 @@
             <div class="head">
                 <h3>Kontakta oss</h3>
                 <hr class="lrHeaderLine">
-                <br/>
-                <p class="mainText">
-                    Vår byrå består av kompetent och engagerad personal. Vi gör vårt yttersta för att hjälpa Er företagare med vår kunskap och erfarenhet. På LR tycker vi att det är viktigt att bygga en långsiktig affärsmässig relation med våra kunder, där trygghet och förståelse för kundens verksamhet står i centrum. Därför får alla våra kunder en personlig kontakt att vända sig till.    
-                </p>
                 <p class="mainText adress">
                     <strong>Adress:</strong> Bettorpsgatan 12 C, 703 69 Örebro <br/>
                     <strong>E-post:</strong> <a href="mailto:hej@lr-orebro.se">hej@lr-orebro.se</a> <br/>
