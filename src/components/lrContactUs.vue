@@ -3,7 +3,7 @@
         <!-- Banner  -->
         <div class="contactImage overlay">
             <div class="quote container">
-                <h3>Kontakta oss för mer information, <br />vi ser fram emot att höra från dig</h3>
+                <h3 class="responsiveHeading">Kontakta oss för mer information, <br />vi ser fram emot att höra från dig</h3>
             </div>
         </div>
         <!-- Content on contact us page -->

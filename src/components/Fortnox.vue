@@ -5,7 +5,7 @@
         <!-- Banner -->
         <div class="contactImage overlay">
             <div class="quote container">
-                <h3>Moderna bokföringsprogram <br /> för småföretagare</h3>
+                <h3 class="responsiveHeading">Moderna bokföringsprogram <br /> för småföretagare</h3>
             </div>
         </div>
         <!-- Content for Fortnox page -->

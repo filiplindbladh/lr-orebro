@@ -3,7 +3,7 @@
         <!-- Header  -->
         <lrMenu></lrMenu>
         <div class="positionsHeader overlay">
-            <h3>Jobba hos oss!</h3>
+            <h3 class="responsiveHeading">Jobba hos oss!</h3>
         </div>
         <div class="positionsInfo container">
             <div>

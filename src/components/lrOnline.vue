@@ -5,7 +5,7 @@
         <!-- Banner  -->
         <div class="contactImage overlay">
             <div class="quote container">
-                <h3>Håll koll på din ekonomi i mobilen <br /> med Lr-Online</h3>
+                <h3 class="responsiveHeading">Håll koll på din ekonomi i mobilen <br /> med Lr-Online</h3>
             </div>
         </div>
          <div class="section container lrOnlineText">
