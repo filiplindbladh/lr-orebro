@@ -19,9 +19,9 @@
             <h4>AKTUELLT</h4>
             <hr class="lrHeaderLine">
             <ul>
-              <li><a href="src/news/Nyhetsbrev_nr34-2017.pdf" target="_blank">Nyhetsbrev December 2017</a></li> 
-              <li><a href="src/news/Nyhetsbrev-nr2-2017.pdf" target="_blank">Nyhetsbrev Juni 2017</a></li>
-              <li><a href="src/news/Nyhetsbrev-Nr-1-2017.pdf" target="_blank">Nyhetsbrev April 2017</a></li>
+              <li><a href="static/news/Nyhetsbrev_nr34-2017.pdf" target="_blank">Nyhetsbrev December 2017</a></li> 
+              <li><a href="static/news/Nyhetsbrev-nr2-2017.pdf" target="_blank">Nyhetsbrev Juni 2017</a></li>
+              <li><a href="static/news/Nyhetsbrev-Nr-1-2017.pdf" target="_blank">Nyhetsbrev April 2017</a></li>
             </ul>
           </div>
         </div>
