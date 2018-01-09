@@ -10,6 +10,14 @@
                             <p class="leadText">
                                 Vill du slippa pappersfakturor och en full mejlinkorg? Vi är en modern byrå som kan hjälpa dig att digitalisera och automatisera din ekonomiska administration. Detta skapar en större trygghet för dig och frigör samtidigt mer tid som du istället kan ägna åt din kärnverksamhet. Inom ramen för begreppet redovisning ingår en rad olika ekonomiska tjänster som vi erbjuder våra kunder, däribland löpande bokföring, löneadministration, skattedeklarationer och bokslut. Du väljer själv hur mycket du vill ha hjälp med och vi anpassar våra tjänster utifrån dina behov.
                             </p>
+                            <br />
+                            <p class="leadText">
+                                Vi arbetar med digital rapportering där du som företagare inte själv behöver utläsa krångliga balans- och resultatrapporter. Som kund hos oss får du en användare på LR-Online, vilket ger dig en ökad förståelse över hur din verksamhet mår. Du får en tydlig överblick över ditt företags ekonomi, men har även möjlighet att gå ner på djupet och analysera enskilda nyckeltal tillsammans med din revisor eller redovisningskonsult. 
+                            </p>
+                            <br />
+                            <p class="leadText">
+                                För att använda dig av LR Online räcker det med att du har en fungerande internetuppkoppling. Oavsett om du använder en dator, en mobiltelefon eller läsplatta så fungerar tjänsten lika bra.   
+                            </p>
                         </div>
                             
                         <div class="lrServicesContent">
@@ -18,14 +26,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="paragraphContainer">
+                    <!-- <div class="paragraphContainer">
                         <p class="leadText paragraph">
                             Vi arbetar med digital rapportering där du som företagare inte själv behöver utläsa krångliga balans- och resultatrapporter. Som kund hos oss får du en användare på LR-Online, vilket ger dig en ökad förståelse över hur din verksamhet mår. Du får en tydlig överblick över ditt företags ekonomi, men har även möjlighet att gå ner på djupet och analysera enskilda nyckeltal tillsammans med din revisor eller redovisningskonsult. 
                         </p>
                         <p class="leadText paragraph">
                             För att använda dig av LR Online räcker det med att du har en fungerande internetuppkoppling. Oavsett om du använder en dator, en mobiltelefon eller läsplatta så fungerar tjänsten lika bra.   
                         </p>
-                    </div>
+                    </div> -->
                 </div>
             </v-tab>
             <v-tab class="v-tab" title="Rådgivning">
@@ -59,6 +67,14 @@
                             <p class="leadText">
                                 Aktiebolag som omsätter över 3 miljoner kronor, har fler än 3 anställda och/eller har en balansomslutning som överstiger 1,5 miljon behöver en auktoriserad revisor, men även för mindre företag kan det vara nyttigt att anlita en revisor. En ny undersökning från Riksrevisionen visar att bolag som valt att ha kvar sin revisor efter den slopade revisionsplikten både har högre tillväxt och bättre lönsamhet än företag som valt bort revisorn.    
                             </p>
+                            <br />
+                            <p class="leadText">
+                                Hos oss arbetar flera auktoriserade revisorer med lång erfarenhet. Revisorn utför en oberoende granskning vilken dokumenteras och rapporteras i den offentliga revisionsberättelsen. Revisorns viktigaste funktion är att ge trovärdighet åt företagets finansiella information. Årsredovisningen och revisionsberättelsen är tillsammans beslutsunderlag för företagets intressenter (banker, kreditbedömare, leasinggivare, leverantörer m.fl), och de måste kunna lita på den information som lämnas i årsredovisningen. Revisorn har lagstadgad tystnadsplikt.     
+                            </p>
+                            <br />
+                            <p class="leadText">
+                                Vi vill inte att vår revision endast ska utmynna i revisionsberättelse, utan vi vill bidra med våra erfarenheter för att förbättra våra kunders verksamhet. Exempel på sådana områden där vi kan hjälpa till att förbättra verksamheten är den interna kontrollen, risker för oegentligheter samt uppläggning av ekonomisystem och rutiner. Vi är ett bollplank för våra kunder och därför kan våra kunder kontakta oss utan att riskera att bli extra debiterad.    
+                            </p>
                         </div>
                                 
                         <div class="lrServicesContent">
@@ -66,14 +82,6 @@
                                 <img src="../img/laptop.jpg" alt="Lr picture">
                             </div>
                         </div>
-                    </div>
-                    <div class="paragraphContainer">
-                        <p class="leadText paragraph">
-                            Hos oss arbetar flera auktoriserade revisorer med lång erfarenhet. Revisorn utför en oberoende granskning vilken dokumenteras och rapporteras i den offentliga revisionsberättelsen. Revisorns viktigaste funktion är att ge trovärdighet åt företagets finansiella information. Årsredovisningen och revisionsberättelsen är tillsammans beslutsunderlag för företagets intressenter (banker, kreditbedömare, leasinggivare, leverantörer m.fl), och de måste kunna lita på den information som lämnas i årsredovisningen. Revisorn har lagstadgad tystnadsplikt.     
-                        </p>
-                        <p class="leadText paragraph">
-                            Vi vill inte att vår revision endast ska utmynna i revisionsberättelse, utan vi vill bidra med våra erfarenheter för att förbättra våra kunders verksamhet. Exempel på sådana områden där vi kan hjälpa till att förbättra verksamheten är den interna kontrollen, risker för oegentligheter samt uppläggning av ekonomisystem och rutiner. Vi är ett bollplank för våra kunder och därför kan våra kunder kontakta oss utan att riskera att bli extra debiterad.    
-                        </p>
                     </div>
                 </div>
             </v-tab>
