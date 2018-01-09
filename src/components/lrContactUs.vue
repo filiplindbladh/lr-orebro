@@ -143,7 +143,7 @@
                         <div class="imageInfo">
                             <div class="staffContactInfo">		
                                 <strong><h5>Louise Hagberg</h5></strong>
-                                <br/><strong>Redovisningsassistent</strong>
+                                <br/><strong>Redovisningskonsult</strong>
                                 <br/><i class="fa fa-phone" aria-hidden="true"></i>019-765 23 21
                                 <br/><i class="fa fa-mobile" aria-hidden="true"></i>073-540 99 18
                                 <br/><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:louise.hagberg@lr-revision.se">louise.hagberg@lr-revision.se</a>
