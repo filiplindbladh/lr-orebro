@@ -8,6 +8,11 @@
                 <h3>Håll koll på din ekonomi i mobilen <br /> med Lr-Online</h3>
             </div>
         </div>
+         <div class="section container lrOnlineText">
+            <p class="mainText">
+                Med denna rapportering förvandlar vi er bokföringsdata till enkla visuella rapporter. Genom LR-Online har du tillgång till ditt företags ekonomi när du vill och var du vill. Du får snabbt en övergripande bild över din verksamhet men kan även analysera på detaljnivå och följa dina kostnader och intäkter dag för dag. Du får även med ett dokumentarkiv där rapporteringen sparas för varje månad, men även möjlighet att själv lagra viktiga dokument och avtal på ett säkert sätt. 
+            </p>
+        </div>
         <!-- Content on page LR online -->
         <div class="section flex">
             <div class="card">
@@ -36,11 +41,6 @@
                 </form>  
                 </div>
             </div>
-        </div>
-        <div class="section container lrOnlineText">
-            <p class="mainText">
-                Med denna rapportering förvandlar vi er bokföringsdata till enkla visuella rapporter. Genom LR-Online har du tillgång till ditt företags ekonomi när du vill och var du vill. Du får snabbt en övergripande bild över din verksamhet men kan även analysera på detaljnivå och följa dina kostnader och intäkter dag för dag. Du får även med ett dokumentarkiv där rapporteringen sparas för varje månad, men även möjlighet att själv lagra viktiga dokument och avtal på ett säkert sätt. 
-            </p>
         </div>
         <!-- Footer here -->
         <lrFooter></lrFooter>
@@ -116,7 +116,7 @@ export default {
     }
     .flex {
         height:100%; 
-        padding-bottom: 0;
+        padding-bottom: 20px;
         display:-webkit-box; 
         display:-ms-flexbox; 
         display:flex;
@@ -156,7 +156,7 @@ export default {
         }
     }
     button, p  {
-        margin-top:20px; 
+        margin-top:30px; 
     }
     .lrOnlineText {
         display: -webkit-box;
@@ -173,6 +173,7 @@ export default {
         -ms-flex-align: center;
                 align-items: center;
         padding-top: 0;
+        padding-bottom:0; 
     }
     /* ****************** MEDIAQUERIES ****************** */
     @media screen and (max-width: $tablet - 1px) {
