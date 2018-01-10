@@ -2,7 +2,7 @@
 
 > New site for lr-orebro
 
-# Projekt live: 
+# Project live: 
 http://lr-orebro.se/
 
 ## Build Setup
