@@ -2,6 +2,9 @@
 
 > New site for lr-orebro
 
+# Project live: 
+http://lr-orebro.se/
+
 ## Build Setup
 
 ``` bash
