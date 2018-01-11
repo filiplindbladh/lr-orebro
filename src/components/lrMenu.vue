@@ -2,7 +2,7 @@
     <div id="lrMenu">
         <div class="container lrMenuContainer">
             <div class="lrLogoContainer">
-                <router-link to="/"><img class="lrLogo" src="../img/logo.svg"></router-link> 
+                <router-link to="/"><img class="lrLogo" src="/static/img/logo.svg"></router-link> 
             </div>
             <!-- Menu on desktop and lager screens -->
             <div class="menuItems">
