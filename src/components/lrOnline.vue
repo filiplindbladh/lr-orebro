@@ -17,7 +17,9 @@
         <div class="section flex">
             <div class="card">
                 <div class="card-content">
-                    <img src="../img/lr-online.png" alt="lr-online">
+                        <div class="cardImage">
+                            <img src="../img/lr-online.png" alt="lr-online">
+                        </div>
                     <strong>Som kund hos oss får du din ekonomiska rapportering via LR-Online.</strong> 
                 </div>
             </div> 
@@ -131,13 +133,9 @@ export default {
         -webkit-box-pack:center;  
             -ms-flex-pack:center;  
                 justify-content:center; 
-        /* -webkit-box-align:center; 
-            -ms-flex-align:center; 
-                align-items:center;  */
     }
     .card { 
         width:50%;
-        /* height:410px;  */
     }
     .card-content {
         display:-webkit-box;
@@ -150,9 +148,9 @@ export default {
         -webkit-box-direction:normal; 
             -ms-flex-direction:column; 
                 flex-direction:column; 
-        img {
-            min-height: 100%;
-            width: 100%;
+        .cardImage {
+            height: auto;
+            text-align: center;
         }
     }
     button, p  {
