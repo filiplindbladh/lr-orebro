@@ -6,7 +6,7 @@
                 <div class="lrHeader container">
                     <h1> VÄLKOMMEN TILL <br /> DIN FRAMTIDSBYRÅ </h1>
                     <hr class="lrHeaderLineHeader">
-                    <a href="/tjanster" id="lr-button-more" class="button is-info is-outlined">LÄS MER</a>
+                    <!-- <a href="/tjanster" id="lr-button-more" class="button is-info is-outlined">LÄS MER</a> -->
                 </div>
             </div>
         </swiper-slide>
@@ -16,7 +16,7 @@
                     <h2>REGISTRERAT VERKLIG HUVUDMAN <br> HOS BOLAGSVERKET?</h2>
                     <h4>– Sista dagen 1 Februari.</h4>
                     <hr class="lrHeaderLineHeader">
-                    <a v-scroll-to="'.facebookBanner'" id="lr-button-more" class="button is-info is-outlined">LÄS MER</a>
+                    <!-- <a v-scroll-to="'.facebookBanner'" id="lr-button-more" class="button is-info is-outlined">LÄS MER</a> -->
                 </div>
             </div>
         </swiper-slide>
@@ -25,7 +25,7 @@
               <div class="lrHeader container">
                   <h2>HÅLL KOLL PÅ DIN<br> EKONOMI MED LR-ONLINE</h2>
                   <hr class="lrHeaderLineHeader">
-                  <a href="/online" id="lr-button-more" class="button is-info is-outlined">LÄS MER</a>
+                  <!-- <a href="/online" id="lr-button-more" class="button is-info is-outlined">LÄS MER</a> -->
               </div>
           </div>
         </swiper-slide>
