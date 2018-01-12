@@ -97,6 +97,9 @@ export default {
           -ms-flex-direction:column;
               flex-direction:column;  
     }
+    .lrHeaderLine {
+      width:70%; 
+    }
   }
   @media screen and (min-width: $tablet) {
   }
