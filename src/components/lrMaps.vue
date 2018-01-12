@@ -122,7 +122,7 @@ export default {
           -ms-flex-direction: column;
               flex-direction: column;
     }
-    .lrHeaderLine {
+    .heading-container .lrHeaderLine {
       width:50%;
     }
   }

@@ -150,7 +150,7 @@ export default {
                     align-items:center;  
         }
         .box {
-            margin-bottom:40px; 
+            margin-bottom:40px;
         }
         .triangle-bottomright {
             display: none;
@@ -160,6 +160,9 @@ export default {
         }
          .lrHeaderLine {
           width:50%;
+        }
+        .box img {
+            width:100%; 
         }
     }
     @media screen and (min-width: $tablet) and (max-width: $desktop - 1px) {

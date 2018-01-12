@@ -294,6 +294,9 @@ export default {
                 font-size: 5vw;
             }
         }
+        .contactUs .lrHeaderLine {
+            width:50%;
+        }
     }
     @media screen and (max-width: 616px) {
         .staffContactContainer {
