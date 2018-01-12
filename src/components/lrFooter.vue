@@ -91,11 +91,12 @@ export default {
   /* ****************** MEDIAQUERIES ****************** */
   @media screen and (max-width: $tablet - 1px) {
     .footer-container {
-      margin-bottom:0; 
+      margin-bottom:0;
+      -webkit-box-orient:vertical;
+      -webkit-box-direction:normal;
+          -ms-flex-direction:column;
+              flex-direction:column;  
     }
-    /* .footer-icon-container {
-      width:90%; 
-    } */
   }
   @media screen and (min-width: $tablet) {
   }
