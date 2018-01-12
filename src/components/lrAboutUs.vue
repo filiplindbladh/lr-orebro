@@ -115,5 +115,8 @@ export default {
                 font-size: 5vw;
             }
         }
+        .head .lrHeaderLine {
+            width:50%;
+        }
     }
 </style>
