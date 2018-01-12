@@ -157,6 +157,9 @@ export default {
             .leadText {
                 width:100%; 
             }
+            h3 {
+                text-align:center; 
+            }
         }
     }
 </style>

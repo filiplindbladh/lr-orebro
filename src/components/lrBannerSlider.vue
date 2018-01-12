@@ -86,9 +86,24 @@ export default {
   .bannerSliderContainer {
     background-color:$grey;
     width:100%; 
-    height: 250px;  
+    height: auto;
+    padding-bottom:40px;   
   }
   .bannerItem {
     margin-top:30px; 
+  }
+  /* ****************** MEDIAQUERIES ****************** */
+  @media screen and (max-width: $tablet - 1px) {
+    .bannerSlider {
+      flex-direction:column; 
+      justify-content:center; 
+      align-items:center; 
+    }
+    .bannerItem {
+      margin-bottom:30px; 
+    }
+    .bannerSlider {
+      padding-bottom:10px; 
+    }
   }
 </style>
