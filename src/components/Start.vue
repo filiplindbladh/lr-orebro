@@ -86,4 +86,10 @@ export default {
       position:fixed;
       top:490px; 
     }
+    /* ****************** MEDIAQUERIES ****************** */
+  @media screen and (max-width: $tablet - 1px) {
+    .lrHeaderLine {
+      width:50%; 
+    }
+  }
 </style>

@@ -122,5 +122,8 @@ export default {
           -ms-flex-direction: column;
               flex-direction: column;
     }
+    .lrHeaderLine {
+      width:50%;
+    }
   }
 </style>

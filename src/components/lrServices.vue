@@ -158,6 +158,9 @@ export default {
         .box > h3 {
             color:$black; 
         }
+         .lrHeaderLine {
+          width:50%;
+        }
     }
     @media screen and (min-width: $tablet) and (max-width: $desktop - 1px) {
         .box {

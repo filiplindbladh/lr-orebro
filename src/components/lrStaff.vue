@@ -262,5 +262,8 @@ export default {
     .transparentBox {
       width: 100%;
     }
+    .lrStaff .lrHeaderLine {
+      width:50%;
+    }
   }
 </style>
