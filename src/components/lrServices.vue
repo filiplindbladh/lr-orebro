@@ -141,6 +141,7 @@ export default {
     /* ****************** MEDIAQUERIES ****************** */
     @media screen and (max-width: $tablet - 1px) {
         .services {
+            width:100%; 
             -webkit-box-orient:vertical;
             -webkit-box-direction:normal;
                 -ms-flex-direction:column;
@@ -151,6 +152,8 @@ export default {
         }
         .box {
             margin-bottom:40px;
+            min-width:100%; 
+            height:300px; 
         }
         .triangle-bottomright {
             display: none;
