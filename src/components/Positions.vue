@@ -86,7 +86,9 @@ export default {
         -webkit-box-align:center; 
         -ms-flex-align:center; 
                 align-items:center;
-        margin:40px;  
+        margin:0 auto;
+        padding:40px; 
+        width:100%;  
         div {
             width: 50%;
             -ms-flex-preferred-size: 50%;
@@ -139,6 +141,9 @@ export default {
         i {
             margin-left:5px; 
         }
+        a {
+            z-index:999; 
+            }
     }
     @media screen and (max-width: $tablet - 1px) {
     .positionsInfo {

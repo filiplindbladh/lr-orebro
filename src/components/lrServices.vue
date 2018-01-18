@@ -150,10 +150,10 @@ export default {
                 -ms-flex-align:center; 
                     align-items:center;  
         }
-        .box {
-            margin-bottom:40px;
-            min-width:100%; 
-            height:300px; 
+       .box {
+            width: 220px;
+            height: 220px;
+            margin-bottom:20px; 
         }
         .triangle-bottomright {
             display: none;
@@ -165,7 +165,7 @@ export default {
           width:50%;
         }
         .box img {
-            width:100%; 
+            width:50%; 
         }
     }
     @media screen and (min-width: $tablet) and (max-width: $desktop - 1px) {
@@ -174,11 +174,11 @@ export default {
         }
         
     }
-    @media screen and (max-width: 395px) {
-        .box {
-            width: 220px;
-            height: 220px;
-        }
-    }
+    // @media screen and (max-width: 395px) {
+    //     .box {
+    //         width: 220px;
+    //         height: 220px;
+    //     }
+    // }
 
 </style>
