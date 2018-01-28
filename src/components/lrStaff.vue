@@ -41,7 +41,7 @@
       </div>
       <div class="column is-half-tablet is-one-quarter-desktop">
           <div class="staffContainer">
-            <img class="lrStaffMember" src="../img/person.png" alt="Staff member Lr Örebro">
+            <img class="lrStaffMember" src="../img/Ann-CharlotteLarsson.jpg" alt="Staff member Lr Örebro">
             <div class="staffInfo">
               <div class="transparentBox">
                 <span>Ann-Charlotte Larsson</span>
@@ -155,6 +155,36 @@
                 <br>
                 <a href="tel:019183850"><i class="fa fa-phone" aria-hidden="true"></i></a>
                 <a href="mailto:hej@lr-orebro.se"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="column is-half-tablet is-one-quarter-desktop">
+          <div class="staffContainer">
+            <img class="lrStaffMember" src="../img/LenaMolnar.jpg" alt="Staff member Lr Örebro">
+            <div class="staffInfo">
+              <div class="transparentBox">
+                <span>Lena Molnar</span>
+                <br>
+                <span>Jurist</span>
+                <br>
+                <a href="tel:0701905709"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                <a href="mailto:lena.koss@lkjuridiskabyra.se"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="column is-half-tablet is-one-quarter-desktop">
+          <div class="staffContainer">
+            <img class="lrStaffMember" src="../img/SaraYttermalm.jpg" alt="Staff member Lr Örebro">
+            <div class="staffInfo">
+              <div class="transparentBox">
+                <span>Sara Yttermalm</span>
+                <br>
+                <span>Administratör</span>
+                <br>
+                <a href="tel:019183851"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                <a href="mailto:sara.yttermalm@lr-revision.se"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
               </div>
             </div>
           </div>

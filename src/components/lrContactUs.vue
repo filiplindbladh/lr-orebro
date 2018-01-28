@@ -54,7 +54,7 @@
                 <div class="column is-mobile is-half-tablet is-one-third-desktop">
                     <div class="staffContactContainer">
                         <div class="imageTitle">
-                            <img class="lrStaffMember" src="../img/person.png" alt="Staff member Lr Örebro">
+                            <img class="lrStaffMember" src="../img/Ann-CharlotteLarsson.jpg" alt="Staff member Lr Örebro">
                         </div>
                         <div class="imageInfo">
                             <div class="staffContactInfo">		
@@ -172,6 +172,36 @@
                             <div class="staffContactInfo">		
                                 <strong><h5>Sara Gustafsson</h5></strong>
                                 <br/><strong>Praktikant</strong>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-mobile is-half-tablet is-one-third-desktop">
+                    <div class="staffContactContainer">
+                        <div class="imageTitle">
+                            <img class="lrStaffMember" src="../img/LenaMolnar.jpg" alt="Staff member Lr Örebro">
+                        </div>
+                        <div class="imageInfo">
+                            <div class="staffContactInfo">	
+                                <strong><h5>Lena Molnar</h5></strong>	
+                                <br/><strong>Jurist</strong>
+                                <br/><i class="fa fa-phone" aria-hidden="true"></i>070-190 57 09
+                                <br/><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:lena.koss@lkjuridiskabyra.se">lena.koss@lkjuridiskabyra.se</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-mobile is-half-tablet is-one-third-desktop">
+                    <div class="staffContactContainer">
+                        <div class="imageTitle">
+                            <img class="lrStaffMember" src="../img/SaraYttermalm.jpg" alt="Staff member Lr Örebro">
+                        </div>
+                        <div class="imageInfo">
+                            <div class="staffContactInfo">	
+                                <strong><h5>Sara Yttermalm</h5></strong>	
+                                <br/><strong>Administratör</strong>
+                                <br/><i class="fa fa-phone" aria-hidden="true"></i>019-18 38 51
+                                <br/><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:sara.yttermalm@lr-revision.se">sara.yttermalm@lr-revision.se</a>
                             </div>
                         </div>
                     </div>
