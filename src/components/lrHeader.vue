@@ -10,16 +10,16 @@
                 </div>
             </div>
         </swiper-slide>
-        <swiper-slide>
+        <!-- <swiper-slide>
           <div class="section headerTwo overlay">
                 <div class="lrHeader container">
                     <h2>REGISTRERAT VERKLIG HUVUDMAN <br> HOS BOLAGSVERKET?</h2>
                     <h4>– Sista dagen 1 Februari.</h4>
-                    <hr class="lrHeaderLineHeader">
+                    <hr class="lrHeaderLineHeader"> -->
                     <!-- <a v-scroll-to="'.facebookBanner'" id="lr-button-more" class="button is-info is-outlined">LÄS MER</a> -->
-                </div>
+                <!-- </div>
             </div>
-        </swiper-slide>
+        </swiper-slide> -->
         <swiper-slide>
           <div class="section headerThree overlay">
               <div class="lrHeader container">

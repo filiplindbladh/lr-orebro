@@ -40,18 +40,18 @@
           </div>
       </div>
       <div class="column is-half-tablet is-one-quarter-desktop">
-          <div class="staffContainer">
-            <img class="lrStaffMember" src="../img/Ann-CharlotteLarsson.jpg" alt="Staff member Lr Örebro">
-            <div class="staffInfo">
-              <div class="transparentBox">
-                <span>Ann-Charlotte Larsson</span>
-                <br>
-                <span>Löneadministratör <br /> Redovisningskonsult</span>
-                <br>
-                <a href="tel:019183850"><i class="fa fa-phone" aria-hidden="true"></i></a>
-                <a href="mailto:ann-charlotte.larsson@lr-revision.se"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
-              </div>
+        <div class="staffContainer">
+          <img class="lrStaffMember" src="../img/Ann-CharlotteLarsson.jpg" alt="Staff member Lr Örebro">
+          <div class="staffInfo">
+            <div class="transparentBox">
+              <span>Ann-Charlotte Larsson</span>
+              <br>
+              <span>Löneadministratör <br /> Redovisningskonsult</span>
+              <br>
+              <a href="tel:019183850"><i class="fa fa-phone" aria-hidden="true"></i></a>
+              <a href="mailto:ann-charlotte.larsson@lr-revision.se"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
             </div>
+          </div>
         </div>
       </div>
       <div class="column is-half-tablet is-one-quarter-desktop">
@@ -115,51 +115,36 @@
           </div>
       </div>
       <div class="column is-half-tablet is-one-quarter-desktop">
-          <div class="staffContainer">
-            <img class="lrStaffMember" src="../img/LouiseHagberg.png" alt="Staff member Lr Örebro">
+        <div class="staffContainer">
+          <img class="lrStaffMember" src="../img/LouiseHagberg.png" alt="Staff member Lr Örebro">
+          <div class="staffInfo">
+            <div class="transparentBox">
+              <span>Louise Hagberg</span>
+              <br>
+              <span>Redovisningskonsult</span>
+              <br>
+              <a href="tel:0197652321"><i class="fa fa-phone" aria-hidden="true"></i></a>
+              <a href="mailto:louise.hagberg@lr-revision.se"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-half-tablet is-one-quarter-desktop">
+        <div class="staffContainer">
+            <img class="lrStaffMember" src="../img/SandraDuvdahl.png" alt="Staff member Lr Örebro">
             <div class="staffInfo">
               <div class="transparentBox">
-                <span>Louise Hagberg</span>
+                <span>Sandra Duvdahl</span>
                 <br>
                 <span>Redovisningskonsult</span>
                 <br>
-                <a href="tel:0197652321"><i class="fa fa-phone" aria-hidden="true"></i></a>
-                <a href="mailto:louise.hagberg@lr-revision.se"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+                <a href="tel:019103852"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                <a href="mailto:sandra.duvdahl@lr-revision.se"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
               </div>
             </div>
           </div>
-      </div>
-      <div class="column is-half-tablet is-one-quarter-desktop">
-          <div class="staffContainer">
-              <img class="lrStaffMember" src="../img/SandraDuvdahl.png" alt="Staff member Lr Örebro">
-              <div class="staffInfo">
-                <div class="transparentBox">
-                  <span>Sandra Duvdahl</span>
-                  <br>
-                  <span>Redovisningskonsult</span>
-                  <br>
-                  <a href="tel:019103852"><i class="fa fa-phone" aria-hidden="true"></i></a>
-                  <a href="mailto:sandra.duvdahl@lr-revision.se"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
-                </div>
-              </div>
-            </div>
         </div>
-      <div class="column is-half-tablet is-one-quarter-desktop">
-          <div class="staffContainer">
-            <img class="lrStaffMember" src="../img/SaraGustafsson.png" alt="Staff member Lr Örebro">
-            <div class="staffInfo">
-              <div class="transparentBox">
-                <span>Sara Gustafsson</span>
-                <br>
-                <span>Praktikant</span>
-                <br>
-                <a href="tel:019183850"><i class="fa fa-phone" aria-hidden="true"></i></a>
-                <a href="mailto:hej@lr-orebro.se"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
-              </div>
-            </div>
-          </div>
-      </div>
-      <div class="column is-half-tablet is-one-quarter-desktop">
+        <div class="column is-half-tablet is-one-quarter-desktop">
           <div class="staffContainer">
             <img class="lrStaffMember" src="../img/LenaMolnar.jpg" alt="Staff member Lr Örebro">
             <div class="staffInfo">
@@ -175,19 +160,34 @@
           </div>
       </div>
       <div class="column is-half-tablet is-one-quarter-desktop">
-          <div class="staffContainer">
-            <img class="lrStaffMember" src="../img/SaraYttermalm.jpg" alt="Staff member Lr Örebro">
-            <div class="staffInfo">
-              <div class="transparentBox">
-                <span>Sara Yttermalm</span>
-                <br>
-                <span>Administratör</span>
-                <br>
-                <a href="tel:019183851"><i class="fa fa-phone" aria-hidden="true"></i></a>
-                <a href="mailto:sara.yttermalm@lr-revision.se"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
-              </div>
+        <div class="staffContainer">
+          <img class="lrStaffMember" src="../img/SaraYttermalm.jpg" alt="Staff member Lr Örebro">
+          <div class="staffInfo">
+            <div class="transparentBox">
+              <span>Sara Yttermalm</span>
+              <br>
+              <span>Administratör</span>
+              <br>
+              <a href="tel:019183851"><i class="fa fa-phone" aria-hidden="true"></i></a>
+              <a href="mailto:sara.yttermalm@lr-revision.se"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="column is-half-tablet is-one-quarter-desktop">
+        <div class="staffContainer">
+          <img class="lrStaffMember" src="../img/SaraGustafsson.png" alt="Staff member Lr Örebro">
+          <div class="staffInfo">
+            <div class="transparentBox">
+              <span>Sara Gustafsson</span>
+              <br>
+              <span>Praktikant</span>
+              <br>
+              <a href="tel:019183850"><i class="fa fa-phone" aria-hidden="true"></i></a>
+              <a href="mailto:hej@lr-orebro.se"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

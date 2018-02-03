@@ -174,11 +174,11 @@ export default {
         }
         
     }
-    // @media screen and (max-width: 395px) {
-    //     .box {
-    //         width: 220px;
-    //         height: 220px;
-    //     }
-    // }
+    @media screen and (max-width: 395px) {
+       .box {
+            width: 220px;
+            height: 220px;
+        }
+    }
 
 </style>
