@@ -200,10 +200,9 @@ export default {
 </script>
 
 <style lang="scss">
-  @import '../style/main.scss';
   .lrHeaderLine {
     background-color: $red;
-    height:5px; 
+    height:5px;
   }
   .lrStaff {
     display: -webkit-box;
@@ -211,11 +210,11 @@ export default {
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center; 
-    -webkit-box-orient: vertical; 
-    -webkit-box-direction: normal; 
-        -ms-flex-direction: column; 
-            flex-direction: column; 
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .staffContainer {
     position: relative;
@@ -227,7 +226,7 @@ export default {
     opacity: 0;
     margin: auto;
     position: absolute;
-    left: 0; 
+    left: 0;
     right: 0;
     bottom: 6px;
     /* -webkit-transform: translateY(-50%);
@@ -262,7 +261,7 @@ export default {
     margin-bottom: 30px;
   }
   .lrPictures {
-    text-align: center; 
+    text-align: center;
     width: 100%;
   }
   .lrStaffMember {
@@ -275,7 +274,7 @@ export default {
     }
   .staffContainer:hover .staffInfo {
     opacity: 1;
-  } 
+  }
   /* ****************** MEDIAQUERIES ****************** */
   @media screen and (max-width: $tablet - 1px) {
     .staffInfo {

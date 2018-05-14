@@ -165,29 +165,22 @@ export default {
 </script>
 
 <style lang="scss">
-    @import '../style/main.scss';
-    /* .textUnder {
-        min-width: 100%;
-        font-size: 18px;
-        line-height:30px; 
-        margin-top: 25px;
-    } */
     .vue-tabs .nav > li span.title {
-        font-size:15px; 
+        font-size:15px;
     }
     li.tab.active,
     li.tab.active:hover {
         background-color: $white;
     }
-    .vue-tabs .nav-tabs-justified > li > a, 
+    .vue-tabs .nav-tabs-justified > li > a,
     .vue-tabs .nav-tabs.nav-justified > li > a {
         border-bottom: 1px solid transparent;
     }
     .tab {
-        background-color:$blue; 
+        background-color:$blue;
         border-right: 1px solid white;
         .title {
-            color:white; 
+            color:white;
         }
     }
     li.tab:hover {
@@ -197,13 +190,13 @@ export default {
         color:black;
     }
     .tabs__link > .title {
-        color:$white; 
+        color:$white;
     }
     .tabs__link:hover > .title {
-        color:black; 
+        color:black;
     }
     .leadText {
-        margin-bottom:40px; 
+        margin-bottom:40px;
         width:70%;
     }
     .v-tab {
@@ -217,13 +210,13 @@ export default {
         -webkit-box-orient:vertical;
         -webkit-box-direction:normal;
             -ms-flex-direction:column;
-                flex-direction:column; 
-        -webkit-box-align:center; 
-            -ms-flex-align:center; 
-                align-items:center; 
-        -webkit-box-pack:center; 
-            -ms-flex-pack:center; 
-                justify-content:center;  
+                flex-direction:column;
+        -webkit-box-align:center;
+            -ms-flex-align:center;
+                align-items:center;
+        -webkit-box-pack:center;
+            -ms-flex-pack:center;
+                justify-content:center;
         .tab-container {
             display: block;
             -webkit-animation: fadeIn 0.5s;
@@ -231,7 +224,7 @@ export default {
         }
     }
     .icon {
-        height:10px; 
+        height:10px;
     }
     .lrHeaderLine {
         background-color: $red;
@@ -241,14 +234,14 @@ export default {
         height: 100%;
         display:-webkit-box;
         display:-ms-flexbox;
-        display:flex; 
-        -webkit-box-orient:horizontal; 
-        -webkit-box-direction:normal; 
-            -ms-flex-direction:row; 
-                flex-direction:row; 
+        display:flex;
+        -webkit-box-orient:horizontal;
+        -webkit-box-direction:normal;
+            -ms-flex-direction:row;
+                flex-direction:row;
     }
     .paragraph {
-        width:50%; 
+        width:50%;
     }
     /* ****************** MEDIAQUERIES ****************** */
     @media screen and (max-width: $tablet - 1px) {
@@ -257,7 +250,7 @@ export default {
                 font-size: 5vw;
             }
         }
-        .leadText { 
+        .leadText {
             width:100%;
         }
     }
@@ -266,10 +259,10 @@ export default {
             -webkit-box-orient:vertical;
             -webkit-box-direction:normal;
                 -ms-flex-direction:column;
-                    flex-direction:column; 
+                    flex-direction:column;
         }
         .paragraph {
-            width:95%; 
+            width:95%;
         }
     }
 </style>

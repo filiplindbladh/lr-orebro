@@ -54,9 +54,7 @@ export default {
   }
 }
 </script>
-    
 <style lang="scss">
-    @import '../style/main.scss';
     .overlay:before {
         content: "";
         display: block;
@@ -69,7 +67,7 @@ export default {
         width: 100%;
         background-color: rgba(0, 81, 146, .75);
     }
-    .swiper-slide { 
+    .swiper-slide {
       max-height:100vh;
     }
     .headerOne {

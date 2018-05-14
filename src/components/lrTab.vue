@@ -26,8 +26,7 @@
   }
 </script>
 <style scoped lang="scss">
-@import '../style/main.scss';
 .tabContainer {
-  width:100vw; 
+  width:100vw;
 }
 </style>

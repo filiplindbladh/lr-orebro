@@ -3,18 +3,13 @@
   <!-- meny -->
   <lrMenu></lrMenu>
   <lrHeader></lrHeader>
-  <!-- contact -->
-  <!-- <div class="contact">
-  <contactBubble></contactBubble>
-  </div>  -->
   <!-- services -->
   <lrServices></lrServices>
-  
   <!--Facebook post-->
   <!--lrFacebookPost></lrFacebookPost-->
 
   <!-- first contact banner -->
-  <lrContactBanner bannerText="Långsiktiga lösningar för traditionella eller digitala företag" :backgroundImage="'/static/img/lrImage.dce68b6.jpg'"></lrContactBanner>
+  <lrContactBanner bannerText="Långsiktiga lösningar för traditionella eller digitala företag" :backgroundImage="true"></lrContactBanner>
 
   <!-- the staff on LR-orebro -->
   <lrStaff></lrStaff>
@@ -23,7 +18,7 @@
   <!--lrReviews></lrReviews-->
 
  <!-- second contact banner -->
- <lrContactBanner bannerText="Behöver ni hjälp att utveckla ert företag?":backgroundImage ="'/static/img/lrContact.2a58653.jpeg'"></lrContactBanner>
+ <lrContactBanner bannerText="Behöver ni hjälp att utveckla ert företag?" :backgroundImage ="false"></lrContactBanner>
 
   <!-- How to get there -->
   <lrMaps></lrMaps>
@@ -68,7 +63,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
-    @import '../style/main.scss'; 
     html {
       -webkit-box-sizing: border-box;
               box-sizing: border-box;
@@ -78,18 +72,18 @@ export default {
                     box-sizing: inherit;
     }
     body {
-      position:relative; 
+      position:relative;
     }
     .contact {
       z-index: 900;
       right: 10px;
       position:fixed;
-      top:490px; 
+      top: 490px;
     }
     /* ****************** MEDIAQUERIES ****************** */
   @media screen and (max-width: $tablet - 1px) {
     .lrHeaderLine {
-      width:50%; 
+      width: 50%;
     }
   }
 </style>

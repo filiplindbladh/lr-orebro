@@ -218,7 +218,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-    @import '../style/main.scss';
     /* styling for quote inside header */
     .quote {
         display: -webkit-box;
@@ -237,10 +236,10 @@ export default {
         height: 100%;
         text-align: center;
         h3 {
-            color:$white; 
-            z-index:450; 
-            width:80%; 
-            font-size:35px; 
+            color:$white;
+            z-index:450;
+            width:80%;
+            font-size:35px;
         }
         span {
             font-size: 40px;
@@ -263,14 +262,14 @@ export default {
         background-color: $red;
     }
     .contactImage {
-        margin-top:67px; 
-        background-image: url("../img/contactHeader.png"); 
-        background-repeat: no-repeat; 
-        background-position:center; 
-        background-size:cover; 
-        width:100%; 
-        height:250px; 
-        position:relative; 
+        margin-top:67px;
+        background-image: url("../img/contactHeader.png");
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size:cover;
+        width:100%;
+        height:250px;
+        position:relative;
     }
     .contactUs .head {
         display: -webkit-box;
@@ -292,7 +291,7 @@ export default {
         font-size: 22px;
     }
     .lrContactPictures {
-        text-align: center; 
+        text-align: center;
         width: 100%;
         margin: 0 auto;
     }
@@ -312,10 +311,10 @@ export default {
         margin: 0 auto;
     }
      .mainText {
-        text-align:left; 
+        text-align:left;
     }
     .adress {
-        margin-top:10px; 
+        margin-top:10px;
     }
     /* ****************** MEDIAQUERIES ****************** */
     @media screen and (max-width: $tablet - 1px) {

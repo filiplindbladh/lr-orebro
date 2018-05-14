@@ -21,37 +21,35 @@
 </script>
 
 <style lang="scss">
- @import '../style/main.scss';
  .facebookBanner {
-        width:100%; 
-        height:auto; 
-        display:-webkit-box; 
-        display:-ms-flexbox; 
-        display:flex; 
-        -webkit-box-pack:center; 
-            -ms-flex-pack:center; 
-                justify-content:center; 
-        -webkit-box-align:center; 
-            -ms-flex-align:center; 
-                align-items:center; 
+        width:100%;
+        height:auto;
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+        -webkit-box-pack:center;
+            -ms-flex-pack:center;
+                justify-content:center;
+        -webkit-box-align:center;
+            -ms-flex-align:center;
+                align-items:center;
         background-color:$grey;
         #iframe {
-            margin:40px; 
-        } 
+            margin:40px;
+        }
         .fb-post {
-            display:none; 
+            display:none;
         }
     }
     @media screen and (max-width: 599px) {
         .facebookBanner {
             .fb-post {
-                display:block; 
-                margin:20px; 
+                display:block;
+                margin:20px;
             }
             #iframe {
-                display:none; 
+                display:none;
             }
         }
     }
-
 </style>

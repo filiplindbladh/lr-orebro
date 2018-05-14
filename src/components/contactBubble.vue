@@ -36,38 +36,37 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
-@import '../style/main.scss';               
   .message-header {
-    background-color:$green; 
-    color:black;  
-    -webkit-box-align:start;  
-        -ms-flex-align:start;  
-            align-items:start; 
+    background-color:$green;
+    color:black;
+    -webkit-box-align:start;
+        -ms-flex-align:start;
+            align-items:start;
     padding-left: 20px;
     p {
-      font-weight:700; 
+      font-weight:700;
     }
   }
   .header-container {
-    background-color: $green; 
-    color:black; 
+    background-color: $green;
+    color:black;
     padding: 20px 20px;
   }
   .message {
-    width:30%; 
-    margin:20px; 
+    width:30%;
+    margin:20px;
   }
-  .header-container h1, .header-container img { 
-    display:inline;   
+  .header-container h1, .header-container img {
+    display:inline;
   }
   .header-container img {
-    margin-left:20px; 
+    margin-left:20px;
   }
   img {
-    max-width: 16%;  
+    max-width: 16%;
     }
   h1 {
-    font-size:40px 
+    font-size:40px;
   }
   /* style for the contact bubble */
   .circle {
@@ -76,10 +75,10 @@ export default {
     transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
     border-radius: 50%;
     width: 80px;
-    height: 80px; 
-    background-color: $green; 
-    color:white; 
-    border: 3px solid white; 
+    height: 80px;
+    background-color: $green;
+    color:white;
+    border: 3px solid white;
     cursor: pointer;
     -webkit-box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
             box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);

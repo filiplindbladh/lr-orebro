@@ -33,7 +33,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-    @import '../style/main.scss';
     /* styling for quote inside header */
     .quote {
         display: -webkit-box;
@@ -52,10 +51,10 @@ export default {
         height: 100%;
         text-align: center;
         h3 {
-            color:$white; 
-            z-index:450; 
-            width:80%; 
-            font-size:35px; 
+            color:$white;
+            z-index:450;
+            width:80%;
+            font-size:35px;
         }
         span {
             font-size: 40px;
@@ -75,14 +74,14 @@ export default {
         }
     }
     .aboutUsImage {
-        margin-top:67px; 
-        background-image: url("../img/aboutHeader.png"); 
-        background-repeat: no-repeat; 
-        background-position:top; 
-        background-size:cover; 
-        width:100%; 
-        height:250px; 
-        position:relative; 
+        margin-top:67px;
+        background-image: url("../img/aboutHeader.png");
+        background-repeat: no-repeat;
+        background-position:top;
+        background-size:cover;
+        width:100%;
+        height:250px;
+        position:relative;
     }
     .contactUs .head {
         display: -webkit-box;
@@ -98,15 +97,15 @@ export default {
         margin-bottom: 50px;
     }
     .lrHeaderLine {
-        background-color: $red;
+      background-color: $red;
     }
     .mainText {
-        text-align:left; 
-        span {
+      text-align:left;
+      span {
         font-weight: bold;
         font-size: 20px;
         padding-bottom: 5px;
-        }
+      }
     }
     /* ****************** MEDIAQUERIES ****************** */
     @media screen and (max-width: $tablet - 1px) {

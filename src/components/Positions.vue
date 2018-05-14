@@ -45,50 +45,49 @@ export default {
 </script>
 
 <style scoped lang="scss">
-    @import '../style/main.scss';
     .positionsHeader {
-        margin-top:67px; 
-        background-image: url("../img/positionsHeader.png"); 
-        background-repeat: no-repeat; 
-        background-position:center; 
-        background-size:cover; 
-        width:100%; 
-        height:250px; 
+        margin-top:67px;
+        background-image: url("../img/positionsHeader.png");
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size:cover;
+        width:100%;
+        height:250px;
         position:relative;
-        z-index:-1; 
-        display:-webkit-box; 
-        display:-ms-flexbox; 
-        display:flex; 
-        -webkit-box-pack:center; 
-            -ms-flex-pack:center; 
-                justify-content:center; 
-        -webkit-box-align:center; 
-            -ms-flex-align:center; 
-                align-items:center; 
+        z-index:-1;
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+        -webkit-box-pack:center;
+            -ms-flex-pack:center;
+                justify-content:center;
+        -webkit-box-align:center;
+            -ms-flex-align:center;
+                align-items:center;
         h3 {
             position:relative;
-            color:$white; 
-            z-index:450;             
-            font-size:35px; 
-        } 
+            color:$white;
+            z-index:450;
+            font-size:35px;
+        }
     }
     .positionsInfo {
-        display:-webkit-box; 
-        display:-ms-flexbox; 
-        display:flex; 
-        -webkit-box-orient:horizontal; 
-        -webkit-box-direction:normal; 
-        -ms-flex-direction:row; 
-                flex-direction:row; 
-        -webkit-box-pack: center; 
-        -ms-flex-pack: center; 
-                justify-content: center; 
-        -webkit-box-align:center; 
-        -ms-flex-align:center; 
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+        -webkit-box-orient:horizontal;
+        -webkit-box-direction:normal;
+        -ms-flex-direction:row;
+                flex-direction:row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align:center;
+        -ms-flex-align:center;
                 align-items:center;
         margin:0 auto;
-        padding:40px; 
-        width:100%;  
+        padding:40px;
+        width:100%;
         div {
             width: 50%;
             -ms-flex-preferred-size: 50%;
@@ -98,51 +97,51 @@ export default {
             }
         }
         .mainText {
-            width:95%; 
-            text-align:left; 
+            width:95%;
+            text-align:left;
         }
         .lrHeaderLine {
-            background-color: $red; 
-        } 
+            background-color: $red;
+        }
         span {
             font-weight: bold;
-            font-size: 20px; 
+            font-size: 20px;
         }
     }
     .work {
         display:-webkit-box;
         display:-ms-flexbox;
-        display:flex; 
-        -webkit-box-orient:vertical; 
-        -webkit-box-direction:normal; 
-            -ms-flex-direction:column; 
-                flex-direction:column; 
-        -webkit-box-pack:center; 
-            -ms-flex-pack:center; 
-                justify-content:center; 
-        -webkit-box-align:center; 
-            -ms-flex-align:center; 
-                align-items:center; 
+        display:flex;
+        -webkit-box-orient:vertical;
+        -webkit-box-direction:normal;
+            -ms-flex-direction:column;
+                flex-direction:column;
+        -webkit-box-pack:center;
+            -ms-flex-pack:center;
+                justify-content:center;
+        -webkit-box-align:center;
+            -ms-flex-align:center;
+                align-items:center;
         background-color: $grey;
         width: 100%;
         height: auto;
-        padding:20px; 
+        padding:20px;
         .fa-briefcase {
             font-size: 30px;
         }
         .leadText {
-            width:70%; 
-            text-align:center; 
-            margin:20px 0 20px 0;  
+            width:70%;
+            text-align:center;
+            margin:20px 0 20px 0;
         }
         span {
-            font-weight:900; 
+            font-weight:900;
         }
         i {
-            margin-left:5px; 
+            margin-left:5px;
         }
         a {
-            z-index:999; 
+            z-index:999;
             }
     }
     @media screen and (max-width: $tablet - 1px) {
@@ -160,10 +159,10 @@ export default {
         }
         .work {
             .leadText {
-                width:100%; 
+                width:100%;
             }
             h3 {
-                text-align:center; 
+                text-align:center;
             }
         }
     }

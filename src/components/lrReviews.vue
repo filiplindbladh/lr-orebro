@@ -61,79 +61,75 @@ export default {
 </script>
 
 <style lang="scss">
-  @import '../style/main.scss';
   .slider-container {
     display:-webkit-box;
     display:-ms-flexbox;
-    display:flex; 
-    -webkit-box-pack:center; 
-        -ms-flex-pack:center; 
-            justify-content:center; 
-    -webkit-box-align:center; 
-        -ms-flex-align:center; 
-            align-items:center; 
+    display:flex;
+    -webkit-box-pack:center;
+        -ms-flex-pack:center;
+            justify-content:center;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
     background-color:$grey;
-    width:100%; 
+    width:100%;
   }
   .slider {
-    //height:350px; 
-    width:70%; 
+    //height:350px;
+    width:70%;
     background-color:white;
-    margin-top:40px; 
-    margin-bottom:80px;   
+    margin-top:40px;
+    margin-bottom:80px;
   }
   .indicators > .slider-indicator-icon {
-    margin-right:30px;  
+    margin-right:30px;
   }
   .slider-indicator-icon {
-    width:20px !important; 
-    height:20px !important; 
+    width:20px !important;
+    height:20px !important;
   }
   .indicators > .slider-indicator-active {
     background-color: $red !important;
   }
   .indicators {
-    bottom:0 !important; 
-    z-index: 500 !important; 
+    bottom:0 !important;
+    z-index: 500 !important;
   }
   .slider-icon {
     display:-webkit-box;
     display:-ms-flexbox;
-    display:flex; 
-    -webkit-box-pack:start; 
-        -ms-flex-pack:start; 
+    display:flex;
+    -webkit-box-pack:start;
+        -ms-flex-pack:start;
             justify-content:flex-start;
-    margin:25px 0 0 80px; 
+    margin:25px 0 0 80px;
     color: $blue;
   }
   .slider-text {
     display:-webkit-box;
     display:-ms-flexbox;
-    display:flex; 
-    -webkit-box-orient:vertical; 
-    -webkit-box-direction:normal; 
-        -ms-flex-direction:column; 
-            flex-direction:column; 
-    -webkit-box-pack:center; 
-        -ms-flex-pack:center; 
+    display:flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:column;
+            flex-direction:column;
+    -webkit-box-pack:center;
+        -ms-flex-pack:center;
             justify-content:center;
     -webkit-box-align:center;
         -ms-flex-align:center;
             align-items:center;
-    /* p {
-      width:60%; 
-    }    */
   }
   .slider-company {
     display:-webkit-box;
     display:-ms-flexbox;
-    display:flex; 
-    -webkit-box-pack:end; 
-        -ms-flex-pack:end; 
-            justify-content:flex-end; 
-    margin:25px 80px 0 0; 
+    display:flex;
+    -webkit-box-pack:end;
+        -ms-flex-pack:end;
+            justify-content:flex-end;
+    margin:25px 80px 0 0;
     span {
-      font-weight:900; 
+      font-weight:900;
     }
   }
   .fa-quote-left {
@@ -143,36 +139,36 @@ export default {
 /* ****************** MEDIAQUERIES ****************** */
     @media screen and (max-width: $tablet - 1px) {
       .slider-text p {
-        width:90%; 
+        width:90%;
       }
       .slider-icon, .slider-company {
         -webkit-box-pack:center;
             -ms-flex-pack:center;
-                justify-content:center; 
-        margin:0; 
+                justify-content:center;
+        margin:0;
       }
       .slider {
-        width:100%; 
-        height:400px; 
+        width:100%;
+        height:400px;
       }
     }
     @media screen and (min-width: $tablet) and (max-width: $desktop - 1px) {
       .slider-icon, .slider-company {
         -webkit-box-pack:center;
             -ms-flex-pack:center;
-                justify-content:center; 
-        margin:10px; 
+                justify-content:center;
+        margin:10px;
       }
       .slider {
-        min-height:430px; 
+        min-height:430px;
       }
     }
-    @media screen and (max-width: 500px) { 
+    @media screen and (max-width: 500px) {
       .fa-quote-left {
         font-size: 3em;
       }
     }
-    @media screen and (max-width: 347px) { 
+    @media screen and (max-width: 347px) {
       .fa-quote-left {
         display: none;
       }

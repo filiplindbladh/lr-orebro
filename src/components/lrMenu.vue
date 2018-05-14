@@ -61,15 +61,14 @@ export default {
 </script>
 
 <style lang="scss">
-    @import '../style/main.scss';
     #lrMenu {
         display: -webkit-box;
         display: -ms-flexbox;
-        display: flex; 
-        -webkit-box-orient: horizontal; 
-        -webkit-box-direction: normal; 
-        -ms-flex-direction: row; 
-        flex-direction: row; 
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
         height: 67px;
         width: 100%;
         background-color: $white;
@@ -85,15 +84,15 @@ export default {
         display: flex;
         -webkit-box-align: center;
         -ms-flex-align: center;
-        align-items: center; 
+        align-items: center;
     }
     .lrLogo {
         height: 65px;
         display: -webkit-box;
         display: -ms-flexbox;
-        display: flex; 
-        -webkit-box-align: center; 
-        -ms-flex-align: center; 
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
     }
     .lrMenuContainer {
@@ -112,9 +111,9 @@ export default {
         -webkit-box-direction: normal;
         -ms-flex-direction: row;
         flex-direction: row;
-        width: 100%; 
-        -webkit-box-align: center; 
-        -ms-flex-align: center; 
+        width: 100%;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
         a {
             -webkit-transition: all .3s ease-in-out;
@@ -137,10 +136,10 @@ export default {
             height: 30.59px;
         }
         a:hover img:last-child {
-            display: block;  
+            display: block;
         }
         a:hover img:first-child {
-            display: none;  
+            display: none;
         }
         .lr-button-online {
             font-size: 0.85rem;
@@ -151,9 +150,9 @@ export default {
         img {
             height: 15px;
             /* min height to get IE happy */
-            min-width: 100%;  
-        }  
-    }   
+            min-width: 100%;
+        }
+    }
     /*####################
     Menu on small screens
     ####################*/

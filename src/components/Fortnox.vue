@@ -62,7 +62,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-    @import '../style/main.scss';
     /* styling for quote inside header */
     .quote {
         display: -webkit-box;

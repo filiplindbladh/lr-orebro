@@ -30,25 +30,24 @@ export default {
 </script>
 
 <style lang="scss">
-  @import '../style/main.scss';
   .heading-container {
     display:-webkit-box;
     display:-ms-flexbox;
-    display:flex; 
-    -webkit-box-pack:center; 
-        -ms-flex-pack:center; 
-            justify-content:center; 
-    -webkit-box-orient:vertical; 
-    -webkit-box-direction:normal; 
-        -ms-flex-direction:column; 
-            flex-direction:column; 
-    -webkit-box-align:center; 
-        -ms-flex-align:center; 
-            align-items:center; 
+    display:flex;
+    -webkit-box-pack:center;
+        -ms-flex-pack:center;
+            justify-content:center;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:column;
+            flex-direction:column;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
   }
   .lrHeaderLine {
     background-color: $red;
-    height:5px; 
+    height:5px;
   }
   .lrSocialMedia {
     width: 100%;
@@ -112,7 +111,7 @@ export default {
     height: 350px;
     left:0;
     top:0;
-    position:absolute; 
+    position:absolute;
   }
   /* ****************** MEDIAQUERIES ****************** */
   @media screen and (max-width: 550px) {

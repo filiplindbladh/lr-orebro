@@ -41,9 +41,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
-    @import '../style/main.scss';
     h2 {
-        text-align:center; 
+        text-align:center;
     }
     .section {
         display: -webkit-box;
@@ -51,55 +50,55 @@ export default {
         display: flex;
         -webkit-box-align: center;
             -ms-flex-align: center;
-                align-items: center; 
-        -webkit-box-orient: vertical; 
-        -webkit-box-direction: normal; 
-            -ms-flex-direction: column; 
-                flex-direction: column; 
+                align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .lrHeaderLine {
         background-color: $red;
-        height:5px; 
+        height:5px;
     }
     .services {
-        width:100%; 
-        display: -webkit-box; 
-        display: -ms-flexbox; 
-        display: flex; 
-        -webkit-box-orient: horizontal; 
-        -webkit-box-direction: normal; 
-            -ms-flex-direction: row; 
-                flex-direction: row; 
-        -ms-flex-pack: distribute; 
-            justify-content: space-around; 
-        -ms-flex-wrap:wrap; 
-            flex-wrap:wrap; 
-        margin-bottom:40px; 
+        width:100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -ms-flex-wrap:wrap;
+            flex-wrap:wrap;
+        margin-bottom:40px;
     }
     .box {
         position: relative;
-        height:300px; 
-        width:300px; 
-        border: 2px solid $black;  
-        display:-webkit-box;  
-        display:-ms-flexbox;  
-        display:flex; 
-        -webkit-box-pack:center; 
-            -ms-flex-pack:center; 
-                justify-content:center; 
-        -webkit-box-align:center; 
-            -ms-flex-align:center; 
-                align-items:center; 
-        -webkit-box-orient:vertical; 
-        -webkit-box-direction:normal; 
-            -ms-flex-direction:column; 
-                flex-direction:column; 
+        height:300px;
+        width:300px;
+        border: 2px solid $black;
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex;
+        -webkit-box-pack:center;
+            -ms-flex-pack:center;
+                justify-content:center;
+        -webkit-box-align:center;
+            -ms-flex-align:center;
+                align-items:center;
+        -webkit-box-orient:vertical;
+        -webkit-box-direction:normal;
+            -ms-flex-direction:column;
+                flex-direction:column;
         &:hover {
             /* background-color:rgba(227, 82, 80, 0.5);  */
             background-color: white;
-        } 
+        }
         h3 {
-            color:$white; 
+            color:$white;
             z-index:2;
         }
     }
@@ -109,7 +108,7 @@ export default {
         right: 0;
     }
     .box:hover > h3 {
-        color:$black; 
+        color:$black;
     }
     .consulting img {
         width: 80%;
@@ -125,54 +124,52 @@ export default {
         top: 0;
         border-bottom: 300px solid $blue;
         border-left: 298px solid transparent;
-        z-index: 1; 
-        position:absolute; 
+        z-index: 1;
+        position:absolute;
     }
     p {
-        text-align:center; 
-        width:70%; 
+        text-align:center;
+        width:70%;
     }
     .services .box .boxImage {
         height: 211px;
         max-width: 100%;
     }
-   
 
     /* ****************** MEDIAQUERIES ****************** */
     @media screen and (max-width: $tablet - 1px) {
         .services {
-            width:100%; 
+            width:100%;
             -webkit-box-orient:vertical;
             -webkit-box-direction:normal;
                 -ms-flex-direction:column;
-                    flex-direction:column; 
-            -webkit-box-align:center; 
-                -ms-flex-align:center; 
-                    align-items:center;  
+                    flex-direction:column;
+            -webkit-box-align:center;
+                -ms-flex-align:center;
+                    align-items:center;
         }
        .box {
             width: 220px;
             height: 220px;
-            margin-bottom:20px; 
+            margin-bottom:20px;
         }
         .triangle-bottomright {
             display: none;
         }
         .box > h3 {
-            color:$black; 
+            color:$black;
         }
          .lrHeaderLine {
           width:50%;
         }
         .box img {
-            width:50%; 
+            width:50%;
         }
     }
     @media screen and (min-width: $tablet) and (max-width: $desktop - 1px) {
         .box {
-            margin:25px; 
+            margin:25px;
         }
-        
     }
     @media screen and (max-width: 395px) {
        .box {

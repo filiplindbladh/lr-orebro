@@ -39,49 +39,48 @@ export default {
 </script>
 
 <style scoped lang="scss">
-  @import '../style/main.scss';
   .footer {
-    background-color:$blue !important; 
+    background-color:$blue !important;
   }
   .lrFooter {
-    background-color:$blue !important; 
-    height:100%; 
-    position:relative; 
+    background-color:$blue !important;
+    height:100%;
+    position:relative;
     a, p, h4 {
-      color:white; 
+      color:white;
     }
     a:hover {
-      text-decoration:underline; 
+      text-decoration:underline;
     }
   }
   .lrHeaderLine {
-    background-color:$red; 
+    background-color:$red;
   }
   .footer-container {
     display:-webkit-box;
     display:-ms-flexbox;
-    display:flex; 
-    -webkit-box-orient:horizontal; 
-    -webkit-box-direction:normal; 
-        -ms-flex-direction:row; 
-            flex-direction:row; 
-    -webkit-box-pack:justify; 
-        -ms-flex-pack:justify; 
+    display:flex;
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:row;
+            flex-direction:row;
+    -webkit-box-pack:justify;
+        -ms-flex-pack:justify;
             justify-content:space-between;
     -ms-flex-wrap:wrap;
-        flex-wrap:wrap; 
-    margin-bottom: 200px;  
+        flex-wrap:wrap;
+    margin-bottom: 200px;
   }
   .footer-item {
-    margin:20px; 
-    z-index:300; 
+    margin:20px;
+    z-index:300;
   }
   .footer-icon-container {
-    position:absolute; 
-    bottom:0; 
-    width:100%; 
-    display: -webkit-box; 
-    display: -ms-flexbox; 
+    position:absolute;
+    bottom:0;
+    width:100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -95,10 +94,10 @@ export default {
       -webkit-box-orient:vertical;
       -webkit-box-direction:normal;
           -ms-flex-direction:column;
-              flex-direction:column;  
+              flex-direction:column;
     }
     .lrHeaderLine {
-      width:70%; 
+      width:70%;
     }
   }
   @media screen and (min-width: $tablet) {

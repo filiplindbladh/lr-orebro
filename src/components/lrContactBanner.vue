@@ -1,13 +1,18 @@
 <template>
     <div class="lrSection">
         <!-- get the background image for Start component -->
-        <div class="banner parallax overlay" :style="style">
+        <div class="banner parallax overlay"
+          v-bind:class="[
+            { mugImage: backgroundImage === true },
+            { phoneImage: backgroundImage === false }
+          ]"
+        >
             <div class="container section bannerContent">
                 <div class="columns">
                     <div class="column">
                         <h3> {{ bannerText }} </h3>
                     </div>
-                </div>  
+                </div>
                 <!-- Contact info to LR örebro -->
                 <div class="columns contactInfo">
                     <div class="column">
@@ -20,13 +25,13 @@
                         <i class="fa fa-paper-plane" aria-hidden="true"></i> <a href="mailto:hej@lr-orebro.se">hej@lr-orebro.se</a>
                     </div>
                 </div>
-            </div>  
+            </div>
         </div>
         <!-- when we click on KONTAKT, show this modal window -->
         <contactModal :activate="addActive" @closeRequest='close'></contactModal>
-    </div>  
+    </div>
 </template>
-    
+
 <script>
 import contactModal from '@/components/contactModal'
 export default {
@@ -51,15 +56,11 @@ export default {
     }
   },
   computed: {
-    style () {
-      return 'background-image: url(' + this.backgroundImage + ')'
-    }
   }
 }
 </script>
 
 <style scoped lang="scss">
-    @import '../style/main.scss';
     .banner {
         min-height: 100%;
         display: -webkit-box;
@@ -83,8 +84,8 @@ export default {
             width: 100%;
         }
     }
-    .parallax { 
-        height: 250px; 
+    .parallax {
+        height: 250px;
         /* Create the parallax scrolling effect */
         background-attachment: fixed;
         background-position: center;
@@ -160,6 +161,12 @@ export default {
         right: 0;
         width: 100%;
         background-color: rgba(0, 81, 146, .75);
+    }
+    .mugImage {
+      background-image: url('../img/lrImage.png');
+    }
+    .phoneImage {
+      background-image: url('../img/lrContact.jpeg');
     }
     /* ****************** MEDIAQUERIES ****************** */
     @media screen and (max-width: $tablet - 1px) {

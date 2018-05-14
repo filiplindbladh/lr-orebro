@@ -62,7 +62,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-    @import '../style/main.scss';
     /* styling for quote inside header */
     .quote {
         display: -webkit-box;
@@ -81,10 +80,10 @@ export default {
         height: 100%;
         text-align: center;
         h3 {
-            color:$white; 
-            z-index:450; 
-            width:80%; 
-            font-size:35px; 
+            color:$white;
+            z-index:450;
+            width:80%;
+            font-size:35px;
         }
         span {
             font-size: 40px;
@@ -107,54 +106,54 @@ export default {
         background-color: $red;
     }
     .contactImage {
-        margin-top:67px; 
-        background-image: url("../img/lrContact.jpeg"); 
-        background-repeat: no-repeat; 
-        background-position:center; 
-        background-size:cover; 
-        width:100%; 
-        height:250px; 
-        position:relative; 
+        margin-top:67px;
+        background-image: url("../img/lrContact.jpeg");
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size:cover;
+        width:100%;
+        height:250px;
+        position:relative;
     }
     .flex {
-        height:100%; 
+        height:100%;
         padding-bottom: 20px;
-        display:-webkit-box; 
-        display:-ms-flexbox; 
+        display:-webkit-box;
+        display:-ms-flexbox;
         display:flex;
         align-items: stretch;
-        -webkit-box-align: stretch;        
-        -ms-flex-align: stretch;        
+        -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
         align-items: stretch;
         -webkit-box-orient:horizontal;
         -webkit-box-direction:normal;
             -ms-flex-direction:row;
-                flex-direction:row;  
-        -webkit-box-pack:center;  
-            -ms-flex-pack:center;  
-                justify-content:center; 
+                flex-direction:row;
+        -webkit-box-pack:center;
+            -ms-flex-pack:center;
+                justify-content:center;
     }
-    .card { 
+    .card {
         width:50%;
     }
     .card-content {
         display:-webkit-box;
         display:-ms-flexbox;
-        display:flex; 
-        -webkit-box-pack:center; 
-            -ms-flex-pack:center; 
-                justify-content:center; 
-        -webkit-box-orient:vertical; 
-        -webkit-box-direction:normal; 
-            -ms-flex-direction:column; 
-                flex-direction:column; 
+        display:flex;
+        -webkit-box-pack:center;
+            -ms-flex-pack:center;
+                justify-content:center;
+        -webkit-box-orient:vertical;
+        -webkit-box-direction:normal;
+            -ms-flex-direction:column;
+                flex-direction:column;
         .cardImage {
             height: auto;
             text-align: center;
         }
     }
     button, p  {
-        margin-top:30px; 
+        margin-top:30px;
     }
     .lrOnlineText {
         display: -webkit-box;
@@ -171,7 +170,7 @@ export default {
         -ms-flex-align: center;
                 align-items: center;
         padding-top: 0;
-        padding-bottom:0; 
+        padding-bottom:0;
     }
     /* ****************** MEDIAQUERIES ****************** */
     @media screen and (max-width: $tablet - 1px) {
@@ -179,7 +178,7 @@ export default {
             -webkit-box-orient:vertical;
             -webkit-box-direction:normal;
                 -ms-flex-direction:column;
-                    flex-direction:column; 
+                    flex-direction:column;
         }
         .card {
             width:100%;
